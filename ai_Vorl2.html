@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Gerd Graßhoff">
+<meta name="dcterms.date" content="2024-05-01">
+
+<title>Philosophie der AI – 2&nbsp; ai_Vorl2</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./ai_Vorl3.html" rel="next">
+<link href="./ai_Vorl1.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar docked">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./ai_Vorl2.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">ai_Vorl2</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default toc-left page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">ai_Vorl2</span></h1>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Gerd Graßhoff </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">May 1, 2024</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Philosophie der AI</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Vorlesung <em>Philosophie der AI</em></span></a>
+  </div>
+</li>
+        <li class="px-0"><hr class="sidebar-divider hi "></li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ai_Vorl1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Was ist AI?</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ai_Vorl2.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">ai_Vorl2</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ai_Vorl3.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">ai_Vorl3</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ai_Vorl4.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">ai_Vorl4</span></span></a>
+  </div>
+</li>
+        <li class="px-0"><hr class="sidebar-divider hi "></li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">References</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Inhalt</h2>
+   
+  <ul>
+  <li><a href="#begrüßung-und-rückblick-auf-die-letzte-vorlesung" id="toc-begrüßung-und-rückblick-auf-die-letzte-vorlesung" class="nav-link active" data-scroll-target="#begrüßung-und-rückblick-auf-die-letzte-vorlesung"><span class="header-section-number">2.1</span> Begrüßung und Rückblick auf die letzte Vorlesung</a></li>
+  <li><a href="#traditionell-schwer-lösbare-fragen-in-der-forschung" id="toc-traditionell-schwer-lösbare-fragen-in-der-forschung" class="nav-link" data-scroll-target="#traditionell-schwer-lösbare-fragen-in-der-forschung"><span class="header-section-number">2.2</span> Traditionell schwer lösbare Fragen in der Forschung</a>
+  <ul class="collapse">
+  <li><a href="#noch-schwieriger-evidenz-zur-widerlegung-von-hypothesen-finden" id="toc-noch-schwieriger-evidenz-zur-widerlegung-von-hypothesen-finden" class="nav-link" data-scroll-target="#noch-schwieriger-evidenz-zur-widerlegung-von-hypothesen-finden"><span class="header-section-number">2.2.1</span> Noch schwieriger: Evidenz zur Widerlegung von Hypothesen finden</a></li>
+  <li><a href="#komplexe-fragen-zur-zeitgenössischen-rezeption-historischer-hypothesen" id="toc-komplexe-fragen-zur-zeitgenössischen-rezeption-historischer-hypothesen" class="nav-link" data-scroll-target="#komplexe-fragen-zur-zeitgenössischen-rezeption-historischer-hypothesen"><span class="header-section-number">2.2.2</span> Komplexe Fragen zur zeitgenössischen Rezeption historischer Hypothesen</a></li>
+  </ul></li>
+  <li><a href="#die-bedeutung-der-ai-für-die-geisteswissenschaften" id="toc-die-bedeutung-der-ai-für-die-geisteswissenschaften" class="nav-link" data-scroll-target="#die-bedeutung-der-ai-für-die-geisteswissenschaften"><span class="header-section-number">2.3</span> Die Bedeutung der AI für die Geisteswissenschaften</a></li>
+  <li><a href="#die-evolution-der-mensch-maschine-interaktion" id="toc-die-evolution-der-mensch-maschine-interaktion" class="nav-link" data-scroll-target="#die-evolution-der-mensch-maschine-interaktion"><span class="header-section-number">2.4</span> Die Evolution der Mensch-Maschine-Interaktion</a>
+  <ul class="collapse">
+  <li><a href="#von-der-adresseingabe-zur-suchanfrage" id="toc-von-der-adresseingabe-zur-suchanfrage" class="nav-link" data-scroll-target="#von-der-adresseingabe-zur-suchanfrage"><span class="header-section-number">2.4.1</span> Von der Adresseingabe zur Suchanfrage</a></li>
+  <li><a href="#der-durchbruch-von-chat-gpt" id="toc-der-durchbruch-von-chat-gpt" class="nav-link" data-scroll-target="#der-durchbruch-von-chat-gpt"><span class="header-section-number">2.4.2</span> Der Durchbruch von Chat-GPT</a></li>
+  <li><a href="#neue-schnittstellen-sprache-gesten-und-gedanken" id="toc-neue-schnittstellen-sprache-gesten-und-gedanken" class="nav-link" data-scroll-target="#neue-schnittstellen-sprache-gesten-und-gedanken"><span class="header-section-number">2.4.3</span> Neue Schnittstellen: Sprache, Gesten und Gedanken</a></li>
+  </ul></li>
+  <li><a href="#die-macht-der-generativen-ai" id="toc-die-macht-der-generativen-ai" class="nav-link" data-scroll-target="#die-macht-der-generativen-ai"><span class="header-section-number">2.5</span> Die Macht der generativen AI</a>
+  <ul class="collapse">
+  <li><a href="#von-der-syntax-zur-semantik" id="toc-von-der-syntax-zur-semantik" class="nav-link" data-scroll-target="#von-der-syntax-zur-semantik"><span class="header-section-number">2.5.1</span> Von der Syntax zur Semantik</a></li>
+  <li><a href="#die-bedeutung-sprachlicher-ausdrücke" id="toc-die-bedeutung-sprachlicher-ausdrücke" class="nav-link" data-scroll-target="#die-bedeutung-sprachlicher-ausdrücke"><span class="header-section-number">2.5.2</span> Die Bedeutung sprachlicher Ausdrücke</a></li>
+  <li><a href="#philosophische-kritik-an-der-terminologie" id="toc-philosophische-kritik-an-der-terminologie" class="nav-link" data-scroll-target="#philosophische-kritik-an-der-terminologie"><span class="header-section-number">2.5.3</span> Philosophische Kritik an der Terminologie</a></li>
+  <li><a href="#von-der-zeichenkettensuche-zur-bedeutungsanalyse" id="toc-von-der-zeichenkettensuche-zur-bedeutungsanalyse" class="nav-link" data-scroll-target="#von-der-zeichenkettensuche-zur-bedeutungsanalyse"><span class="header-section-number">2.5.4</span> Von der Zeichenkettensuche zur Bedeutungsanalyse</a></li>
+  <li><a href="#wahrheitswerte-und-die-welt-der-aussagen" id="toc-wahrheitswerte-und-die-welt-der-aussagen" class="nav-link" data-scroll-target="#wahrheitswerte-und-die-welt-der-aussagen"><span class="header-section-number">2.5.5</span> Wahrheitswerte und die Welt der Aussagen</a></li>
+  <li><a href="#die-dimension-der-aussagen-eröffnet-neue-möglichkeiten" id="toc-die-dimension-der-aussagen-eröffnet-neue-möglichkeiten" class="nav-link" data-scroll-target="#die-dimension-der-aussagen-eröffnet-neue-möglichkeiten"><span class="header-section-number">2.5.6</span> Die Dimension der Aussagen eröffnet neue Möglichkeiten</a></li>
+  </ul></li>
+  <li><a href="#die-drei-säulen-der-semantischen-revolution" id="toc-die-drei-säulen-der-semantischen-revolution" class="nav-link" data-scroll-target="#die-drei-säulen-der-semantischen-revolution"><span class="header-section-number">2.6</span> Die drei Säulen der semantischen Revolution</a>
+  <ul class="collapse">
+  <li><a href="#das-training-mit-bedeutungsähnlichen-begriffen" id="toc-das-training-mit-bedeutungsähnlichen-begriffen" class="nav-link" data-scroll-target="#das-training-mit-bedeutungsähnlichen-begriffen"><span class="header-section-number">2.6.1</span> 1. Das Training mit bedeutungsähnlichen Begriffen</a></li>
+  <li><a href="#die-frage-nach-der-bedeutungsgleichheit" id="toc-die-frage-nach-der-bedeutungsgleichheit" class="nav-link" data-scroll-target="#die-frage-nach-der-bedeutungsgleichheit"><span class="header-section-number">2.6.2</span> 2. Die Frage nach der Bedeutungsgleichheit</a></li>
+  <li><a href="#das-training-mit-logischen-regeln" id="toc-das-training-mit-logischen-regeln" class="nav-link" data-scroll-target="#das-training-mit-logischen-regeln"><span class="header-section-number">2.6.3</span> 3. Das Training mit logischen Regeln</a></li>
+  </ul></li>
+  <li><a href="#ausblick" id="toc-ausblick" class="nav-link" data-scroll-target="#ausblick"><span class="header-section-number">2.7</span> Ausblick</a>
+  <ul class="collapse">
+  <li><a href="#die-bedeutung-von-embeddings" id="toc-die-bedeutung-von-embeddings" class="nav-link" data-scroll-target="#die-bedeutung-von-embeddings"><span class="header-section-number">2.7.1</span> Die Bedeutung von Embeddings</a></li>
+  <li><a href="#die-suche-nach-bedeutungsähnlichen-aussagen" id="toc-die-suche-nach-bedeutungsähnlichen-aussagen" class="nav-link" data-scroll-target="#die-suche-nach-bedeutungsähnlichen-aussagen"><span class="header-section-number">2.7.2</span> Die Suche nach bedeutungsähnlichen Aussagen</a></li>
+  <li><a href="#die-erweiterung-auf-verschiedene-medien" id="toc-die-erweiterung-auf-verschiedene-medien" class="nav-link" data-scroll-target="#die-erweiterung-auf-verschiedene-medien"><span class="header-section-number">2.7.3</span> Die Erweiterung auf verschiedene Medien</a></li>
+  </ul></li>
+  <li><a href="#die-zweite-revolution-attention-is-all-you-need" id="toc-die-zweite-revolution-attention-is-all-you-need" class="nav-link" data-scroll-target="#die-zweite-revolution-attention-is-all-you-need"><span class="header-section-number">2.8</span> Die zweite Revolution: Attention is all you need</a>
+  <ul class="collapse">
+  <li><a href="#die-macht-der-vorhersage" id="toc-die-macht-der-vorhersage" class="nav-link" data-scroll-target="#die-macht-der-vorhersage"><span class="header-section-number">2.8.1</span> Die Macht der Vorhersage</a></li>
+  <li><a href="#von-der-frage-zur-anweisung" id="toc-von-der-frage-zur-anweisung" class="nav-link" data-scroll-target="#von-der-frage-zur-anweisung"><span class="header-section-number">2.8.2</span> Von der Frage zur Anweisung</a></li>
+  </ul></li>
+  <li><a href="#die-komposition-von-instruktionen-und-inhalten" id="toc-die-komposition-von-instruktionen-und-inhalten" class="nav-link" data-scroll-target="#die-komposition-von-instruktionen-und-inhalten"><span class="header-section-number">2.9</span> Die Komposition von Instruktionen und Inhalten</a>
+  <ul class="collapse">
+  <li><a href="#sprachkompetenz-vs.-sachkompetenz" id="toc-sprachkompetenz-vs.-sachkompetenz" class="nav-link" data-scroll-target="#sprachkompetenz-vs.-sachkompetenz"><span class="header-section-number">2.9.1</span> Sprachkompetenz vs.&nbsp;Sachkompetenz</a></li>
+  <li><a href="#gefahren-und-grenzen-von-chat-gpt" id="toc-gefahren-und-grenzen-von-chat-gpt" class="nav-link" data-scroll-target="#gefahren-und-grenzen-von-chat-gpt"><span class="header-section-number">2.9.2</span> Gefahren und Grenzen von Chat-GPT</a></li>
+  </ul></li>
+  <li><a href="#erweiterung-der-ai-modelle" id="toc-erweiterung-der-ai-modelle" class="nav-link" data-scroll-target="#erweiterung-der-ai-modelle"><span class="header-section-number">2.10</span> Erweiterung der AI-Modelle</a>
+  <ul class="collapse">
+  <li><a href="#sachliche-korrektheit-und-wahrheit" id="toc-sachliche-korrektheit-und-wahrheit" class="nav-link" data-scroll-target="#sachliche-korrektheit-und-wahrheit"><span class="header-section-number">2.10.1</span> Sachliche Korrektheit und Wahrheit</a></li>
+  <li><a href="#korrespondenztheorie-der-wahrheit" id="toc-korrespondenztheorie-der-wahrheit" class="nav-link" data-scroll-target="#korrespondenztheorie-der-wahrheit"><span class="header-section-number">2.10.2</span> Korrespondenztheorie der Wahrheit</a></li>
+  </ul></li>
+  <li><a href="#sprachentwicklung-und-bedeutungsverschiebungen" id="toc-sprachentwicklung-und-bedeutungsverschiebungen" class="nav-link" data-scroll-target="#sprachentwicklung-und-bedeutungsverschiebungen"><span class="header-section-number">2.11</span> Sprachentwicklung und Bedeutungsverschiebungen</a>
+  <ul class="collapse">
+  <li><a href="#fehltraining-und-sprachmarotten" id="toc-fehltraining-und-sprachmarotten" class="nav-link" data-scroll-target="#fehltraining-und-sprachmarotten"><span class="header-section-number">2.11.1</span> Fehltraining und Sprachmarotten</a></li>
+  <li><a href="#reichhaltige-kontextkonstruktion" id="toc-reichhaltige-kontextkonstruktion" class="nav-link" data-scroll-target="#reichhaltige-kontextkonstruktion"><span class="header-section-number">2.11.2</span> Reichhaltige Kontextkonstruktion</a></li>
+  </ul></li>
+  <li><a href="#anwendungsbeispiele-und-potenziale" id="toc-anwendungsbeispiele-und-potenziale" class="nav-link" data-scroll-target="#anwendungsbeispiele-und-potenziale"><span class="header-section-number">2.12</span> Anwendungsbeispiele und Potenziale</a>
+  <ul class="collapse">
+  <li><a href="#übersetzungen-als-motor-des-trainings" id="toc-übersetzungen-als-motor-des-trainings" class="nav-link" data-scroll-target="#übersetzungen-als-motor-des-trainings"><span class="header-section-number">2.12.1</span> Übersetzungen als Motor des Trainings</a></li>
+  <li><a href="#zusammenfassungen-und-frage-antwort-systeme" id="toc-zusammenfassungen-und-frage-antwort-systeme" class="nav-link" data-scroll-target="#zusammenfassungen-und-frage-antwort-systeme"><span class="header-section-number">2.12.2</span> Zusammenfassungen und Frage-Antwort-Systeme</a></li>
+  </ul></li>
+  </ul>
+</nav>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+
+<section id="begrüßung-und-rückblick-auf-die-letzte-vorlesung" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="begrüßung-und-rückblick-auf-die-letzte-vorlesung"><span class="header-section-number">2.1</span> Begrüßung und Rückblick auf die letzte Vorlesung</h2>
+<p>Herzlich willkommen zur zweiten Vorlesung “Philosophie der AI”! Lassen Sie uns zunächst an die bemerkenswerten Leistungen der AI erinnern, von denen wir uns versprechen, dass sie auch in der geisteswissenschaftlichen Forschung etwas Außergewöhnliches hervorbringen können. Wir hoffen, dass die AI unser tägliches Forschungsgeschehen in den Geisteswissenschaften bereichern und erleichtern wird.</p>
+</section>
+<section id="traditionell-schwer-lösbare-fragen-in-der-forschung" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="traditionell-schwer-lösbare-fragen-in-der-forschung"><span class="header-section-number">2.2</span> Traditionell schwer lösbare Fragen in der Forschung</h2>
+<p>In der Forschung und im Studium stoßen wir immer wieder auf Fragen, die zwar selbstverständlich erscheinen, aber dennoch eine Herausforderung darstellen. Ein Beispiel dafür ist die Suche nach Evidenz in Quellen innerhalb eines definierten Kreises von Texten und Fachbüchern, die ich als “Scholarium” bezeichne. Je nach Komplexität der historischen Aussage H kann der Nachweis solcher Evidenz sehr arbeitsintensiv sein. Dank der AI werden wir in Zukunft, abhängig von der Zugänglichkeit und Aufbereitung des Scholariums, solche Fragen schnell und mühelos beantworten können.</p>
+<section id="noch-schwieriger-evidenz-zur-widerlegung-von-hypothesen-finden" class="level3" data-number="2.2.1">
+<h3 data-number="2.2.1" class="anchored" data-anchor-id="noch-schwieriger-evidenz-zur-widerlegung-von-hypothesen-finden"><span class="header-section-number">2.2.1</span> Noch schwieriger: Evidenz zur Widerlegung von Hypothesen finden</h3>
+<p>Eine noch größere Herausforderung stellt die Suche nach Evidenz zur Widerlegung einer Hypothese H dar. Im wissenschaftlichen Alltag ist dies praktisch unmöglich, obwohl wir solche Aussagen häufig in Publikationen finden. Oft greifen Autoren auf den “billigen Ausweg” zurück, indem sie sich auf Kollegen berufen, die ähnliche Behauptungen aufgestellt haben - doch das ist keine wirkliche Evidenz.</p>
+</section>
+<section id="komplexe-fragen-zur-zeitgenössischen-rezeption-historischer-hypothesen" class="level3" data-number="2.2.2">
+<h3 data-number="2.2.2" class="anchored" data-anchor-id="komplexe-fragen-zur-zeitgenössischen-rezeption-historischer-hypothesen"><span class="header-section-number">2.2.2</span> Komplexe Fragen zur zeitgenössischen Rezeption historischer Hypothesen</h3>
+<p>Stellen Sie sich vor, Sie möchten herausfinden, welcher zeitgenössische Autor sich zu einer spezifischen These des Wissenschaftshistorikers Johannes Kepler aus dem Jahr 1603 geäußert hat. Ohne jahrelange, akribische Lektüre und Archivarbeit wäre es unmöglich, eine solche Frage zu beantworten. Ähnlich verhält es sich mit Aussagen darüber, wer die Publikation einer historischen Hypothese maßgeblich beeinflusst hat. Solche Behauptungen halte ich meist für spekulativ und unbegründet - nicht weil unseriös geforscht wurde, sondern weil der Nachweis der Evidenz extrem schwierig ist.</p>
+</section>
+</section>
+<section id="die-bedeutung-der-ai-für-die-geisteswissenschaften" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="die-bedeutung-der-ai-für-die-geisteswissenschaften"><span class="header-section-number">2.3</span> Die Bedeutung der AI für die Geisteswissenschaften</h2>
+<p>Die AI bietet uns nicht nur technische Erleichterungen im Forschungsalltag, sondern ermöglicht es uns auch, bisher nur unzureichend lösbare Fragestellungen endlich fundiert zu bearbeiten. Dazu gehören auch Fragen nach Alternativen zu historischen Hypothesen oder nach der Nachvollziehbarkeit und Überzeugungskraft von Begründungen für Zeitgenossen.</p>
+<p>In den kommenden Jahren wird die AI unsere wissenschaftlichen Disziplinen drastisch verändern. Daher rate ich Ihnen dringend, sich schon während des Studiums mit diesen Mitteln vertraut zu machen, um den künftigen Anforderungen gerecht zu werden.</p>
+</section>
+<section id="die-evolution-der-mensch-maschine-interaktion" class="level2" data-number="2.4">
+<h2 data-number="2.4" class="anchored" data-anchor-id="die-evolution-der-mensch-maschine-interaktion"><span class="header-section-number">2.4</span> Die Evolution der Mensch-Maschine-Interaktion</h2>
+<p>Die Art und Weise, wie wir mit künstlicher Intelligenz interagieren, hat sich in den letzten Jahrzehnten kontinuierlich weiterentwickelt. Vor etwa 25 Jahren revolutionierte die Erfindung des Browsers unser Informationszeitalter. Plötzlich konnten wir über Verlinkungen auf ein schnell wachsendes Netzwerk an Informationen zugreifen. Rund 15 Jahre später folgte das Smartphone, das heute aus unserem Alltag nicht mehr wegzudenken ist.</p>
+<section id="von-der-adresseingabe-zur-suchanfrage" class="level3" data-number="2.4.1">
+<h3 data-number="2.4.1" class="anchored" data-anchor-id="von-der-adresseingabe-zur-suchanfrage"><span class="header-section-number">2.4.1</span> Von der Adresseingabe zur Suchanfrage</h3>
+<p>Das ursprüngliche Adressfeld zur Eingabe von Weblinks hat sich im Laufe der Zeit zu einem mächtigen Werkzeug entwickelt, mit dem wir beliebige Suchanfragen stellen können. Suchmaschinen wie Google verarbeiten unsere Eingaben und liefern uns die gewünschten Ergebnisse.</p>
+</section>
+<section id="der-durchbruch-von-chat-gpt" class="level3" data-number="2.4.2">
+<h3 data-number="2.4.2" class="anchored" data-anchor-id="der-durchbruch-von-chat-gpt"><span class="header-section-number">2.4.2</span> Der Durchbruch von Chat-GPT</h3>
+<p>Mit der Einführung von Chat-GPT erleben wir gerade einen massiven Umbruch in der Interaktion zwischen Mensch und Maschine. Statt mit einem Provider zu kommunizieren, interagieren wir nun mit einem KI-Modell, das unsere Informations- und Mitteilungsbedürfnisse steuert. Dieser Paradigmenwechsel hat tiefgreifende Auswirkungen auf die Art und Weise, wie wir auf Wissen zugreifen und es verarbeiten.</p>
+</section>
+<section id="neue-schnittstellen-sprache-gesten-und-gedanken" class="level3" data-number="2.4.3">
+<h3 data-number="2.4.3" class="anchored" data-anchor-id="neue-schnittstellen-sprache-gesten-und-gedanken"><span class="header-section-number">2.4.3</span> Neue Schnittstellen: Sprache, Gesten und Gedanken</h3>
+<p>Die Möglichkeiten der Mensch-Maschine-Interaktion entwickeln sich rasant weiter. Sprachbefehle, wie wir sie von Siri kennen, ermöglichen es uns, Computer per Spracheingabe zu steuern. Datenbrillen und Headsets eröffnen neue Perspektiven, indem sie uns kontextbezogene Informationen in Echtzeit liefern. Selbst Gesten und Hirnströme können als Eingabesignale genutzt werden. Wohin diese Entwicklung führt, lässt sich nur schwer vorhersagen, aber eines ist sicher: Die Zukunft der Mensch-Maschine-Interaktion verspricht spannende Möglichkeiten.</p>
+</section>
+</section>
+<section id="die-macht-der-generativen-ai" class="level2" data-number="2.5">
+<h2 data-number="2.5" class="anchored" data-anchor-id="die-macht-der-generativen-ai"><span class="header-section-number">2.5</span> Die Macht der generativen AI</h2>
+<p>Hinter all diesen faszinierenden Anwendungen steckt die sogenannte generative AI oder kurz Gen-AI. Dieser Ansatz ermöglicht es, bedeutungsvolle sprachliche Ausdrücke zu erzeugen - ein revolutionärer Schritt, den es in dieser Form zuvor nicht gab.</p>
+<section id="von-der-syntax-zur-semantik" class="level3" data-number="2.5.1">
+<h3 data-number="2.5.1" class="anchored" data-anchor-id="von-der-syntax-zur-semantik"><span class="header-section-number">2.5.1</span> Von der Syntax zur Semantik</h3>
+<p>Bisher beschränkte sich der Umgang von Computern mit unserer sprachlichen Welt auf die Verarbeitung von Zeichenketten, die bestimmte syntaktische Regeln erfüllten. Jetzt kommt jedoch die Semantik ins Spiel - die Bedeutung dieser Zeichen. Hier eröffnet sich ein völlig neues Feld für die Philosophie.</p>
+</section>
+<section id="die-bedeutung-sprachlicher-ausdrücke" class="level3" data-number="2.5.2">
+<h3 data-number="2.5.2" class="anchored" data-anchor-id="die-bedeutung-sprachlicher-ausdrücke"><span class="header-section-number">2.5.2</span> Die Bedeutung sprachlicher Ausdrücke</h3>
+<p>Sprachliche Ausdrücke sind sinnlich wahrnehmbare Zeichen, die eine Bedeutung tragen. Im Gegensatz zu bloßen materiellen Dingen in der Welt, die keine Zeichen sind, verweisen sprachliche Ausdrücke auf etwas. Genau hier setzt die semantische Dimension an.</p>
+</section>
+<section id="philosophische-kritik-an-der-terminologie" class="level3" data-number="2.5.3">
+<h3 data-number="2.5.3" class="anchored" data-anchor-id="philosophische-kritik-an-der-terminologie"><span class="header-section-number">2.5.3</span> Philosophische Kritik an der Terminologie</h3>
+<p>Die großmäulige Propaganda der Konzerne, die schon von “Knowledge Graphen” sprachen, als von Bedeutung noch keine Rede war, sollte philosophisch hinterfragt werden. Bei näherer Betrachtung entpuppt sich dieses Kartenhaus als Unsinn - es handelt sich um einfache Graphen, nicht um “Knowledge Graphen”. Die philosophische Kritik entlarvt, was sich hinter solchen Begrifflichkeiten verbirgt und stellt die Frage, was es eigentlich heißt, von der Bedeutung einer Computeraussage zu sprechen.## Einführung in die semantische Revolution der AI</p>
+<p>Meine sehr verehrten Damen und Herren, lassen Sie uns heute gemeinsam einen faszinierenden Blick in die aktuellsten Entwicklungen der AI-Technologie werfen. Hier geht es um nichts Geringeres als um den Kern der AI-Revolution: Die Fähigkeit, sprachliche Ausdrücke, Zeichen und Symbole mit ihrer Bedeutung zu verbinden. Wie gelingt es der AI auf einmal, diese Verknüpfung herzustellen? Und welche weitreichenden Konsequenzen ergeben sich daraus? Das sind die spannenden Fragen, denen wir uns heute widmen werden.</p>
+</section>
+<section id="von-der-zeichenkettensuche-zur-bedeutungsanalyse" class="level3" data-number="2.5.4">
+<h3 data-number="2.5.4" class="anchored" data-anchor-id="von-der-zeichenkettensuche-zur-bedeutungsanalyse"><span class="header-section-number">2.5.4</span> Von der Zeichenkettensuche zur Bedeutungsanalyse</h3>
+<p>Stellen Sie sich vor, Sie nutzen eine herkömmliche Suchmaschine wie Google. Was passiert, wenn Sie einen Suchbegriff eingeben? Die Maschine durchforstet raffiniert, aber letztlich mechanisch, riesige Datenbestände nach passenden Zeichenketten, Adressen, Wortbegriffen oder Namen. Damit lässt sich zweifellos Beachtliches erreichen, aber im Kern bleibt es eine Suche nach Zeichenfolgen.</p>
+<p>Doch nun eröffnet sich eine völlig neue Dimension: Die Suche nach Aussagen, nach Inhalten von Ausdrücken. Das ist ein fundamentaler Unterschied. Lassen Sie uns das an einem einfachen Beispiel verdeutlichen: “Der Hund ist schwarz.” Dieser Satz, den ich gerade ausgesprochen habe, ist zunächst einmal eine Zeichenkette. Syntaktisch korrekt, aber noch kein Inhalt an sich. In der Philosophie unterscheiden wir sehr genau zwischen dem Satz und seiner Bedeutung.</p>
+</section>
+<section id="wahrheitswerte-und-die-welt-der-aussagen" class="level3" data-number="2.5.5">
+<h3 data-number="2.5.5" class="anchored" data-anchor-id="wahrheitswerte-und-die-welt-der-aussagen"><span class="header-section-number">2.5.5</span> Wahrheitswerte und die Welt der Aussagen</h3>
+<p>Und hier kommt der entscheidende Punkt: Sätze selbst sind weder wahr noch falsch. Sie sind sprachliche Ausdrücke, die wohlgeformt sein können, aber keine Wahrheitswerte besitzen. Wahr oder falsch sind die mit Sätzen ausgedrückten Inhalte, die wir in der Philosophie als Aussagen, Propositionen oder Statements bezeichnen.</p>
+<p>Solange wir uns nur in der Welt der Syntax bewegen, haben wir es noch nicht einmal mit der Ebene des Wahren und Falschen zu tun. Und wenn wir nicht in der Welt des Wahren und Falschen sind, können wir auch nichts glauben. Denn wir glauben nur etwas, wenn wir von etwas sprechen, das wahr oder falsch sein kann. Erst dann können wir Überzeugungen entwickeln und etwas für richtig oder falsch halten.</p>
+<p>Doch genau hier setzt die AI-Revolution an. Mit den neuen technischen Mitteln bewegen wir uns plötzlich in der Dimension der Aussagen. Eine völlig neue Welt tut sich auf. Aussagen sind die Träger von Wahrheitswerten. Und erst wenn wir von Aussagen mit Wahrheitswerten sprechen, kommen Begriffe wie Rechtfertigung, Kritik oder Widerlegung ins Spiel. Die gesamte erkenntnistheoretische Dimension des Wissens, des Behauptens, Findens, Kritisierens und Widerlegens setzt voraus, dass wir es mit Aussagen und ihren Wahrheitswerten zu tun haben.</p>
+</section>
+<section id="die-dimension-der-aussagen-eröffnet-neue-möglichkeiten" class="level3" data-number="2.5.6">
+<h3 data-number="2.5.6" class="anchored" data-anchor-id="die-dimension-der-aussagen-eröffnet-neue-möglichkeiten"><span class="header-section-number">2.5.6</span> Die Dimension der Aussagen eröffnet neue Möglichkeiten</h3>
+<p>Sie sehen, welch weitreichende Konsequenzen sich daraus ergeben. Eine Suchmaschine, die nur Zeichenketten findet, lässt sich nicht sinnvoll kritisieren. Sie hat ihre Aufgabe erfüllt, wenn sie passende Strings gefunden hat. Doch sobald wir in die Dimension der Aussagen vordringen, eröffnen sich ganz neue Möglichkeiten. Plötzlich können wir Maschinen befragen, ob ihre Antworten wahr oder falsch sind. Wir können ihre Aussagen hinterfragen, rechtfertigen oder widerlegen.</p>
+<p>Früher hätte man gesagt, dass dafür der menschliche Geist, der Verstand oder die Vernunft notwendig seien. Doch nun scheinen Maschinen in der Lage zu sein, belastbare Entscheidungen zu treffen, Aussagen zu generieren, die Konsequenzen für unser alltägliches Leben haben. Das sind faszinierende Perspektiven, die sich hier auftun und die wir in den kommenden Vorlesungen noch vertiefen werden.</p>
+<p>Doch lassen Sie uns zunächst der Frage nachgehen, wie es der AI gelingt, in die Welt der Semantik vorzudringen. Welche Techniken und Verfahren ermöglichen diesen Quantensprung?</p>
+</section>
+</section>
+<section id="die-drei-säulen-der-semantischen-revolution" class="level2" data-number="2.6">
+<h2 data-number="2.6" class="anchored" data-anchor-id="die-drei-säulen-der-semantischen-revolution"><span class="header-section-number">2.6</span> Die drei Säulen der semantischen Revolution</h2>
+<p>Ich möchte die Revolution, von der wir hier sprechen, in drei Teilaspekte gliedern - drei Säulen, wenn Sie so wollen, auf denen die semantischen Fähigkeiten der AI-Modelle beruhen.</p>
+<section id="das-training-mit-bedeutungsähnlichen-begriffen" class="level3" data-number="2.6.1">
+<h3 data-number="2.6.1" class="anchored" data-anchor-id="das-training-mit-bedeutungsähnlichen-begriffen"><span class="header-section-number">2.6.1</span> 1. Das Training mit bedeutungsähnlichen Begriffen</h3>
+<p>Die erste Säule ist das Training der AI-Modelle, bedeutungsähnliche Begriffe, Sätze und Ausdrücke zu unterscheiden. Lassen Sie uns das an einem Beispiel veranschaulichen:</p>
+<ul>
+<li>“An eagle flies silently over the large tree.”</li>
+<li>“A swan flies noisily over the large tree.”</li>
+<li>“A mouse eats happily a piece of cheese.”</li>
+</ul>
+<p>Intuitiv erkennen wir sofort, dass die ersten beiden Sätze semantisch ähnlich sind, auch wenn sie sich in Details unterscheiden. Im dritten Satz hingegen geht es um etwas völlig anderes, obwohl auch hier ein Tier eine Handlung ausführt.</p>
+<section id="embeddings-als-grundlage-der-bedeutungsanalyse" class="level4" data-number="2.6.1.1">
+<h4 data-number="2.6.1.1" class="anchored" data-anchor-id="embeddings-als-grundlage-der-bedeutungsanalyse"><span class="header-section-number">2.6.1.1</span> Embeddings als Grundlage der Bedeutungsanalyse</h4>
+<p>Doch wie gelingt es der AI, diese Ähnlichkeiten und Unterschiede zu erfassen? Die Antwort liegt in sogenannten Embeddings. Dabei handelt es sich um mathematische Repräsentationen, die den Verwendungszusammenhang von Wörtern in einem riesigen Textkorpus erfassen.</p>
+<p>Durch das Training mit Billionen von Worteinheiten aus dem Internet erstellen die AI-Modelle gigantische Tabellen, die für jedes Wort festhalten, in welchem Kontext es typischerweise auftritt, welche Wörter ihm vorangehen und folgen. Durch mathematische Verfahren lassen sich diese Tabellen so komprimieren, dass am Ende eine überschaubare Zahl von Dimensionen ausreicht, um die Bedeutungsrolle jedes Wortes in einem Satz zu erfassen.</p>
+<p>Mit Hilfe dieser Embeddings kann die AI dann beurteilen, welche Sätze semantisch ähnlich sind. Sie liefert sogar einen numerischen Wert für den Grad der Ähnlichkeit. Dabei geht es zunächst noch nicht um die eigentliche Bedeutung, sondern um die Kombinationshäufigkeit der Wörter untereinander. Aber es ist ein entscheidender Schritt auf dem Weg zur Erfassung von Bedeutungsaspekten.</p>
+</section>
+</section>
+<section id="die-frage-nach-der-bedeutungsgleichheit" class="level3" data-number="2.6.2">
+<h3 data-number="2.6.2" class="anchored" data-anchor-id="die-frage-nach-der-bedeutungsgleichheit"><span class="header-section-number">2.6.2</span> 2. Die Frage nach der Bedeutungsgleichheit</h3>
+<p>Die zweite Säule der semantischen Revolution ist die Fähigkeit der AI, bedeutungsgleiche Ausdrücke zu erkennen. Welche sprachlichen Ausdrücke, die sich in ihrer Syntax unterscheiden, drücken dennoch dasselbe aus, haben denselben Wahrheitswert?</p>
+<section id="aktiv-passiv-transformation-und-übersetzung" class="level4" data-number="2.6.2.1">
+<h4 data-number="2.6.2.1" class="anchored" data-anchor-id="aktiv-passiv-transformation-und-übersetzung"><span class="header-section-number">2.6.2.1</span> Aktiv-Passiv-Transformation und Übersetzung</h4>
+<p>Zwei klassische Beispiele für bedeutungsgleiche Ausdrücke sind die Aktiv-Passiv-Transformation und die Übersetzung. “Der Hund jagt die Katze” und “Die Katze wird vom Hund gejagt” mögen sprachlich verschieden sein, bedeuten aber dasselbe. Ebenso verhält es sich mit “Der Hund ist schwarz” und “The dog is black”. Jedes Wort ist anders, doch die Aussage bleibt gleich.</p>
+<p>Früher war die Computerlinguistik mit dieser Herausforderung weitgehend überfordert. Doch heute gehört die maschinelle Übersetzung zur Grundausstattung der AI-Modelle. Und das nicht nur Wort für Wort, sondern unter Berücksichtigung komplexer grammatischer und stilistischer Anforderungen, wie es ein guter menschlicher Übersetzer tun würde.</p>
+</section>
+<section id="trainingsdaten-aus-übersetzungsliteratur-und-philosophie" class="level4" data-number="2.6.2.2">
+<h4 data-number="2.6.2.2" class="anchored" data-anchor-id="trainingsdaten-aus-übersetzungsliteratur-und-philosophie"><span class="header-section-number">2.6.2.2</span> Trainingsdaten aus Übersetzungsliteratur und Philosophie</h4>
+<p>Doch wie wurde dieses erstaunliche Können erreicht? Ein Schlüssel liegt in den Trainingsdaten. Die AI-Modelle wurden mit den besten verfügbaren Übersetzungen trainiert, von den Klassikern der Weltliteratur bis hin zu philosophischen Texten.</p>
+<p>Gerade die philosophische Literatur erwies sich als unschätzbare Quelle, denn hier finden sich präzise sprachphilosophische Reflexionen über die Inhalte von Aussagen. Was sind logische Schlussformen? Welche Regeln gelten für das semantische Schließen? All das ist in den Lehrbüchern der Logik zu finden, die nun zum Standardrepertoire der AI-Modelle gehören.</p>
+</section>
+</section>
+<section id="das-training-mit-logischen-regeln" class="level3" data-number="2.6.3">
+<h3 data-number="2.6.3" class="anchored" data-anchor-id="das-training-mit-logischen-regeln"><span class="header-section-number">2.6.3</span> 3. Das Training mit logischen Regeln</h3>
+<p>Damit sind wir bei der dritten Säule angelangt: dem Training der AI mit den Regeln der Logik. So wie Philosophiestudierende in den Einführungsvorlesungen die Grundlagen des logischen Schließens erlernen, so haben auch die AI-Modelle diese Regeln verinnerlicht.</p>
+<p>Ein Modus ponens gehört ebenso zum Repertoire der AI wie für angehende Philosophen. Natürlich gibt es noch Fälle, in denen die Maschinen daneben liegen. Aber die Fortschritte sind beeindruckend und eröffnen faszinierende Perspektiven.</p>
+</section>
+</section>
+<section id="ausblick" class="level2" data-number="2.7">
+<h2 data-number="2.7" class="anchored" data-anchor-id="ausblick"><span class="header-section-number">2.7</span> Ausblick</h2>
+<p>Meine Damen und Herren, wir haben heute einen ersten Einblick in die semantische Revolution der AI gewonnen. Wir haben gesehen, wie durch Embeddings, Übersetzungstraining und logische Regeln die Grundlagen geschaffen wurden, dass Maschinen in die Welt der Bedeutungen vordringen können.</p>
+<p>Die Konsequenzen sind weitreichend und werden uns noch lange beschäftigen. Können Maschinen wirklich Aussagen treffen, die für unser Leben relevant sind? Welche ethischen Fragen wirft das auf? Und wo liegen die Grenzen dieser Technologie?</p>
+<p>Das sind spannende Fragen, denen wir uns in den kommenden Vorlesungen widmen werden. Ich freue mich darauf, gemeinsam mit Ihnen tiefer in diese faszinierende Materie einzutauchen und die Möglichkeiten und Herausforderungen der AI-Revolution zu erkunden.## Bedeutungsähnlichkeit und die Revolution der Künstlichen Intelligenz</p>
+<p>Meine sehr verehrten Damen und Herren, lassen Sie uns heute einen tieferen Blick in die faszinierende Welt der Künstlichen Intelligenz werfen - eine Welt, die von bahnbrechenden Entwicklungen geprägt ist, welche die Art und Weise, wie wir mit Sprache und Bedeutung umgehen, grundlegend verändern. Im Zentrum dieser Betrachtung steht das Konzept der Bedeutungsähnlichkeit und wie es die KI-Landschaft revolutioniert hat.</p>
+<section id="die-bedeutung-von-embeddings" class="level3" data-number="2.7.1">
+<h3 data-number="2.7.1" class="anchored" data-anchor-id="die-bedeutung-von-embeddings"><span class="header-section-number">2.7.1</span> Die Bedeutung von Embeddings</h3>
+<p>Embeddings, numerische Repräsentationen sprachlicher Ausdrücke, bilden das Fundament für die Zuordnung von Bedeutung in der KI. Doch es ist wichtig zu verstehen, dass sie lediglich die Vorstufe des Trainings darstellen und nicht als rigide Objekte missverstanden werden dürfen. Die wahre Bedeutung von Ausdrücken lässt sich oft nur im Kontext ihrer Verwendung beurteilen - eine Erkenntnis, die uns vor vorschnellen Schlüssen bewahrt.</p>
+</section>
+<section id="die-suche-nach-bedeutungsähnlichen-aussagen" class="level3" data-number="2.7.2">
+<h3 data-number="2.7.2" class="anchored" data-anchor-id="die-suche-nach-bedeutungsähnlichen-aussagen"><span class="header-section-number">2.7.2</span> Die Suche nach bedeutungsähnlichen Aussagen</h3>
+<p>Stellen Sie sich vor, Sie fragen eine KI: “Fliegt da ein Schwan über den Baum?” Was passiert nun im Hintergrund? Die KI übersetzt diesen Satz in eine numerische Repräsentation, ein Embedding in tausenden Dimensionen. Mit dieser Zahl durchsucht sie dann eine Datenbank nach Büchern, in denen ähnliche Aussagen formuliert werden - unabhängig von der Sprache oder syntaktischen Transformationen. Plötzlich können wir die gesamte Literatur nach Inhalten durchforsten, nicht nur nach Zeichenabfolgen. Eine wahrhaft revolutionäre Entwicklung!</p>
+</section>
+<section id="die-erweiterung-auf-verschiedene-medien" class="level3" data-number="2.7.3">
+<h3 data-number="2.7.3" class="anchored" data-anchor-id="die-erweiterung-auf-verschiedene-medien"><span class="header-section-number">2.7.3</span> Die Erweiterung auf verschiedene Medien</h3>
+<p>Doch damit nicht genug: Embeddings gibt es nicht nur für Texte, sondern auch für Bilder, Videos, Audio, 3D-Objekte und sogar Hologramme. Die Programme können nicht nur Texte inhaltlich verstehen, sondern auch begleitende Bilder oder Diagramme erschließen. Eine multimediale Welt der Bedeutung eröffnet sich uns.</p>
+</section>
+</section>
+<section id="die-zweite-revolution-attention-is-all-you-need" class="level2" data-number="2.8">
+<h2 data-number="2.8" class="anchored" data-anchor-id="die-zweite-revolution-attention-is-all-you-need"><span class="header-section-number">2.8</span> Die zweite Revolution: Attention is all you need</h2>
+<p>Der Slogan “Attention is all you need” markiert den Beginn der zweiten Revolution in der KI. In einem bahnbrechenden Artikel auf dem Preprint-Server arXiv zeigten Forscher von Google, wie man Sprache als Abfolge von Token versteht und die Aufgabe darin besteht, das nächste Wort vorherzusagen. Was zunächst trivial klingen mag, entpuppt sich als Schlüssel zu einer neuen Ära der KI.</p>
+<section id="die-macht-der-vorhersage" class="level3" data-number="2.8.1">
+<h3 data-number="2.8.1" class="anchored" data-anchor-id="die-macht-der-vorhersage"><span class="header-section-number">2.8.1</span> Die Macht der Vorhersage</h3>
+<p>Lassen Sie uns ein Beispiel betrachten: “Der Hund ist schwarz.” Was erwarten Sie als Antwort auf diese Aussage? Wahrscheinlich sind Sie genauso perplex wie ein KI-Modell, das mit einer solchen Feststellung konfrontiert wird. Die Programme haben eingebaute Attention-Mechanismen, die prognostizieren, was als nächstes kommen könnte. Bei einer schlichten Feststellung wie dieser fällt die Vorhersage schwer - ein Umstand, der zu teils kuriosen Reaktionen der KI führen kann.</p>
+</section>
+<section id="von-der-frage-zur-anweisung" class="level3" data-number="2.8.2">
+<h3 data-number="2.8.2" class="anchored" data-anchor-id="von-der-frage-zur-anweisung"><span class="header-section-number">2.8.2</span> Von der Frage zur Anweisung</h3>
+<p>Die Nutzung von KI hat sich von der reinen Frage-Antwort-Interaktion hin zu Anweisungen und Instruktionen verschoben. Die Modelle wurden entsprechend umtrainiert und zu Akteuren, die Instruktionen ausführen. Der Attention-Mechanismus ermöglicht es, plausible Textfolgen als Antwort zu generieren, abhängig von der Art der Eingabe - sei es eine Frage, eine Anweisung oder eine Aussage, die eine bestimmte Reaktion hervorruft.</p>
+</section>
+</section>
+<section id="die-komposition-von-instruktionen-und-inhalten" class="level2" data-number="2.9">
+<h2 data-number="2.9" class="anchored" data-anchor-id="die-komposition-von-instruktionen-und-inhalten"><span class="header-section-number">2.9</span> Die Komposition von Instruktionen und Inhalten</h2>
+<p>Die gegenwärtigen KI-Modelle bestehen im Wesentlichen aus der Komposition eines Vordersatzes mit Instruktionen und vielem mehr, sodass die Ausgabe im Idealfall eindeutig konstruiert werden kann. Nehmen wir das Beispiel “Übersetze den Satz ‘Der Hund ist schwarz’”. Das Programm reformuliert intern die Eingabe in eine explizite Wiedergabe des Inhalts, um alle impliziten Annahmen offenzulegen. So wird sichergestellt, dass die Übersetzung korrekt erfolgt, unabhängig von sprachlichen Nuancen oder Mehrdeutigkeiten.</p>
+<p>Meine Damen und Herren, wir stehen an der Schwelle zu einer neuen Ära der Künstlichen Intelligenz, in der Bedeutung und Kontext eine zentrale Rolle spielen. Die Entwicklungen im Bereich der Embeddings und des Attention-Mechanismus haben die Art und Weise, wie wir mit Sprache und Wissen umgehen, grundlegend verändert. Lassen Sie uns gemeinsam diese faszinierende Reise fortsetzen und die Möglichkeiten erkunden, die sich uns eröffnen. Die Zukunft der KI ist wahrlich aufregend!## Textgenerierung und Kontext</p>
+<p>Zunächst möchte ich Ihnen näherbringen, wie die Textgenerierung in den gegenwärtigen AI-Modellen funktioniert. Ein entscheidender Aspekt ist dabei der Kontext. Stellen Sie sich vor, ich gebe in das Programm lediglich den Satz “Der Hund ist schwarz.” ein, ohne jeglichen weiteren Kontext. Was passiert dann? Das Programm beginnt eigenständig, weitere Informationen zu generieren. Es könnte beispielsweise über schwarze Labradore schreiben und allerlei zusätzliche Kontextinformationen hinzufügen.</p>
+<p>Genau hier liegt das Problem der sogenannten “Halluzination”. Da keine Beschränkungen hinsichtlich des Inhalts oder der sachlichen Prüfung vorgegeben sind, kann das Programm frei assoziieren und scheinbar sinnvolle Sätze generieren, die jedoch nicht unbedingt der Wahrheit entsprechen.</p>
+<section id="sprachkompetenz-vs.-sachkompetenz" class="level3" data-number="2.9.1">
+<h3 data-number="2.9.1" class="anchored" data-anchor-id="sprachkompetenz-vs.-sachkompetenz"><span class="header-section-number">2.9.1</span> Sprachkompetenz vs.&nbsp;Sachkompetenz</h3>
+<p>Es ist wichtig zu verstehen, dass die Modelle, um die es hier geht, im Grunde nur eines beherrschen: die Übersetzung von sprachlichem Ausdruck in ihre Bedeutung. Sie verfügen über eine ausgeprägte Sprachkompetenz, aber keinerlei Sachkompetenz. Es mag zwar suggeriert werden, aber in Wirklichkeit existiert in diesen Programmen kein Mechanismus, der prüft, ob das, was als scheinbar sinnvoller Satz generiert wird, auch tatsächlich sachlich wahr ist.</p>
+<p>Wir stehen also vor einer Revolution, bei der wir es nicht mehr nur mit Sätzen zu tun haben, sondern mit Aussagen, die durch diese Sätze ausgedrückt werden. Damit eröffnet sich die Dimension der Wahrheit, der Rechtfertigung und der Kritik. Doch die aktuellen AI-Programme lösen diese Frage nicht ein. Sie prüfen nicht die sachliche Korrektheit, führen keine Evidenz an und kritisieren auch nicht. Das ist schlichtweg nicht Teil der Programme.</p>
+</section>
+<section id="gefahren-und-grenzen-von-chat-gpt" class="level3" data-number="2.9.2">
+<h3 data-number="2.9.2" class="anchored" data-anchor-id="gefahren-und-grenzen-von-chat-gpt"><span class="header-section-number">2.9.2</span> Gefahren und Grenzen von Chat-GPT</h3>
+<p>Angesichts dieser Tatsachen möchte ich Ihnen dringend davon abraten, Hausarbeiten mit Chat-GPT zu schreiben. Die Wahrscheinlichkeit, dass die generierten Inhalte falsch sind, ist überwältigend hoch. Sie werden immer auffliegen, denn Sie selbst sind nicht in der Lage zu prüfen, ob das, was das Programm ausgibt, tatsächlich wahr ist.</p>
+<p>Das Tückische dabei ist, dass die Programme perfekt darin sind, die Inhalte sinnvoll erscheinen zu lassen. Lassen Sie mich ein Beispiel geben: Ich stellte einmal eine anspruchsvolle historische Frage zum Publikationsverhalten von Leonhard Euler im Jahr 1756. Man würde erwarten, dass das Programm bei so spezifischen historischen Informationen zugibt, keine Antwort zu haben. Stattdessen kam eine Literaturangabe, die auf den ersten Blick perfekt aussah. Sie passte zum Autor und zu der Publikationsreihe, in der er normalerweise veröffentlichte. Sogar die Bandzahl stimmte. Doch der Titel war völlig erfunden - diese Publikation hat es nie gegeben! Selbst ich als Experte habe nicht sofort erkannt, dass es sich um eine Fälschung handelte, so perfekt war die Formatierung. Hätten Sie diese Angabe in eine Arbeit kopiert und wären kein Experte auf diesem Gebiet, hätten Sie den Schwindel nicht bemerkt.</p>
+</section>
+</section>
+<section id="erweiterung-der-ai-modelle" class="level2" data-number="2.10">
+<h2 data-number="2.10" class="anchored" data-anchor-id="erweiterung-der-ai-modelle"><span class="header-section-number">2.10</span> Erweiterung der AI-Modelle</h2>
+<section id="sachliche-korrektheit-und-wahrheit" class="level3" data-number="2.10.1">
+<h3 data-number="2.10.1" class="anchored" data-anchor-id="sachliche-korrektheit-und-wahrheit"><span class="header-section-number">2.10.1</span> Sachliche Korrektheit und Wahrheit</h3>
+<p>Um dieses Problem anzugehen und die sachliche Korrektheit der generierten Inhalte zu gewährleisten, müssen wir uns fragen: Was fehlt den aktuellen AI-Modellen und was muss hinzugefügt werden, damit sie nicht nur Sprachkompetenz, sondern auch das Wissen der Welt besitzen?</p>
+<p>Als Wissenschaftler müssen wir Wege finden, die Inhalte zu prüfen, zu validieren und sicherzustellen, dass sie der Wahrheit entsprechen. Stellen Sie sich vor, Sie würden selbst eine Quelle wie Eulers Publikation überprüfen wollen. Sie würden glaubwürdige Referenzen konsultieren, vielleicht Eulers Opera Omnia durchsuchen oder sogar in eine Bibliothek gehen, um die Publikation physisch in die Hand zu nehmen. Das ist das normale Vorgehen in der Gelehrtenwelt.</p>
+<p>Doch wie könnte dies in einer zukünftigen Welt der AI aussehen? Es ist klar, dass die aktuellen Modelle dafür nicht ausreichen. Es genügt nicht, dass der Output syntaktisch wohlgeformt und plausibel erscheint. Es fehlen entscheidende Elemente, um sachliche Korrektheit herzustellen.</p>
+</section>
+<section id="korrespondenztheorie-der-wahrheit" class="level3" data-number="2.10.2">
+<h3 data-number="2.10.2" class="anchored" data-anchor-id="korrespondenztheorie-der-wahrheit"><span class="header-section-number">2.10.2</span> Korrespondenztheorie der Wahrheit</h3>
+<p>Eine mögliche Antwort liefert die Korrespondenztheorie der Wahrheit. Dabei geht man davon aus, dass der sprachliche Ausdruck sinnvollerweise der sachlichen Struktur in der Welt, auf die er sich bezieht, entsprechen sollte. Stimmt diese Übereinstimmung, ist die Aussage wahr, ansonsten ist sie falsch.</p>
+<p>Doch um dies in den AI-Modellen umzusetzen, müssen zusätzliche methodische Schritte unternommen werden. Die Modelle müssen Zugriff auf das haben, worauf die Sprache eine Korrespondenzbeziehung haben sollte. Das ist die große Herausforderung, an der wir arbeiten müssen.</p>
+</section>
+</section>
+<section id="sprachentwicklung-und-bedeutungsverschiebungen" class="level2" data-number="2.11">
+<h2 data-number="2.11" class="anchored" data-anchor-id="sprachentwicklung-und-bedeutungsverschiebungen"><span class="header-section-number">2.11</span> Sprachentwicklung und Bedeutungsverschiebungen</h2>
+<p>Ein weiterer Aspekt, den es zu berücksichtigen gilt, ist die Tatsache, dass Sprache nicht statisch ist, sondern sich im Laufe der Zeit verändert. Auch diese historisch gewachsenen, kontextuell bedingten Verschiebungen von Sprache und Sprachverständnis müssen die AI-Modelle abbilden können.</p>
+<p>Wie weit man Sprachmodelle darauf trainieren kann, ist noch Gegenstand intensiver Forschung. Es gibt erste Untersuchungen mit ausgesuchten Teilbegriffen, aber insgesamt steckt dieses Feld noch in den Kinderschuhen. Hier ist noch enorm viel Forschungsarbeit zu leisten.</p>
+<section id="fehltraining-und-sprachmarotten" class="level3" data-number="2.11.1">
+<h3 data-number="2.11.1" class="anchored" data-anchor-id="fehltraining-und-sprachmarotten"><span class="header-section-number">2.11.1</span> Fehltraining und Sprachmarotten</h3>
+<p>Ein Risiko besteht darin, dass sich in den AI-Modellen mehr oder weniger zufällige Sprachmarotten bilden, die quasi neu entstehen und nichts mit dem zu tun haben, was zuvor von Menschen produziert wurde. Ein Beispiel dafür sind die Open-AI-Modelle, die in einer bestimmten Trainingsphase offenbar mit Literatur trainiert wurden, die sich nicht auf sachliche kausale Relationen fokussierte, sondern auf die Überzeugungen von Personen darüber, was die Ursache von etwas ist.</p>
+<p>Das führte dazu, dass diese Modelle nicht in der Lage waren, die üblichen Regeln des kausalen Schließens anzuwenden. Stattdessen modellierten sie letztlich, wie Personen etwas in kausaler Hinsicht über die Welt glauben. Auf die Frage “Der Hund ist schwarz.” kam dann etwa die Antwort “Person B glaubt, er könnte aber auch braun sein.” - obwohl danach gar nicht gefragt wurde.</p>
+<p>Dieses Beispiel zeigt, wie entscheidend die Kontextkonstruktion bei den AI-Modellen ist. Wir machen momentan die Erfahrung, wie sich die Modelle verhalten, und es geht oft noch deutlich daneben. Wie man dies konzeptuell in den Griff bekommt, ist alles andere als klar. Aber es gibt Wege, die ich Ihnen im Laufe des Semesters aufzeigen werde.</p>
+</section>
+<section id="reichhaltige-kontextkonstruktion" class="level3" data-number="2.11.2">
+<h3 data-number="2.11.2" class="anchored" data-anchor-id="reichhaltige-kontextkonstruktion"><span class="header-section-number">2.11.2</span> Reichhaltige Kontextkonstruktion</h3>
+<p>Der Schlüssel liegt darin, die Eingabetexte im sogenannten Kontext informativer und reichhaltiger zu gestalten. Dann erhält man auch entsprechend hochwertige Antworten. Wenn Sie beispielsweise merken, dass das Programm nicht nach Sachfragen, sondern nach Überzeugungen von Personen antwortet, müssen Sie explizit machen, dass Sie keine Antworten basierend auf Personenüberzeugungen wünschen. In den meisten Fällen reicht das aus, um solche Fehler zu korrigieren.</p>
+<p>Allerdings können die Modelle manchmal sehr hartnäckig sein. Dann hilft nur noch, das Fenster rauszuschmeißen, wie man so schön sagt. Aber das sind Erfahrungswerte, die wir nach und nach sammeln.</p>
+</section>
+</section>
+<section id="anwendungsbeispiele-und-potenziale" class="level2" data-number="2.12">
+<h2 data-number="2.12" class="anchored" data-anchor-id="anwendungsbeispiele-und-potenziale"><span class="header-section-number">2.12</span> Anwendungsbeispiele und Potenziale</h2>
+<p>Lassen Sie mich zum Abschluss noch ein paar weitere Anwendungsbeispiele und Potenziale von AI-Modellen aufzeigen.</p>
+<section id="übersetzungen-als-motor-des-trainings" class="level3" data-number="2.12.1">
+<h3 data-number="2.12.1" class="anchored" data-anchor-id="übersetzungen-als-motor-des-trainings"><span class="header-section-number">2.12.1</span> Übersetzungen als Motor des Trainings</h3>
+<p>Übersetzungen waren nicht nur ein kulturelles Plus, sondern der eigentliche Motor des Trainings von Bedeutungsgleichheit. Die Programme sind mittlerweile in der Lage, beliebige Sätze zu übersetzen, selbst wenn die übersetzte Formulierung nirgendwo in der Literatur zu finden ist.</p>
+<p>Nehmen wir an, ein anspruchsvolles deutsches Werk wie Goethes Faust oder ein Roman von Thomas Mann soll in eine Sprache übersetzt werden, in der es noch keine Übersetzung gibt. Die AI-Modelle können das leisten. Ob die Übersetzung dann in jeder Hinsicht perfekt ist, darüber kann man diskutieren. Aber sie werden einen Vorschlag liefern.</p>
+</section>
+<section id="zusammenfassungen-und-frage-antwort-systeme" class="level3" data-number="2.12.2">
+<h3 data-number="2.12.2" class="anchored" data-anchor-id="zusammenfassungen-und-frage-antwort-systeme"><span class="header-section-number">2.12.2</span> Zusammenfassungen und Frage-Antwort-Systeme</h3>
+<p>Ein weiteres beeindruckendes Anwendungsfeld sind Zusammenfassungen. Mittlerweile ist es möglich, ganze Bücher in das Programm einzugeben und eine Zusammenfassung für jedes Kapitel in einem Absatz zu erhalten. Die Ergebnisse sind relativ solide und belastbar.</p>
+<p>Auch Frage-Antwort-Systeme wie die Chatbots haben ein enormes Potenzial. Hier kommt ein Aspekt zum Tragen, der häufig übersehen wird: die semantische Korrektur.</p>
+<p>In unserer Kommunikation findet oft eine Dimension des Austauschs statt, bei der es nicht um Sachinformationen geht, sondern um die Klärung von Bedeutungen. Wir fragen “Was meinst du damit?” oder “Meinst du gerade dieses?”, um sicherzustellen, dass wir die Aussage des Gegenübers richtig verstanden haben.</p>
+<p>Genau diese Interaktionen der Bedeutungsklärung und Kontextkorrektur sind der Clou von Systemen wie Chat-GPT. Wenn Sie eine Frage stellen, beispielsweise “Wann lebte Leonhard Euler?”, weiß das Programm zunächst nicht, welchen Leonhard Euler Sie meinen - den berühmten Mathematiker oder vielleicht Ihren Nachbarn, der zufällig denselben Namen trägt und eine Pommesbude betreibt.</p>
+<p>Durch den anschließenden Dialog, in dem Sie klarstellen, dass Sie nicht den Mathematiker, sondern den Pommesbuden-Besitzer meinen, wird der Kontext der ursprünglichen Annahme korrigiert und eine verbesserte Antwort generiert.</p>
+<p>Das bedeutet: Indem Sie chatten, tragen Sie aktiv zur künstlichen Intelligenz der Gesamtantwort bei. Auch wenn es Ihnen vielleicht nicht bewusst ist - durch das dialogische Interagieren mit dem Programm werden Sie zu einem essenziellen Teilnehmer am Entstehungsprozess der Antwort.</p>
+<p>Diese Erkenntnis ist von großer Bedeutung und wird bis heute in der technischen Umsetzung sinnvoll genutzt und gepflegt. Und genau hier liegt meiner Meinung nach einer der spannendsten Aspekte dieser Technologie, den es in Zukunft weiter zu erforschen und zu optimieren gilt.</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./ai_Vorl1.html" class="pagination-link" aria-label="Was ist AI?">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Was ist AI?</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./ai_Vorl3.html" class="pagination-link" aria-label="ai_Vorl3">
+        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">ai_Vorl3</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© CC-By OpenScienceTechnology GmbH</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>This page is built with <a href="https://quarto.org/">Quarto</a></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
