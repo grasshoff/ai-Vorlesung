@@ -1,0 +1,44 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "Philosophie der AI"
+  author: "Gerd Graßhoff"
+  date: "5/18/2024"
+  sidebar:
+    style: docked
+    background: light
+  chapters:
+    - index.qmd
+    - ---
+    - ai_Vorl1_claude-opus.qmd
+    - ai_Vorl2_claude-opus.qmd
+    - ai_Vorl3_claude-opus.qmd
+    - ai_Vorl4_claude-opus.qmd
+    - ---
+    - references.qmd
+
+  page-footer: 
+    right: "This page is built with [Quarto](https://quarto.org/)"
+    left: "&copy; CC-By OpenScienceTechnology GmbH"
+
+bibliography: references.bib
+
+format:
+  html:
+    grid:
+      sidebar-width: 400px
+    theme: [sandstone, custom.scss]
+    mainfont: "Optima"
+    toc: true
+    toc-title: Inhalt
+    toc-location: left
+    title-block-banner: true
+    reference-location: margin
+    citation-location: margin
+  pdf:
+    documentclass: scrreprt
+
+
+

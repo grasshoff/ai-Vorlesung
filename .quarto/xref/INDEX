@@ -1,0 +1,23 @@
+{
+  "ai_Vorl1_claude-opus.qmd": {
+    "ai_Vorl1_claude-opus.html": "3b1e388c"
+  },
+  "index.qmd": {
+    "index.html": "427ea4c2"
+  },
+  "references.qmd": {
+    "references.html": "f1749a27"
+  },
+  "ai_Vorl2_claude-opus.qmd": {
+    "ai_Vorl2_claude-opus.html": "e46a098e"
+  },
+  "ai_Vorl3_claude-opus.qmd": {
+    "ai_Vorl3_claude-opus.html": "e72357e7"
+  },
+  "ai_Vorl4_claude-opus.qmd": {
+    "ai_Vorl4_claude-opus.html": "c8a222f5"
+  },
+  "ai_Vorl1_groq-mixtral.qmd": {
+    "ai_Vorl1_groq-mixtral.html": "273d6753"
+  }
+}

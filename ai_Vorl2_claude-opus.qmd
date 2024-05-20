@@ -1,0 +1,698 @@
+---
+title: Philosophie der AI
+subtitle: ai_Vorl2
+author: Gerd Graßhoff
+date: 5-1-2024
+format:
+  html:
+    theme: cosmos
+    toc: true
+    title-block-banner: true
+---
+# Begrüßung und Einführung in die Vorlesung "Philosophie der AI"
+
+Herzlich willkommen zur ersten Vorlesung "Philosophie der AI"! Ursprünglich trug diese Veranstaltung den Titel "Philosophie der künstlichen Intelligenz", doch angesichts der aktuellen Diskussionen habe ich mich entschieden, den Begriff auf "AI" zu verkürzen. In diesem Semester möchte ich Ihnen einen umfassenden Überblick über die philosophischen Beiträge und Fundamente der modernen Artificial Intelligence geben und Sie durch die Grundlagen führen. 
+
+## Die Rolle der Philosophie in der AI
+
+Entgegen der Erwartungen vieler geht es in dieser Vorlesung nicht primär darum, eine Bewertung oder Reflexion über die Folgen und Konsequenzen der künstlichen Intelligenz vorzunehmen. Obwohl wir diese Themen en passant ebenfalls behandeln werden, liegt der Kern der Vorlesung in der Grundthese, dass die eigentliche Innovation und der technologische Kern hinter dem Funktionieren der KI nicht nur in der Informatik, Technologie oder der fortschreitenden Entwicklung der Gerätschaften und Chips liegt, sondern in der Philosophie selbst. Ich vertrete die Ansicht, dass die künstliche Intelligenz heute eine Renaissance der analytischen Philosophie zur Folge hat, die die eigentliche inhaltliche und systematische Basis dessen bildet, was wir heute unter KI verstehen. Es handelt sich hierbei um eine anspruchsvolle Position, die die Philosophie nicht nur als Kommentator der technologischen und gesellschaftlichen Entwicklungen betrachtet, sondern als essenziellen Teil dieser Bewegung und Entwicklung.
+
+# Die KI-Revolution und ihre Auswirkungen
+
+## Eine technologisch-gesellschaftliche Revolution
+
+Wir befinden uns derzeit nicht nur inmitten einer technologisch-gesellschaftlichen, politischen und sonstigen Revolution, die in ihrer Tragweite mit der Einführung der Elektrizität vor 150 Jahren oder des Webs vor etwa 25 Jahren vergleichbar ist. Vielmehr stehen wir gerade am Anfang einer Phase der technologischen Revolution durch die Einführung der künstlichen Intelligenz, deren weitreichende Entwicklungen wir nur erahnen können. Ein Indiz dafür ist die Tatsache, dass technologische Veränderungen, Möglichkeiten und Nutzungsformen mittlerweile auf täglicher Basis geschehen. 
+
+## Herausforderungen in der Vorlesungsvorbereitung
+
+Während der Vorbereitung dieser Vorlesung ist mir aufgefallen, dass man nicht davon ausgehen kann, mit denselben Utensilien, Tools und Hilfsmitteln zu beginnen und am Ende der Vorlesung weiterzuarbeiten. Die Möglichkeiten und technologischen Anforderungen ändern sich so rasant, dass sie sich sogar während des Verlaufs dieser Vorlesung weiterentwickeln werden. Mein Ziel ist es, Ihnen die Gelegenheit zu bieten, einige dieser Tools während der Vorlesung, in der Nachbereitung oder Vorbereitung selbst auszuprobieren.
+
+# Vorkenntnisse und Erwartungen an die Studierenden
+
+## Vertrautheit mit ChatGPT
+
+Ich bin mir sicher, dass ein Großteil von Ihnen bereits mit Tools wie ChatGPT vertraut ist oder sich eingehender damit beschäftigt hat. Der Begriff ChatGPT dürfte Ihnen kein Fremdwort sein und Sie wissen, wie man damit umgeht. In einer vorbereitenden Vorlesung im letzten Semester an der LMU München war ich erstaunt, als ich feststellte, dass bereits vor einem halben Jahr praktisch die gesamte Studierendenschaft mit ChatGPT vertraut war und es nutzte. Daher werden Sie in dieser Vorlesung keine Einführung in ChatGPT erwarten können, sondern ich setze diese Kenntnisse voraus. Stattdessen werde ich versuchen, tiefer in die philosophischen Aspekte der künstlichen Intelligenz einzutauchen.
+
+## Begriff der AI oder KI
+
+Bevor wir uns den Inhalten zuwenden, möchte ich Sie fragen: Was verstehen Sie unter AI? Lassen Sie uns kurz darüber nachdenken, bevor wir fortfahren.
+
+# Organisatorisches und Tools
+
+## Vorlesungszeiten und -ort
+
+Die Vorlesung beginnt, obwohl in Agnes als 00 angekündigt, tatsächlich um CT. Diese Änderung ist nicht auf meinen Mist gewachsen, sondern geht auf die HU-Verwaltung zurück. Üblicherweise beginnt die Vorlesung um Viertel nach 10 und endet um Viertel vor 12, damit Sie ausreichend Zeit haben, zwischen den Veranstaltungen oder Universitäten zu wechseln.
+
+## Vorlesungswebseite und Materialien
+
+- In spätestens zwei Wochen werde ich eine eigene Webseite zur Vorlesung aufschalten. Ich verzichte auf die Nutzung von Moodle, da es für Lehrende ein Folterinstrument und eine Zeitverschwendung darstellt. 
+- In der nächsten Woche werde ich Ihnen den Link zur Webseite hier zur Verfügung stellen. 
+- Auf der Webseite finden Sie für jede Vorlesung eine mit KI verfasste Zusammenfassung zum Herunterladen sowie weitere Materialien und gegebenenfalls Verlinkungen.
+
+## Zugriff auf Chat-GPT
+
+- OpenAI hat mir vorvergangene Woche mitgeteilt, dass sie die Zugriffe zu Chat-GPT freigeben. Eine Anmeldung sollte nicht mehr erforderlich sein. 
+- Ich konnte dies selbst nicht ausprobieren, da ich einen POE-Account besitze und eine Rückstufung zu kompliziert war. 
+- Ich würde mich über eine Rückmeldung von Ihnen freuen, ob der Zugriff bei Ihnen funktioniert.
+
+## Eigene KI-Webseite und virtueller Wittgenstein
+
+- In der zweiten Hälfte der Vorlesung werde ich möglicherweise eine eigene Webseite mit neuen KI-Möglichkeiten, die ich mit meinem eigenen Lab entwickle, freischalten und Ihnen zugänglich machen. 
+- Unter anderem planen wir, mit einem revitalisierten Wittgenstein mittels KI zu philosophieren. 
+- Ich hoffe, dass wir Ihnen einen virtuellen KI-Wittgenstein präsentieren können, mit dem Sie nicht nur Texte austauschen, sondern auch philosophische Diskussionen führen können. 
+- Weitere Details dazu werden wir in der zweiten Hälfte der Vorlesung erfahren.
+
+## Moodle und Teilnehmerliste
+
+- Das Passwort für die Moodle-Vorlesung lautet "1234". Dafür benötigen Sie keine künstliche Intelligenz, sondern lediglich ein gutes Gedächtnis. 
+- Bitte tragen Sie sich in die Teilnehmerliste ein. 
+- Im Falle von terminlichen Schwierigkeiten oder unvorhergesehenen Ereignissen wie Streiks, die mich am rechtzeitigen Erscheinen hindern, möchte ich Sie gerne per E-Mail erreichen können. Dies ist nur möglich, wenn Sie sich auf Moodle mit Ihrer E-Mail-Adresse registrieren.
+
+## Zulassung und Modulabschlussnoten
+
+- ÜWP-Studierende, die durch unser automatisches Nicht-Intelligenz-System Agnes abgelehnt wurden, sollten sich nicht beunruhigen. Solange ausreichend Plätze vorhanden sind, lasse ich grundsätzlich alle Interessierten zu. 
+- Sollten Sie jedoch Modulabschlussnoten und Bescheinigungen benötigen, informieren Sie mich bitte im Vorfeld darüber, da es hierbei administrative Begrenzungen gibt, die Ihre Anwesenheit erfordern.
+
+# Nachfragen und individuelle Anliegen
+
+Ich stehe Ihnen am Ende der Vorlesung gerne für Nachfragen, Scheinanforderungen und ähnliche Anliegen zur Verfügung, solange ich nicht aus dem Vorlesungssaal geworfen werde. Um die wertvolle Vorlesungszeit optimal zu nutzen, möchte ich diese Themen nicht während der Veranstaltung behandeln. Individuelle Fragen beantworte ich auch gerne per E-Mail, wenn Sie mir schreiben.Liebe Studierende, zu Beginn der heutigen Vorlesung möchte ich ein paar organisatorische Dinge ansprechen. Wie Sie sich zu bestimmten Zeiten in Register eintragen und welche Erfordernisse für eine Prüfung als ÜWP-Studierende nötig sind, hängt von den verschiedenen Fakultäten ab. Bitte erkundigen Sie sich individuell darüber. Prinzipiell ist die Vorlesung natürlich offen und ich lasse alles zu, soweit es mir möglich ist. Wir müssen nur auf die administrativen Regelungen achten.
+
+# Was ist AI?
+
+Künstliche Intelligenz, oder kurz AI, ist ein Begriff für eine technische Möglichkeit, die Mitte der 50er Jahre von einigen Kollegen aus Pittsburgh erdacht wurde. Ihr Ziel war es, maschinelle Computertechnologien zu entwickeln, die den menschlichen kognitiven Fähigkeiten nicht nur ebenbürtig sind, sondern sie sogar übertreffen. Man versprach damals vollmundig, dass dieses ehrgeizige Ziel in nur drei bis vier Jahren erreicht sein würde. Die Menschheit könnte dann endlich ihre Freizeit in vollen Zügen genießen, nur noch wenige Stunden pro Woche arbeiten, während der Rest von der KI erledigt würde.
+
+Doch wie wir alle wissen, hat sich von dieser Vision bisher nichts eingelöst. Die Vorstellung war, dass KI als Meisterdisziplin des menschlichen Denkens schnell alle Bereiche überflügeln würde. Als Paradebeispiel galt damals das Schachspiel. Doch erst Anfang der 2000er Jahre gelang es einem Computerprogramm, den Schachweltmeister Garri Kasparov in einem ernsthaften Spiel zu besiegen - immerhin 50 Jahre später als ursprünglich prophezeit.
+
+Das andere große Ziel, Computer zu entwickeln, die selbstständig wissenschaftlich kreativ denken können, ist bis heute nicht wirklich erreicht. Trotz aller anderslautenden, manchmal sensationsheischenden Meldungen bin ich jedoch sicher, dass diese Stufe in den nächsten Jahren erreicht werden wird. Dass also wissenschaftliche, kreative, kognitive und intellektuelle Aktivitäten von Maschinen alleine, ohne Assistenz von Forschern gemeistert werden. Das ist sozusagen noch die Krönung der Herausforderung von KI, von Artificial Intelligence.
+
+# KI als Verkaufsargument
+
+Was Ihnen derzeit tagtäglich in der Öffentlichkeit als KI präsentiert wird, hat mit den eigentlichen Visionen und Zielen oft wenig zu tun. Nehmen wir als Beispiel eine Anzeige der Firma Samsung für ihre "Bespoke AI 11-Kilogramm-Washing-Maschine Serie 8 mit AI-Eco-Bubble und Quick-Drive". Technisch gesehen handelt es sich schlicht um eine Waschmaschine, aber das Label "AI" soll den Verkauf ankurbeln.
+
+Was ist daran nun wirklich AI? Nicht viel, es ist mehr ein Verkaufsargument als alles andere. Alles, was halbwegs gesteuert ist, wird heutzutage als AI vermarktet. Wenn ich hier "Licht aus" sage und es dunkel würde, würden Sie vielleicht denken "Oh, wir haben AI an der HU". Dabei ist es letztlich nur eine etwas anspruchsvollere Steuerungstechnik, mehr nicht. Das Wort AI ist hier fehl am Platz, auch wenn es gerade überall en vogue ist.
+
+# Der Durchbruch der KI-Visionen
+
+Sind wir also jetzt in einer Zeit angekommen, in der sich die ursprünglichen KI-Visionen doch noch erfüllen könnten? Meine Antwort lautet: Ja. Und ich möchte Ihnen heute einen systematischen Grund dafür nennen, der für mich entscheidend ist und den ich Ihnen so vermitteln möchte, dass er nachvollziehbar wird. Nebenbei bemerkt: Wenn Sie Fragen oder Zwischenfragen haben, melden Sie sich einfach. Dann gestalten wir die Vorlesung etwas lebendiger und interaktiver.
+
+Der Aspekt, auf den ich hinaus möchte und den ich für den Meilenstein halte, ist, dass die KI-Visionen gerade dabei sind Wirklichkeit zu werden. Die KI-Propaganda hingegen, die sollten wir schnell beiseite legen. Das ist in erster Linie ein Verkaufsargument, das nicht den Kern der technologischen Innovation ausmacht. Und genau das soll heute unser Thema sein.
+
+# Die Attraktivität von KI
+
+Wo liegt denn potenziell die Attraktivität der KI, wie immer wir uns ihr auch nähern? Ist es eine bessere Internetsuchmaschine, die derzeit vielleicht eine der Triebfedern ist? Um das zu verstehen, müssen wir uns die Entwicklung des Internets vor Augen führen. 
+
+Gemessen an der Technologiegeschichte ist das Internet noch gar nicht so alt, etwas mehr als 20 Jahre. Wer die Anfänge noch miterlebt hat, erinnert sich an die ersten Browser, die damals oft mit Duschanlagen verwechselt wurden. Vor 20 Jahren wussten die wenigsten, was ein Internetbrowser eigentlich ist. Mittlerweile können wir uns ein Leben ohne Internet kaum noch vorstellen, weder technisch noch gesellschaftlich.
+
+## Die ursprüngliche Idee des Internets
+
+Im Kern war die Konstruktion des Internets, die am CERN entwickelt wurde, folgende: Irgendwo stellen wissenschaftliche Einrichtungen webzugängliche Seiten als Informationsquellen bereit. Als Wissenschaftler oder technologische Provider verantworten sie die Inhalte, pflegen sie und sorgen für dauerhafte Zugänglichkeit. Die Browser sind lediglich das lesende Frontend für diejenigen, die auf die Inhalte zugreifen wollen. 
+
+Damals war das Internet also eine Art anspruchsvolles Faxgerät als Empfänger der Inhalte. Der Clou lag darin, dass man ganz einfach andere Inhalte per Verlinkung einbinden konnte. So entwickelte sich ein Schneeballsystem, das ein globales Netz von miteinander verknüpften Inhalten erzeugte. Das war die Webrevolution vor 20 Jahren.
+
+## Die Ablösung der Webwelt durch KI
+
+Was wir jetzt erleben, ist eine Ablösung dieser Webwelt durch KI. In den nächsten Monaten werden Sie zunehmend feststellen, dass nicht mehr die Provider die Netzinhalte erstellen, auf Webservern bereitstellen und per Browser zugänglich machen. Diese Grundarchitektur wird abgelöst. Nicht mehr der Browser verantwortet, pflegt und stellt die Inhalte bereit. Das ist eine revolutionäre Änderung der Architektur der Informationsflüsse, aber auch der damit verbundenen Probleme. Einen Teil davon werden wir noch kennenlernen oder haben Sie schon erfahren.
+
+Das Web funktionierte bisher deshalb, weil die Inhalte von den jeweiligen Personen, Institutionen oder Wissenschaftlern, die sie bereitstellten, auch autorisiert wurden. Für die Korrektheit und Richtigkeit bürgten die Glaubwürdigkeit und Gewissenhaftigkeit der Provider. Das ändert sich jetzt. Und wir alle wissen um die Gefahren, aber auch Potenziale, die damit einhergehen.
+
+- Auf der einen Seite sind es nun große Internetfirmen, die die Inhalte über KI-Maschinen, sogenannte Bots, bereitstellen. 
+
+- Auf der anderen Seite können es auch böswillige Gestalten, Institutionen oder Staaten sein, die Inhalte generieren, ins Netz einspeisen, ohne als autorisierende Internetprovider in Erscheinung zu treten.
+
+Derzeit wird das unter dem Stichwort "Internetinhalte der Social Media" diskutiert. Doch das ist nur die Oberfläche. Der Kern des Wandels und des Problems liegt darin, dass die Grundarchitektur des Internets mit den verantwortlichen Providern abgelöst wird durch - ich will nicht sagen unverantwortliche Bots - aber zumindest durch nicht mehr verantwortliche Internetinhaltsprovider. Und das hängt eben mit der KI-Revolution und dem Wandel der Informationsflüsse im Internet zusammen.# Die Veränderung der Informationssuche im Zeitalter der Künstlichen Intelligenz
+
+Meine sehr verehrten Damen und Herren, lassen Sie uns heute gemeinsam einen Blick in die Zukunft der Informationssuche werfen. Bislang war es für uns alle selbstverständlich, dass wir bei der Suche nach Informationen auf die Dienste von Suchmaschinen wie Google zurückgreifen konnten. Wir vertrauten darauf, dass die von diesen autoritativen Anbietern bereitgestellten Inhalte glaubwürdig und sorgsam kuratiert waren. Doch in der nächsten Phase der digitalen Revolution wird sich dies grundlegend ändern.
+
+## Die Umgestaltung der Architektur des Internets
+
+Die Architektur des Internets befindet sich in einem extrem dynamischen Wandlungsprozess, dessen Ausgang noch niemand vorhersehen kann. Eines ist jedoch sicher: Es werden enorme Anstrengungen unternommen und gewaltige finanzielle Mittel investiert, um diese Transformation voranzutreiben. Jeder Staat, jede Region und auch Europa sollte ein vitales Interesse daran haben, die Kontrolle über diese Entwicklung nicht zu verlieren.
+
+## Neue Möglichkeiten durch Künstliche Intelligenz
+
+Doch lassen Sie uns zunächst einen Blick auf die vielversprechenden Möglichkeiten werfen, die uns die Künstliche Intelligenz eröffnet. Vielleicht erscheinen Ihnen einige dieser Anwendungen auf den ersten Blick trivial, doch ich versichere Ihnen, sie haben das Potenzial, unseren Alltag und unsere Arbeit grundlegend zu verändern.
+
+### Hochwertige Übersetzungen
+
+Nehmen wir zum Beispiel das Thema Übersetzungen. Seit Jahrzehnten wurden enorme Ressourcen in die Entwicklung von linguistischen Modellen zur automatischen Übersetzung von Sprachen investiert. Doch lange Zeit waren die Ergebnisse bestenfalls als Partygags zu gebrauchen und keinesfalls für den ernsthaften Einsatz geeignet. In den letzten Jahren hat sich dies jedoch grundlegend geändert. Mittlerweile sind die automatischen Übersetzungen von so hoher Qualität, dass sie sogar für akademische Zwecke genutzt werden können.
+
+Lassen Sie mich Ihnen ein Beispiel aus meinem eigenen Fachgebiet, der Wissenschaftsgeschichte, geben. Viele der historischen Quellen, mit denen wir arbeiten, sind in Latein verfasst. Vor 100 Jahren mussten Doktoranden ihre Dissertationen an unserer Fakultät noch auf Latein einreichen. Heute würden die meisten von Ihnen wohl Schwierigkeiten haben, einen lateinischen Quelltext sinnvoll zu interpretieren. Doch dank der Fortschritte in der Künstlichen Intelligenz gibt es Hoffnung. Vielleicht führen wir ja in unserer Fakultät bald wieder die Pflicht ein, Doktorarbeiten auf Latein zu verfassen - mit KI als Hilfsmittel könnte dies durchaus ein Alleinstellungsmerkmal unserer Universität werden.
+
+### Simultanübersetzung und Lektoratsassistenz
+
+Die Möglichkeiten gehen jedoch noch weiter. In naher Zukunft werden wir in der Lage sein, hervorragende Simultanübersetzungen anzubieten. Ausländische Studierende, die keine europäische Sprache beherrschen, könnten meine Vorlesung mit einem Ohrhörer verfolgen und eine simultane Übersetzung erhalten.
+
+Auch im Bereich des Lektorats gibt es spannende Entwicklungen. Programme wie Grammarly oder DeepL Write bieten bereits heute Textverbesserungsvorschläge, die durchaus mit der Qualität professioneller Lektoratsassistenzen mithalten können. Selbst große wissenschaftliche Verlage wie Nature stellen ihren Autoren mittlerweile Tools zur Verfügung, um ihre englischen Texte in lesbare Form zu bringen. Ob und wie dies gewünscht ist, wird derzeit heiß diskutiert. Doch ich bin davon überzeugt, dass in Zukunft das KI-gestützte Lektorat für wissenschaftliche Publikationen zum Standard werden wird.
+
+### Automatisierte Forschungsberichte
+
+Vor der Tür stehen bereits Modelle, die in der Lage sind, eigenständig Texte wie Forschungsberichte zu verfassen. In experimentellen Wissenschaften wie der klinischen Forschung wird bereits daran gearbeitet, Ergebnisse und Erkenntnisse automatisch in Berichte zu überführen, die qualitativ den gängigen Publikationen entsprechen. Dies wirft natürlich Fragen auf:
+
+- Wer ist der Autor eines solchen Berichts?
+- Akzeptieren wissenschaftliche Journals Texte, die von einer KI erstellt wurden?
+- Wie gehen wir mit Verantwortlichkeit, Seriosität und Zurechenbarkeit um?
+
+Diese Probleme müssen gelöst werden, wenn wir diese Entwicklung weiter vorantreiben wollen.
+
+## Das Labor für gebildete KI
+
+In meinem eigenen Labor, Lettre AI, setzen wir die Techniken um, die ich Ihnen in dieser Vorlesung vermitteln möchte. Unser Ziel ist es, eine KI bereitzustellen, die über die Fähigkeiten des Lesens, Übersetzens und Formulierens hinaus auch epistemische Qualifikationen mitbringt - also wissenbezogene Fähigkeiten, die wir gleich noch näher kennenlernen werden.
+
+Lassen Sie mich Ihnen ein Beispiel für die bereits existierende Leistungsfähigkeit von KI geben. Ich zeige Ihnen hier einen Ausschnitt aus einem Werk, das zu Beginn des 17. Jahrhunderts wie ein Wirbelwind durch Europa fegte: den "Sidereus Nuncius" von niemand geringerem als Galileo Galilei. Dieses Buch markierte den Beginn einer Revolution, denn es war eines der ersten wissenschaftlichen Werke, das nicht nur auf Latein, sondern auch in der Volkssprache Italienisch verfasst wurde und so einer breiteren Öffentlichkeit zugänglich war.
+
+Ich habe jetzt eine Variante von Chat-GPT aufgebaut. Für diejenigen unter Ihnen, die bereits mit Chat-GPT gearbeitet haben, wird die Oberfläche vertraut aussehen. 
+
+## Der Kern der Vorlesung
+
+Doch lassen Sie uns zum Kern dieser Vorlesung kommen. Mir ist es wichtig, dass wir gemeinsam verstehen, was KI eigentlich ist und wie sie funktioniert.# Begrüßung und Einführung in Interaktion mit ChatGPT
+
+Stellen Sie sich vor, Sie öffnen die Seite von ChatGPT und werden mit der freundlichen, typisch amerikanischen Begrüßungsfloskel "How can I help you?" empfangen. Es klingt wesentlich servicefreundlicher als ein schlichtes "Hi, hier bin ich". Die KI bietet Ihnen direkt ihre Hilfe an und präsentiert vier mögliche Optionen, die zwar oft irrelevant sind, Ihnen aber die Mühe ersparen sollen, sich selbst etwas auszudenken. Darunter können Sie dann eingeben, wobei Sie Unterstützung benötigen.
+
+# Demonstrieren der Möglichkeiten von ChatGPT anhand eines Beispiels
+
+## Übertragen eines Bildes in maschinenlesbaren Text
+
+Nehmen wir an, Sie haben eine Seite mit komplexen Inhalten vor sich, mit denen Sie in ihrer jetzigen Form nichts anfangen können. Hier kommt die KI ins Spiel: Sie können einfach einen Screenshot der Seite machen und diesen in den Chat-GPT hochladen. Anschließend instruieren Sie die KI mit einer Anweisung wie "Transkribiere das Bild" - und schon erhalten Sie eine nahezu fehlerfreie Übertragung des nicht gerade einfachen Textes in getippte Buchstaben. Eine Leistung, die bis heute kein anderes Programm in dieser Qualität vollbringen kann.
+
+## Übersetzen des Textes in eine andere Sprache
+
+Doch das ist erst der Anfang. Nehmen wir an, Sie verstehen kein Latein - kein Problem. Tippen Sie einfach "Übersetze diesen Text ins Deutsche" ein und schon erhalten Sie eine verständliche, wenn auch noch etwas gewöhnungsbedürftige Übersetzung. Mit ein wenig Feinschliff oder dem Wechsel des Modells lässt sich daraus ein publikationsreifer deutscher Text erstellen. Und das Ganze funktioniert nicht nur für Deutsch und Englisch, sondern für über 150 Sprachen weltweit, darunter auch Japanisch und Koreanisch. Selbst obskure mittelalterliche Quellen stellen kein Hindernis dar.
+
+# Erweiterung der Möglichkeiten durch Phantasie und gezielte Fragestellungen
+
+Doch jetzt fängt der eigentliche Spaß erst an. Mit dem nun zugänglichen Text eröffnen sich ganz neue Möglichkeiten jenseits der typischen Google-Fragen wie "Wer war Galilei?" oder "Wann lebte er?". Stattdessen können Sie die KI mit Fragen herausfordern, die Google unmöglich beantworten kann. Zum Beispiel: "In welcher Stadt trank Galilei im Mai 1615 ein Glas Wein?". Das Problem liegt hier nicht nur darin, dass Google dieses spezifische Ereignis nicht kennt, sondern dass eine einfache Stichwortsuche prinzipiell nicht ausreicht, um die Antwort zu finden.
+
+## Analogie zu Sherlock Holmes
+
+Stellen Sie sich die KI als eine Art elektronischen Sherlock Holmes vor. Sie nimmt das gesamte Universum an Dokumenten über Galilei zur Kenntnis - seine Briefe, seine historischen Lebensumstände, seine typischen Aktivitäten im Frühjahr 1605. Aus diesen Informationen zieht sie dann Rückschlüsse und generiert eine fundierte Hypothese darüber, wo und wann Galilei wahrscheinlich sein Glas Wein genossen hat. Zwar nicht mit absoluter Sicherheit, aber basierend auf seinen regelmäßigen Lebensumständen. Solche Fragen werden die KI-Modelle in naher Zukunft beantworten können.
+
+## Vielfältige Analysemöglichkeiten von Texten
+
+Doch damit nicht genug. Sie können die KI auch anweisen, eine Tabelle mit allen Verben des Textes zu erstellen oder gezielt nach Verben zu suchen, die ein Lob, eine Ankündigung oder ein Versprechen ausdrücken - selbst wenn Sie die genaue Formulierung nicht kennen. Die Möglichkeiten sind schier grenzenlos.
+
+Ein konkretes Beispiel: Fragen wir die KI, wer sich laut dem Text bewegt. Nach kurzer Bedenkzeit liefert sie die korrekte Antwort: Die vier Planeten bewegen sich zu verschiedenen Zeiten und mit erstaunlicher Geschwindigkeit um den Stern Jupiter - eine Entdeckung, die Galilei machte und die tatsächlich im lateinischen Originaltext erwähnt wird.
+
+# Philosophie als Grundlage für die Möglichkeiten der KI
+
+Doch wie ist das alles möglich? Die Antwort liegt in der Philosophie - nicht in der Technik. Natürlich brauchen wir auch die technische Infrastruktur, so wie wir Beamer und Notebooks benötigen. Aber der eigentliche Schlüssel zu den Fähigkeiten der KI ist philosophischer Natur. Das wird oft übersehen, doch ich möchte Ihnen zeigen, warum Philosophie hier so entscheidend ist.
+
+## Beantwortung von Fragen über Mikrofoneingabe
+
+Um das Potenzial der KI weiter zu verdeutlichen, können wir auch das Mikrofon aktivieren und eine Frage stellen: "Hat Galilei diese Entdeckung selbst durch Beobachtungen gemacht?". Das System denkt kurz nach und liefert dann die zutreffende Antwort: Ja, laut den Angaben im Text hat Galilei die Entdeckung tatsächlich selbst durch Beobachtungen gemacht.
+
+Das Erstaunliche daran ist nicht nur, dass überhaupt eine Antwort generiert wird, sondern vor allem die Qualität dieser Antwort - trotz Versprechern und spontaner Formulierung meinerseits.# Einführung in die sprachliche Dimension der KI
+
+Meine Damen und Herren, heute möchte ich Ihnen eine faszinierende und zugleich beunruhigende Entwicklung in der Welt der künstlichen Intelligenz näherbringen. Es geht um die Fähigkeit von KI-Systemen, nicht nur Informationen aus autoritativen Quellen zu sammeln, sondern eigenständig Antworten zu generieren und Inhalte zu erstellen. Diese Entwicklung hat weitreichende Konsequenzen für unser Verständnis von Wissen und Informationsverarbeitung.
+
+## Die Möglichkeiten der KI
+
+Die Möglichkeiten der KI sind atemberaubend und erweitern sich täglich. Lassen Sie mich Ihnen einige Beispiele nennen:
+
+- Übersetzung: KI-Systeme können Texte von einer Sprache in eine andere übersetzen, und zwar mit einer Genauigkeit und Geschwindigkeit, die menschliche Übersetzer in den Schatten stellt.
+
+- Bild-zu-Text-Konvertierung: KI kann Bilder analysieren und deren Inhalt in Textform beschreiben. Dies eröffnet völlig neue Möglichkeiten der Bildverarbeitung und -archivierung.
+
+- Audio-zu-Text-Konvertierung: Gesprochene Sprache kann von KI-Systemen in Echtzeit transkribiert werden, was die Erstellung von Protokollen und Untertiteln erleichtert.
+
+- Textzusammenfassung: Geben Sie der KI ein ganzes Buch, und sie wird Ihnen eine prägnante Zusammenfassung liefern. Dies kann die Recherche und das Studium enorm beschleunigen.
+
+- Text-zu-Audio-Konvertierung: Umgekehrt kann KI auch geschriebenen Text in gesprochene Sprache umwandeln, was neue Möglichkeiten für Hörbücher und Sprachassistenten eröffnet.
+
+- Text-zu-Video-Konvertierung: Hier wird es geradezu unheimlich. KI kann aus Textbeschreibungen realistische Videos generieren, die kaum noch von echten Aufnahmen zu unterscheiden sind.
+
+## Die Gefahren der KI
+
+So faszinierend diese Möglichkeiten auch sind, sie bergen auch erhebliche Risiken. Ein zentrales Problem ist das Phänomen der "Halluzination". Dabei generiert die KI scheinbar plausible Informationen, die jedoch nicht der Realität entsprechen. 
+
+Ein Beispiel: Ich fragte eine KI nach dem Namen der zweiten Frau des Mathematikers Leonhard Euler. Die Antwort klang überzeugend, inklusive eines Verweises auf eine Publikation der Petersburger Akademieschriften von 1784. Doch diese Publikation existiert gar nicht, und die genannte Person war nie mit Euler verheiratet. 
+
+Solche Halluzinationen können fatale Folgen haben, wenn sie unerkannt bleiben. Wer eine solche Information zitiert, disqualifiziert sich wissenschaftlich für immer. Dieses Problem trat auch bei der Mars-Mission der NASA auf, als eine KI falsche Informationen über einen Erkundungssatelliten verbreitete.
+
+## Der sprachliche Kern der KI
+
+Bei all diesen Anwendungen, sei es Bild-, Audio- oder Videoverarbeitung, bildet die Sprache den Kern der KI-Technologie. Selbst bei der Bildanalyse übersetzt die KI zunächst das Bild in eine verbale Beschreibung, bevor sie weiterverarbeitet wird. 
+
+Diese Erkenntnis ist philosophisch bedeutsam und erinnert an Wittgensteins These von der Unhintergehbarkeit der Sprache. Die sprachliche Verbalisierung von Inhalten ist der Dreh- und Angelpunkt der KI, und genau darum soll es in dieser Vorlesung gehen.
+
+Ich werde mich nicht auf die technischen Details der KI-Entwicklung konzentrieren, sondern auf den Umgang mit Sprache in KI-Modellen. Die anderen Medien sind zwar faszinierend, aber letztlich sekundär. Unser roter Faden wird die philosophische Dimension der sprachlichen Verarbeitung in der KI sein.# Gefahren und Probleme der künstlichen Intelligenz
+
+Meine Damen und Herren, lassen Sie uns heute über die Schattenseiten der künstlichen Intelligenz sprechen. Wir haben bereits die atemberaubenden Möglichkeiten dieser Technologie gesehen, doch nun ist es an der Zeit, auch die Probleme und Gefahren zu beleuchten, die damit einhergehen. 
+
+## Das Problem der Halluzinationen
+
+Eines der ersten Probleme, auf das wir stoßen, sind die sogenannten Halluzinationen der KI-Modelle. Ein eindrucksvolles Beispiel dafür lieferte das Supermodell von Google, das auf die Frage "Wer fliegt denn da?" eine Antwort gab, die zwar plausibel klang, aber rein fiktiv war. Ohne Zugriff auf aktuelle NASA-Informationen oder Tagesnachrichten erfand das Modell kurzerhand einen Satellitennamen. Innerhalb einer halben Stunde wurde es vom Netz genommen, und der Marktwert von Google-Aktien sank um Millionen. Seitdem trauen sich die Unternehmen nicht mehr, ihre Modelle zu veröffentlichen. 
+
+Doch warum halluzinieren die Modelle überhaupt, wenn sie doch schon so viele Fähigkeiten besitzen? Die Antwort darauf ist komplexer als man denkt.
+
+## Die Gefahr der Manipulation durch glaubwürdige Fakes
+
+Ein weiteres Problem, das eng mit den Halluzinationen verbunden ist, ist die Fähigkeit der KI, glaubwürdige Texte, Bilder und sogar Videos zu produzieren. Dies öffnet Tür und Tor für falsche oder manipulative Informationen, die auf den ersten Blick echt erscheinen. 
+
+Ein aktuelles Beispiel dafür sind die Videos, die im Zusammenhang mit dem Raketenüberfall auf Israel in den sozialen Medien aufgetaucht sind. Sie zeigten panische Einwohner von Tel Aviv, die vor nicht existierenden Einschlägen flohen. Diese Videos wurden absichtlich generiert, um die Öffentlichkeit zu täuschen, und sind für den Betrachter zunächst nicht als Manipulation zu erkennen.
+
+## Selektive Informationen und die Pluralität der Hintergründe
+
+Jede Antwort, die uns ein KI-Modell gibt, basiert auf bestimmten Annahmen und Voraussetzungen. Diese haben jedoch immer auch Alternativen, die möglicherweise nicht besser oder schlechter sind, aber eine Pluralität an Hintergründen darstellen. 
+
+Wenn wir eine bestimmte Antwort akzeptieren, akzeptieren wir auch die Voraussetzungen dafür und vernachlässigen die Alternativen. Ein Beispiel dafür ist die Anfrage an ein KI-Modell, ein Porträt eines möglichen Nachfolgers des jetzigen Papstes zu erstellen. Aufgrund der politisch korrekten Voreinstellung des Modells wurde eine farbige Frau im Papstgewand generiert - eine Darstellung, die in der Realität aufgrund der Zusammensetzung des Kardinalskollegiums höchst unwahrscheinlich ist.
+
+Dieses Beispiel verdeutlicht, wie selektive Informationen zu verzerrten Ergebnissen führen können. Es wirft die Frage auf, wie wir mit diesen Problemen umgehen sollen.
+
+## Die Unausweichlichkeit der KI-Entwicklung und die Notwendigkeit der Gestaltung
+
+Eines ist klar: Wir können uns vor diesen Fragen nicht drücken. Die Entwicklung der künstlichen Intelligenz ist unwiderstehlich und unausweichlich. Ab heute werden uns diese Technologien mit all ihren Vor- und Nachteilen zunehmend beschäftigen. 
+
+Wir müssen lernen, damit umzugehen und die Entwicklung aktiv mitzugestalten. Nicht im Sinne einer Kontrolle, sondern einer Gestaltung. Denn wenn wir jetzt nicht eingreifen, laufen wir Gefahr, die Kontrolle über diesen Prozess zu verlieren.
+
+## Weitere Gefahren: Diskriminierung und Überwachung
+
+Neben der selektiven Information gibt es weitere Gefahren, die wir im Auge behalten müssen. Dazu gehören Dimensionen der Diskriminierung, bei denen bestimmte Personengruppen oder Qualifikationen berücksichtigt werden, andere hingegen nicht. 
+
+Auch die Möglichkeiten der Überwachung durch KI-Systeme sind alarmierend. Ein Beispiel dafür ist China, wo Besucher bei der Einreise lediglich in eine Kamera lächeln müssen und dann während ihres gesamten Aufenthalts live verfolgt und protokolliert werden. 
+
+Diese Entwicklungen werfen Fragen auf, wie weit solche Technologien zugelassen und kontrolliert werden sollten. Eine Antwort darauf zu finden, ist keine leichte Aufgabe.
+
+## Die Notwendigkeit der Auseinandersetzung mit KI
+
+Angesichts dieser erschütternden Probleme könnte man geneigt sein, das Thema KI einfach zu vergessen. Wozu sich mit Übersetzungen von Galileis lateinischen Texten beschäftigen, wenn wir dafür doch unsere Gelehrten haben? 
+
+Doch so einfach ist es nicht. Die Vorteile der künstlichen Intelligenz sind zu groß, um sie zu ignorieren. Wir müssen uns mit dieser Technologie auseinandersetzen, ihre Möglichkeiten nutzen und gleichzeitig ihre Schattenseiten im Blick behalten. Nur so können wir eine Zukunft gestalten, in der die KI zum Wohle der Menschheit eingesetzt wird.# Begrüßung und Einführung
+
+Einen schönen guten Tag, meine Damen und Herren. Heute möchte ich mit Ihnen über zwei Fragen sprechen, die mir in letzter Zeit immer wieder begegnen. Zunächst einmal habe ich eine Frage zu der Konferenz, von der ich gehört habe, dass sie in diesem Monat August stattfinden soll. Wo genau findet diese Konferenz statt? 
+
+Ah, ich verstehe. Es handelt sich also um eine regelmäßig wiederkehrende Konferenzserie, die im August abgehalten wird. Es ist bemerkenswert, wie weit fortgeschritten die Aufmerksamkeit und das Wissen um diese Themen inzwischen auch in den Institutionen sind. Sogar auf EU-Ebene wurde im März letzten Jahres bereits ein Bericht veröffentlicht, in dem diese Angelegenheiten thematisiert wurden. Allerdings wurden sie dort so behandelt, wie ich es gerade geschildert habe - sie wurden angesprochen, aber nicht gelöst.
+
+Es gibt keine einzelne Konferenz, die sich des Problems annimmt und von der wir erwarten könnten, dass es in kürzester Zeit gelöst wird. Nein, so einfach ist es leider nicht. Stattdessen möchte ich auf die philosophischen Aspekte eingehen, die sowohl den Vorteilen als auch den Gefahren zugrunde liegen.
+
+# Beispiele für die Nutzung von Sprachen in der Wissenschaft
+
+Lassen Sie uns ein Beispiel betrachten, das wir gerade schon diskutiert haben. In der Fachliteratur hält sich hartnäckig das Gerücht, dass Galileis Vater sich negativ über die wissenschaftliche Nutzung anderer Sprachen als Latein geäußert haben soll. Das würde natürlich einen spannenden Vater-Sohn-Konflikt darstellen, denn Galilei selbst ist ja berühmt dafür, dass er das Italienische für die Wissenschaft nutzbar machte, indem er auf Italienisch publizierte. 
+
+In zahlreichen Sekundärquellen findet man die These, dass sein Vater dies nicht für wissenschaftlich hielt und dass sein Sohn Galileo Galilei sich besser von diesen italienischen Publikationen fernhalten sollte. Oh, Moment mal - da steht, dass Kepler sich gegenüber Galilei negativ geäußert hat, nicht Galileis Vater. Danke für den Hinweis! Das ist keine Halluzination, sondern ein echter Fehler meinerseits. Ich hoffe, ich vergesse nicht, das für die Internetversion zu korrigieren.
+
+Die Pointe ist jedenfalls, dass man eine solche Frage - ob sich eine Person X irgendwo negativ zu einer bestimmten These geäußert hat - mit Google nicht beantworten kann. Das mag trivial klingen, aber im Moment ist es tatsächlich nicht möglich, dies durch eine Google-Suche herauszufinden. Warum? Weil Google Ihnen kein Dokument im Internet liefern wird, in dem diese Frage direkt beantwortet wird. Und wenn es ein solches Dokument nicht gibt, ist die Frage für Sie mit Google-Techniken nicht zu beantworten.
+
+Dabei handelt es sich um eine Frage, die historisch gesehen entweder wahr oder falsch ist. Wie kann man das also entscheiden? Nicht mit den heutigen Google-Techniken. Hier braucht es eine neue Dimension der Recherche, die über bestimmte Fähigkeiten verfügen muss.
+
+# Aufgaben und Fragen, die mit herkömmlichen Methoden nicht lösbar sind
+
+Lassen Sie mich Ihnen anhand einer Liste von Aufgaben und Fragen veranschaulichen, wie zunehmend Probleme auftauchen, die mit den heutigen akademischen Techniken nicht zu lösen sind. Ich spreche hier von Fragen, die selbst Sie als forschende Person nicht beantworten können, wenn sie halbwegs komplex sind.
+
+Mir geht es um die unlösbaren Probleme der realen Forschungswelt, die zwar mit KI lösbar wären, aber aufgrund bestimmter fehlender Fertigkeiten bisher nicht gelöst werden können. Jetzt befinden wir uns im philosophischen Teil meiner Ausführungen und ich werde versuchen, dies sprachanalytisch zu komprimieren.
+
+## Frage 1: Einfache Aussage in einer Quelle
+
+Angenommen, Person A äußert sich in einer Quelle Q zu einer Person namens Jochen Schmidt. Ist diese Aussage wahr oder falsch? Hier haben Sie noch eine gewisse Chance, die Frage eindeutig zu beantworten, wenn Sie die Quelle Q gefunden haben und darin die Person A benannt wird und sich zu Jochen Schmidt äußert. Der Anforderungsgrad ist hier noch nicht sehr hoch. Wenn das Ihre Examensaufgabe wäre, hätten Sie eine realistische Chance, sie zu lösen. Sie müssten nur so lange alle Quellen durchlesen, bis Sie die richtige gefunden haben.
+
+## Frage 2: Aussage in Briefen zu einem Thema
+
+Nehmen wir an, Person A äußert sich in ihren Briefen zu einem Thema T. Das können Sie schon nicht mehr ohne weiteres lösen, ohne eine Lebensdauer damit zu verbringen, das gesamte Schrifttum von Person A zu lesen. Wenn Sie z.B. für eine Examensarbeit eine Biografie über eine Person namens Heinz Müller verfassen sollten und eine solche Aufgabe hätten, müssten Sie zunächst alle Briefe zusammentragen und sie komplett lesen. Und selbst dann wären Sie sich nicht sicher, ob Sie wirklich alle Briefe gefunden haben. 
+
+Denken Sie nur an die Kafka-Forscher. Wenn Sie wissen wollen, ob sich Kafka in seinen Briefen jemals zu einem bestimmten Thema geäußert hat oder nicht, haben Sie einen enormen manuellen Forschungsaufwand vor sich, um überhaupt in die Nähe einer Antwort zu kommen. Hier befinden wir uns bereits in Bereichen, die schwer zu beantworten sind - Fragestellungen, die bislang praktisch nicht zu lösen waren.
+
+## Frage 3: Aussagen einer Person in ihren Schriften
+
+Hat eine Person A in ihren Schriften Aussagen der Art T getroffen, wenn Person A sehr viel geschrieben hat? Nehmen wir als Beispiel die Briefe Napoleons. Hat sich Napoleon jemals zu Aspekten der Vorläufer der Genfer Konvention bei der Kriegsführung geäußert? Das können Sie aus praktischen Gründen nicht lösen. Ich will an dieser Stelle nicht sagen, dass es prinzipiell unmöglich ist, aber in der Wissenschaft möchte man solche Fragen beantwortet haben. Und das gilt nicht nur für das öffentliche Interesse, sondern auch für die Wissenschaft selbst.
+
+Sie können sich vorstellen, welch enorme Konsequenzen es für die Wissenschaft hätte, wenn man solche Fragen überhaupt beantworten könnte. Dann wäre es möglich, weitreichende Thesen zu Napoleons Verständnis von Krieg und Frieden aufzustellen, die von der Evidenz abhängen, mit der man solche Fragen beantworten kann. Im Moment ist das nicht möglich.
+
+## Frage 4: Keine Aussage einer Person in ihren Schriften
+
+Angenommen, Person A hat in ihren Schriften keine Aussage T getroffen. Als normaler arbeitender Historiker oder Geisteswissenschaftler werden Sie diese Frage nicht seriös beantworten können. Deshalb gibt es in der Literatur die Unsitte, andere Werke zu zitieren, die sich aus irgendwelchen Gründen dazu bemüßigt fühlten, solche Fragen zu beantworten.
+
+Ein Beispiel: Nehmen wir wieder Kafka. Manche Autoren vertreten die These, dass Kafka sich nie antisemitisch geäußert hat. Aber welche Evidenz können Sie dafür eigentlich angeben? Es ist schwierig, eine nicht vorhandene Lektüre von Briefen als Beleg anzuführen. Wie wollen Sie eine solche These rechtfertigen, wenn Sie sie vertreten?
+
+Eine der größten Unsitten der gegenwärtigen akademischen Literatur besteht darin, nicht selbst das Risiko einer These einzugehen, sondern stattdessen den berühmten Heinz Müller zu zitieren, weil er schon einmal etwas Ähnliches gesagt hat. Also fügt man eine Fußnote in die Arbeit ein: "Heinz Müller, 1973, Seite 5: Ganz klar, Kafka hat sich nie antisemitisch geäußert." Und auf einmal entsteht ein Schneeballsystem, das dem Halluzinationseffekt ähnelt, den wir gerade hier hatten. Und zwar nur deshalb, weil die Evidenz, die für bestimmte Thesen erforderlich ist, auf manuelle Weise kaum zu beschaffen ist. Mit KI werden Sie das in Zukunft können.
+
+# Die Herausforderung der inhaltlichen Analyse mit KI
+
+Jetzt werden Sie vielleicht fragen: Inwiefern ist das speziell für KI relevant? Man könnte doch erwarten, dass sich das grammatikalisch lösen lässt. Wenn ich die Aussage T formalisieren kann, müsste ich doch auf dem Textkorpus einfach prüfen können, ob diese Bedingung irgendwo erfüllt ist, oder?
+
+Genau das ist der springende Punkt, und ich muss jetzt ein bisschen auf die Uhr schauen, damit ich meine Kurve hier noch hinbekomme. Aber diese Kurve berührt schon das Thema. Was heißt es, in Ihrem Korpus prüfen zu können? 
+
+Nehmen wir an, Sie hätten den Idealfall: Kafkas gesammelten Briefwechsel in einer Datenbank. Jetzt möchten Sie wissen, ob es darin eine antisemitische Formulierung gibt. Wie sieht die denn aus? Wenn Sie Ihre Datenbank nach Art einer Google-Suche nach bestimmten Wortvorkommnissen durchforsten, dann können Sie das lösen. Das ist die klassische Vorgehensweise.
+
+Aber inhaltlich betrachtet: Was ist eigentlich eine antisemitische Äußerung? Sobald es darum geht - und deshalb habe ich es hier erwähnt - kön# Betrachtungen zur künstlichen Intelligenz und Sprachverarbeitung
+
+Meine sehr geehrten Damen und Herren, liebe Studierende, 
+
+in der heutigen Vorlesung möchte ich Ihnen einen faszinierenden Einblick in die Welt der künstlichen Intelligenz und insbesondere deren Fähigkeiten zur Sprachverarbeitung geben. Wir werden uns mit der Frage beschäftigen, inwieweit KI-Systeme in der Lage sind, komplexe sprachliche Konstrukte wie Metaphern, Ironie oder versteckte Bedeutungen zu erkennen und zu interpretieren.
+
+## Grenzen der traditionellen Datenbanken
+
+Zunächst einmal möchte ich klarstellen, dass ich keineswegs behauptet habe, es gäbe in den vorliegenden Dokumenten keine relevanten Satzvorkommnisse. Die herkömmliche Art der Dokumentenaufzeichnung und -abfrage, wie sie etwa mit Datenbanken möglich ist, erlaubt zwar das Auffinden bestimmter Textpassagen, jedoch keine inhaltlichen Suchen im eigentlichen Sinne.
+
+Selbst moderne KI-Systeme können nicht mit absoluter Sicherheit feststellen, dass eine bestimmte Aussage nicht getroffen wurde, da stets die Möglichkeit besteht, dass die zugrunde liegende Datenbasis unvollständig ist. Vielmehr lässt sich hier nur mit Wahrscheinlichkeiten operieren - ein Begriff, den ich an dieser Stelle allerdings kritisch hinterfragen möchte.
+
+## Qualifizierte Aussagen auf Basis der verfügbaren Evidenz
+
+Wahrscheinlichkeiten sind numerische Werte zwischen 0 und 1, die man in diesem Kontext nicht sinnvoll einsetzen kann. Stattdessen sollte man sich auf die konkrete Situation beziehen und feststellen: Auf Basis dieser und jener Grundgesamtheit von Briefwechseln und Äußerungen, die als Dokumente für die Befunde zur Verfügung stehen, lässt sich unter der Voraussetzung, dass sie die alleinige Entscheidungsgrundlage bilden, folgendes Fazit ableiten.
+
+Eine solche differenzierte Betrachtung der Befundlage ist unerlässlich, denn es lässt sich ja nicht ausschließen, dass genau jene Briefe, die möglicherweise relevante Inhalte enthalten, vernichtet wurden. Ein solches Szenario würde den Wahrheitswert der Fragestellung grundlegend verändern. Auch KI-Systeme können diese Problematik nicht vollständig ausräumen, sehr wohl aber eine qualifizierte, auf der verfügbaren Evidenz basierende Antwort geben.
+
+## Herausforderungen bei der Interpretation von Metaphern und Ironie
+
+Ein besonders spannendes Feld ist die Fähigkeit von KI-Systemen, mit Metaphern und uneigentlichem Sprachgebrauch umzugehen. Gerade im Kontext des Antisemitismus verbergen sich oft codierte Botschaften hinter scheinbar harmlosen Formulierungen. Während eine Blut-und-Boden-Ideologie relativ leicht zu identifizieren ist, stellt die Interpretation von Begriffen wie "entwurzelt" oder "ohne Verwurzelung" eine ungleich größere Herausforderung dar.
+
+Anhand eines konkreten Beispiels möchte ich Ihnen verdeutlichen, wozu moderne KI-Systeme in diesem Bereich bereits in der Lage sind. In München hatten wir es mit revolutionären Briefen aus der Zeit der Französischen Revolution zu tun, die in elegantem Französisch verfasst waren und vor Ironie und Sarkasmus nur so strotzten. Um diese Feinheiten zu erkennen, bedarf es zunächst einmal exzellenter Sprachkenntnisse. Doch selbst dann gilt es, die ironischen Komponenten als solche zu identifizieren.
+
+Ich kann Ihnen versichern, dass KI-Systeme mittlerweile über eine Sprachkompetenz verfügen, die es ihnen erlaubt, auch diese Dimension der Sprachverwendung zu erkennen. Allerdings dürfen Sie sich das nicht als simples Schwarz-Weiß-Schema vorstellen, bei dem man einfach einen "Ironie-Kompetenz-Knopf" umlegt und schon funktioniert alles wie bei einem literarischen Meisterinterpreten. 
+
+## Lernfähigkeit und Entwicklungspotenzial von KI-Systemen
+
+Vielmehr müssen Sie sich den Lernprozess der KI ähnlich vorstellen wie Ihre eigene Entwicklung zu Beginn Ihres Studiums. Auch Sie haben im Laufe der Zeit eine Menge dazugelernt und sich weiterentwickelt. Genauso können auch KI-Modelle lernen und sich verbessern. Ich möchte keineswegs behaupten, dass bereits alle Probleme und Herausforderungen gelöst sind, aber es gibt vielversprechende Lösungsansätze, um auch mit komplexeren Formen der Sprachverwendung umgehen zu können.
+
+In München haben wir beispielsweise erfolgreich getestet, ob KI-Systeme in der Lage sind, bissige Karikaturen aus den 1920er Jahren zu interpretieren und zu erkennen, welche Personen mit welchen Klischees auf den Arm genommen werden. Mit dem richtigen Training ist es den Bilderkennungsalgorithmen tatsächlich gelungen, diese Zusammenhänge zu entschlüsseln.
+
+## Der Paradigmenwechsel durch Large Language Models und Embeddings
+
+Der entscheidende Unterschied und gleichzeitig der Punkt, an dem der "Philosophical Turn" der KI einsetzt, liegt in der Entwicklung von Techniken wie Large Language Models oder Embeddings. Diese ermöglichen eine Abkehr von der reinen Textsuche hin zu einer inhaltlichen Erfassung der Bedeutung sprachlicher Ausdrücke. Dieser semantische Wechsel, den ich auch gerne als "Semantic Turn" bezeichne, ist der Schlüssel zu den beeindruckenden Fähigkeiten moderner KI-Systeme.
+
+Egal ob es um die Analyse von Bildern, Texten oder Audioaufnahmen geht - all diesen Anwendungen liegt zugrunde, dass die Systeme nicht nur nach bestimmten Zeichenfolgen suchen, sondern deren Bedeutung erfassen und identifizieren können. Genau darum geht es bei den milliardenschweren Investitionen in diesem Bereich: den Modellen beizubringen, auf Basis der eingegebenen Daten die dahinterstehende Semantik zu erkennen.
+
+## Die Bedeutung der Philosophie für die KI-Forschung
+
+Damit eröffnet sich ein weites Feld für die Philosophie. Solange wir nur von Sätzen sprechen, bewegen wir uns auf der Ebene von Formulierungen und syntaktischen Strukturen. Wenn wir jedoch nach der Bedeutung eines Ausdrucks fragen, betreten wir Neuland. Genau hier setzt die aktuelle KI-Revolution an, und deshalb ist die Philosophie von zentraler Bedeutung für diese Entwicklung.
+
+Als Studierende der Philosophie sollten Sie mit der klassischen Unterscheidung zwischen Satz und Aussage vertraut sein. Im Deutschen ist diese Differenzierung von größter Wichtigkeit, während sie in englischen Übersetzungen oft vernachlässigt wird. So haben etwa die Übersetzer von Wittgensteins Gesammelten Werken sowohl für "Aussage" als auch für "Satz" durchgängig den Begriff "Sentence" verwendet, was zu erheblichen Missverständnissen führen kann. Im Englischen heißt es korrekterweise "Sentence" für Satz und "Proposition" für Aussage.
+
+Genau diese Unterscheidung markiert die fundamentale Revolution, die sich gerade vollzieht: Wir haben es nun mit Maschinen zu tun, die mit Aussagen umgehen können. Und nur Aussagen, nicht Sätze, können wahr oder falsch sein. Wer also über Fake News, Halluzinationen und ähnliche Phänomene spricht und sich dabei auf Sätze bezieht, liegt philosophisch gesehen völlig falsch. Wahrheit und Falschheit können sich konzeptionell nur auf Aussagen beziehen.
+
+Die Tatsache, dass KI-Systeme nun in der Lage sind, sich mit Aussagen zu befassen, birgt ebenso faszinierende Möglichkeiten wie Gefahren. In der nächsten Vorlesung werden wir uns eingehender mit diesen Aspekten beschäftigen und uns ansehen, wie genau diese neuen Technologien funktionieren und welche Auswirkungen sie haben können.
+
+Ich danke Ihnen für Ihre Aufmerksamkeit und freue mich darauf, dieses spannende Thema in der kommenden Woche gemeinsam mit Ihnen zu vertiefen.# Begrüßung zur zweiten Vorlesung Philosophie der AI
+
+Herzlich willkommen, meine Damen und Herren, zur zweiten Vorlesung unserer Reihe "Philosophie der AI". Lassen Sie uns heute an die spannenden Erkenntnisse der letzten Sitzung anknüpfen und gemeinsam ergründen, welche faszinierenden Möglichkeiten die Künstliche Intelligenz für die geisteswissenschaftliche Forschung bereithält. Stellen Sie sich vor, wie AI unsere alltägliche Arbeit nicht nur erleichtern, sondern revolutionieren und bisher ungeahnte Perspektiven eröffnen kann.
+
+# Traditionell schwer lösbare Fragen in der Forschung
+
+In der Welt der Wissenschaft gibt es eine Vielzahl von Fragestellungen, die uns immer wieder vor Herausforderungen stellen und deren Beantwortung mit herkömmlichen Mitteln oft an Grenzen stößt. Nehmen wir beispielsweise die Suche nach Evidenz in einem definierten Kreis von Quellen, einem sogenannten Scholarium, um eine historische Aussage H zu belegen. Jeder von Ihnen, der schon einmal eine wissenschaftliche Arbeit verfasst hat, weiß, wie zeitaufwändig und mühsam dieser Prozess sein kann - je nach Komplexität der Fragestellung. Doch mit der Unterstützung von AI könnten wir in Zukunft, abhängig von der Zugänglichkeit und Aufbereitung des Scholariums, solche Nachweise schnell und effizient führen.
+
+## Evidenz finden, um eine Hypothese zu widerlegen
+
+Noch kniffliger wird es, wenn wir in einem Scholarium nach Evidenz suchen, um eine Hypothese H zu widerlegen. Im Alltag des Wissenschaftlers ist dies praktisch unmöglich - und dennoch finden wir solche Aussagen häufig in Publikationen. Überlegen Sie selbst: Wie oft haben Sie schon in Hausarbeiten, Qualifikationsschriften oder Fachartikeln Behauptungen gelesen, die eine These anhand von Standardreferenzliteratur zu widerlegen versuchen? Häufig sucht man vergeblich nach der tatsächlichen Evidenz dafür. Stattdessen wird allzu oft der bequeme Weg gewählt, sich auf Kollegen zu berufen, die ähnliche Aussagen getroffen haben - doch das ist keine echte Evidenz, sondern bestenfalls eine fragwürdige Praxis.
+
+## Zeitgenössische Autoren und ihre Äußerungen zu historischen Hypothesen
+
+Lassen Sie uns noch einen Schritt weiter gehen und uns einer noch komplexeren Fragestellung zuwenden: Welcher zeitgenössische Autor hat sich zu einer historischen Hypothese H ebenfalls geäußert? Stellen Sie sich vor, Sie interessieren sich für eine bestimmte These, die der wissenschaftshistorische Autor Johannes Kepler im Jahre 1603 aufgestellt hat. Nun möchten Sie wissen, welche seiner Zeitgenossen sich zu ähnlichen Fragen geäußert haben. Ohne jahrelange akribische Lektüre und Archivarbeit ist eine solche Recherche praktisch unmöglich.
+
+## Der Einfluss von Publikationen auf historische Autoren
+
+In wissenschaftlichen Feststellungen stoßen wir oft auf Aussagen wie: "Wer hat die Publikation von H, eines historischen Autors, relevant beeinflusst?" Doch Hand aufs Herz - die meisten dieser Behauptungen sind spekulativ und unbegründet. Nicht etwa, weil die Forscher unseriös arbeiten, sondern weil der Evidenznachweis für solche Aussagen extrem schwierig zu führen ist. Schon allein die Frage, was genau einen "relevanten Einfluss" auf eine Hypothese ausmacht, ist alles andere als trivial.
+
+# Die Rolle der AI in der geisteswissenschaftlichen Forschung
+
+Hier zeigt sich deutlich, dass die Diskussion um AI weit über eine rein technische Erleichterung unserer Arbeit hinausgeht. Vielmehr eröffnet sie uns die Möglichkeit, alltägliche Fragestellungen überhaupt erst bearbeitbar zu machen, die bislang nur unzureichend gelöst werden konnten. Nehmen wir als weiteres Beispiel die Frage, wer eine Alternative zu einer historischen Hypothese H vertreten hat. Schon die Definition dessen, was eine "Alternative" in diesem Kontext bedeutet, ist eine Herausforderung - von der Suche nach entsprechenden Äußerungen in der Gesamtliteratur eines Scholariums ganz zu schweigen. Praktisch unmöglich, wenn auch theoretisch denkbar.
+
+## Die Gefahren der AI und ihre Korrektur durch verbesserte Praktiken
+
+In der letzten Vorlesung haben wir unter der Rubrik "Gefahren der AI" diskutiert, wie Aussagen oder Befunde, die mittels AI generiert wurden, selektiv sein können, halluzinierte Thesen vertreten oder auf andere Weise kritisch hinterfragt werden müssen. Doch heute betrachten wir die Kehrseite der Medaille: AI kann auch dazu beitragen, unzulängliche oder problematische Praktiken in der gegenwärtigen Forschung zu korrigieren oder gar gänzlich zu ersetzen. Meine These lautet daher unmissverständlich: Der Eingriff von AI in unser wissenschaftliches Tagesgeschäft wird unsere Disziplinen in kürzester Zeit, in wenigen Jahren, drastisch verändern. Mein Rat an Sie: Beschäftigen Sie sich so schnell wie möglich mit diesen Mitteln, auch schon während Ihres Studiums - andernfalls werden viele Fragen Ihrer Qualifikationsarbeiten nicht mehr den zukünftigen Anforderungen genügen.
+
+## Nachvollziehbarkeit von Begründungen für historische Hypothesen
+
+Ein weiteres Beispiel für eine bislang schwer zu beantwortende Frage ist, inwiefern die Begründung für eine historische Hypothese H für andere Zeitgenossen nachvollziehbar oder überzeugend gewesen sein mag. Wenn wir wissenschaftliche Kontroversen einer bestimmten Epoche verstehen wollen, müssen wir uns fragen: Warum konnte die Publikation eines Autors A seine Kollegen B nicht überzeugen? Ein klassischer Fall in der Wissenschaftsgeschichte ist das Werk "De revolutionibus" von Kopernikus, das zwar einige, aber bei weitem nicht die Mehrheit seiner Zeitgenossen überzeugen konnte. Doch warum war das so? Spekulationen führen uns hier nicht weiter - stattdessen müssen wir solche Fragen auf eine solide methodische Grundlage stellen, und dies ist nur mittels KI möglich.
+
+# Die Entwicklung der KI und ihr Einfluss auf das wissenschaftliche Arbeiten
+
+Doch wie genau kann die KI uns bei der Beantwortung solch komplexer Fragen unterstützen? Dieser Frage werden wir uns im Laufe der Vorlesung eingehend widmen - und ich bin zuversichtlich, dass wir gemeinsam Antworten finden werden. Dabei werden wir feststellen, dass die Anwendung von KI weit weniger komplex und kompliziert ist, als man zunächst vermuten mag. Vielmehr ist sie das Ergebnis eines jahrzehntelangen Entwicklungsprozesses, der nun zu einem Leistungssprung führt, der auf den ersten Blick wie eine einmalige technische Neuerung aus dem Nichts erscheinen mag. Doch dieser Eindruck täuscht: Tatsächlich handelt es sich um einen langen evolutionären Prozess, der jetzt zu einem qualitativen Umbruch führt.
+
+## Die Entwicklung von Interfaces zur Interaktion mit KI
+
+Diese Entwicklung lässt sich anschaulich an der Art und Weise ablesen, wie wir als Nutzer mit diesen Technologien interagieren. Vor etwa 25 Jahren, genauer gesagt vor eher 20 Jahren, wurde der Browser erfunden - ein technisches Hilfsmittel, mit dem wir aufbereitete HTML-Webseiten betrachten können. Der entscheidende Clou dieser am CERN entwickelten Technik bestand darin, dass die Seiten Verlinkungen zu anderen Seiten enthielten und so ein schnell wachsendes Netzwerk an Informationen bereitstellten. Vor rund 15 Jahren folgte dann die Erfindung des Smartphones, das heute aus unserem Alltag kaum noch wegzudenken ist und uns einen ähnlichen Zugriff auf Inf# Einführung in die Interaktion mit KI-Systemen
+
+Heutzutage interagieren wir hauptsächlich über drei grundlegende Techniken mit künstlicher Intelligenz und den dadurch bereitgestellten Informationen. Die erste und wohl bekannteste Methode ist die Eingabe über ein Textfeld, das vor 25 Jahren mit dem HTTP-Protokoll definiert wurde. Dieses Feld, das oft fälschlicherweise als "Eingebefeld" bezeichnet wird, ermöglicht es Ihnen, mithilfe der Tastatur Links zu anderen Quellen einzugeben. Sie kennen diese Funktion vom Browser, wo Sie in der Adresszeile einen Link eintippen können. 
+
+## Entwicklung der Eingabemöglichkeiten
+
+Ursprünglich diente das Adressfeld ausschließlich dazu, Verknüpfungen zu anderen Seiten und Adressen einzugeben. In den letzten 15 Jahren hat sich dieses Feld jedoch weiterentwickelt und erlaubt nun die Eingabe von weiteren Anfragen – eine Funktion, die technisch gesehen gar nicht so anspruchsvoll ist, aber enorme Auswirkungen hat. Die berühmte Google-Suche ist ein perfektes Beispiel dafür: Anstatt selbst die Webadressen weiterer Quellen eingeben zu müssen, überlassen Sie diese Aufgabe nun einer Suchmaschine, die Ihre Anfrage beliebiger Art verarbeitet und Ihnen die entsprechenden Suchergebnisse zurückgibt.
+
+## Der Aufstieg von Chat-GPT
+
+Mit der Einführung von Chat-GPT erleben wir einen massiven Umbruch in der Interaktion zwischen Mensch und Maschine. Chat-GPT, eine dialogorientierte Seite, die die Interaktion mit der KI ermöglicht, hat einen tieferen Grund für ihren Erfolg, den ich gleich noch erläutern werde. Zunächst mag es wie ein cleverer Marketing-Trick erscheinen, doch tatsächlich war es der erste höchst erfolgreiche Auftritt der KI-Modelle über eine solche Chat-Interaktion. 
+
+Wir befinden uns derzeit an einem Wendepunkt, an dem sich die Art und Weise, wie wir mit Maschinen interagieren, radikal verändert. Was vorher nur dazu diente, Inhalte von Providern bereitzustellen, wird sich jetzt zu einer Interaktion mit einem KI-Modell entwickeln. Sie werden nicht mehr mit einem Provider kommunizieren, sondern mit einem KI-Modell interagieren, das Ihre Informations- und Mitteilungsbedürfnisse steuert.
+
+## Weitere Interaktionsmöglichkeiten
+
+Neben der Texteingabe gibt es noch weitere Möglichkeiten, mit KI-Systemen zu interagieren:
+
+- Sprachbefehle und Spracheingaben, wie Sie sie von Siri kennen, ermöglichen es Ihnen, Befehle über das Mikrofon eines Computers einzugeben, die dann in entsprechende Befehlsstrukturen umgesetzt werden und eine Reaktion der Maschine auslösen.
+
+- Datenbrillen und Headsets eröffnen neue Möglichkeiten der Interaktion. Obwohl ein erster Versuch von Google vor sechs Jahren aufgrund von Bedenken hinsichtlich der Privatsphäre scheiterte, planen nun alle größeren Firmen die Einführung solcher Geräte. Als Tourist könnten Sie beispielsweise vor einem Monument in Rom stehen und über die Brille Informationen zu dessen Erbauung und Geschichte abrufen. Oder Sie sitzen in der Oper und lassen sich eine Szene über den Ohrhörer erläutern.
+
+- Gesten, sowohl taktile als auch sichtbare, können als Signale für die KI dienen. Bei vollständig gelähmten Personen gibt es sogar Implantate, die Hirnströme nutzen, um Signale nach außen zu senden.
+
+Die Entwicklung in all diesen Bereichen schreitet rasant voran, und es bleibt spannend zu beobachten, in welche Richtung sie sich in den nächsten Jahren bewegen wird.
+
+# Die Architektur hinter den KI-Systemen
+
+## Generative KI
+
+Auf den ersten Blick mag die Funktionsweise der Software und Programme im Hintergrund höchst kompliziert erscheinen – schließlich können derzeit nur die größten Konzerne mit Milliardenaufwand solche Modelle erstellen. Doch im Kern ist die Architektur gar nicht so kompliziert, wie wir gleich sehen werden.
+
+Es geht hier um die sogenannte generative KI, oft auch abgekürzt als Gen-AI (nicht zu verwechseln mit dem Begriff "Gen"). Diese Systeme erzeugen etwas, das einen bedeutungsvollen sprachlichen Ausdruck darstellt – und genau das ist der revolutionäre Aspekt. Bisher bestanden die Techniken aus Zeichenfolgen, die lediglich eine bestimmte Regelhaftigkeit, eine Syntax, erfüllten, um als bedeutungsvolle Zeichenkette zu erscheinen. Ein Beispiel dafür wäre ein Satz, der im Deutschen durch einen Satzpunkt beendet und durch eine Großschreibung begonnen wird. Andere europäische Sprachen kennzeichnen die Syntax von Sätzen auf unterschiedliche Weise, aber darauf kommt es hier nicht an.
+
+## Von der Syntax zur Semantik
+
+Bisher beschränkte sich der Umgang von Computern mit unserer sprachlichen Welt auf die Verarbeitung von Zeichenketten – auf die Syntax. Doch jetzt kommt etwas völlig Neues hinzu, und das ist die große Stunde der Philosophie: die Semantik.
+
+- Die Syntax ist der sprachliche Ausdruck, die Zeichenketten, die Abfolge von Buchstaben, Wörtern und Sätzen, die linear verknüpft werden, um beispielsweise ein Buch zu bilden. All das sind sprachliche Ausdrücke oder, wie es der Philosoph Frege formulierte, der sinnlich wahrnehmbare Ausdruck sprachlicher, gedanklicher Inhalte.
+
+- Die Semantik hingegen befasst sich mit der Bedeutung dieser Zeichen. Und genau damit haben wir es hier zum ersten Mal durch die Technik zu tun.
+
+Im Gegensatz zu den vollmundigen Behauptungen der Konzerne, die schon von "Knowledge Graphen" à la Google sprachen, als von Bedeutung noch gar nicht die Rede war, sollte man diese Terminologie philosophisch hinterfragen. Dann wird schnell klar, dass das Kartenhaus ziemlich schnell zusammenfällt. Es handelt sich nicht um "Knowledge Graphen", sondern um ganz einfache Graphen. Von Wissen ist da noch keine Spur.
+
+Die philosophische Kritik an der Terminologie entlarvt, was hinter diesen Begrifflichkeiten eigentlich steckt. Und jeder, der bisher von der Bedeutung einer Aussage eines Computers gesprochen hat, weiß nicht, was es üblicherweise in der analytischen Philosophie bedeutet, von Bedeutung zu reden.# Die AI-Revolution: Sprache und Bedeutung
+
+Meine Damen und Herren, heute möchte ich Ihnen eine faszinierende Entwicklung näherbringen, die unser Verständnis von Sprache und Bedeutung grundlegend verändern wird: die AI-Revolution. Im Kern geht es darum, dass künstliche Intelligenz nun in der Lage ist, sprachliche Ausdrücke mit ihrer Bedeutung zu verbinden. Diese Fähigkeit hat weitreichende Konsequenzen, die ich Ihnen heute andeuten möchte.
+
+## Von der Suche nach Zeichenketten zur Suche nach Inhalten
+
+Bisher waren Suchmaschinen wie Google darauf beschränkt, nach Zeichenketten zu suchen. Sie gaben einen Begriff ein und die Maschine suchte nach passenden Wörtern, Namen oder Adressen. Damit ließ sich schon viel erreichen, aber im Grunde war es nichts anderes als eine Suche nach Zeichenfolgen.
+
+Doch nun eröffnet sich eine völlig neue Dimension: Die Suche nach den Inhalten und Aussagen, die mit sprachlichen Ausdrücken getroffen werden können. Lassen Sie mich das an einem einfachen Beispiel verdeutlichen:
+
+Der Satz "Der Hund ist schwarz" ist zunächst einmal eine Zeichenkette. Doch diese Zeichenkette ist noch kein Inhalt. In der Philosophie unterscheiden wir streng zwischen dem Satz selbst und der Bedeutung, die er ausdrückt.
+
+## Sätze, Aussagen und Wahrheitswerte
+
+Sätze sind weder wahr noch falsch - eine Aussage, die manchen Informatikern vielleicht überraschend erscheinen mag. Sätze sind sprachliche Ausdrücke, die wohlgeformt sein können, aber keinen Wahrheitswert haben. Wahr oder falsch sind hingegen die mit Sätzen ausgedrückten Inhalte, die wir in der Philosophie als Aussagen oder Propositionen bezeichnen.
+
+Solange wir uns nur auf der Ebene der Syntax bewegen, sind wir noch nicht einmal in der Welt des Wahren und Falschen angelangt. Und ohne Wahrheit oder Falschheit können wir auch nichts glauben oder für richtig halten. Überzeugungen entwickeln wir erst, wenn wir es mit etwas zu tun haben, das wahr oder falsch sein kann - eben mit Aussagen.
+
+## Die epistemische Dimension des Wissens
+
+Aussagen sind die Träger von Wahrheitswerten. Und erst wenn wir von Aussagen mit Wahrheitswerten sprechen, kommen wir in die Sphäre der Rechtfertigung, der Kritik und der Widerlegung. Die epistemische Seite des Wissens - das Behaupten, Finden, Kritisieren und Widerlegen von Wissen - setzt voraus, dass wir es mit Aussagen und ihren Wahrheitswerten zu tun haben.
+
+Eine Suchmaschine, die nur Zeichenketten findet, können Sie nicht kritisieren. Sie hat ihre Aufgabe erfüllt, auch wenn das Ergebnis vielleicht nicht Ihren Erwartungen entspricht. Kritik wäre hier fehl am Platz, ja geradezu ein Kategorienfehler.
+
+## Die Maschine lernt, Aussagen zu treffen
+
+Wie aber gelingt es nun der Maschine, Aussagen zu treffen - eine Fähigkeit, die wir bisher nur dem menschlichen Geist, der Vernunft zugeschrieben haben? Die AI-Modelle werden derzeit mit höchstem Aufwand darauf trainiert,
+
+1. bedeutungsähnliche Begriffe und Sätze zu unterscheiden,
+2. den Strom der sprachlichen Zeichen in Wörter und Satzzeichen zu zerlegen (sogenannte Token),
+3. und schließlich die Bedeutungsähnlichkeit von Sätzen zu erkennen.
+
+Nehmen wir drei Beispielsätze:
+
+- An eagle flies silently over the large tree. 
+- A swan flies noisily over the large tree.
+- A mouse eats happily a piece of cheese.
+
+Intuitiv erkennen wir sofort, dass die ersten beiden Sätze in ihrer Bedeutung ähnlich sind, auch wenn die Vögel verschieden sind und sich ihre Art zu fliegen unterscheidet. Wir würden sagen: Es fliegt ein Vogel auf eine bestimmte Weise über einen Baum.
+
+Mit dieser Formulierung greifen wir automatisch auf die Bedeutung der Ausdrücke zu. Wir verallgemeinern soweit, dass wir von Vögeln sprechen, obwohl das Wort "Vögel" gar nicht vorkommt. Wir erkennen die semantische Ähnlichkeit der Sätze.
+
+Der dritte Satz hingegen hat inhaltlich kaum etwas mit den ersten beiden gemeinsam. Allenfalls könnte man sagen, dass es auch hier um ein Tier geht. Aber sonst?
+
+Genau diese Fähigkeit, Bedeutungsähnlichkeiten zu erkennen und Aussagen zu treffen, wird den AI-Modellen nun beigebracht. Und damit eröffnet sich eine völlig neue Dimension der Sprachverarbeitung, die weit über die bloße Suche nach Zeichenketten hinausgeht.# Einführung
+
+Meine sehr verehrten Damen und Herren,
+
+lassen Sie uns heute eine faszinierende Reise in die Welt der künstlichen Intelligenz und der Sprachverarbeitung unternehmen. Wir werden ergründen, wie es möglich ist, dass Maschinen die Bedeutung von Wörtern und Sätzen erfassen können - eine Fähigkeit, die lange Zeit als einzigartig menschlich galt. 
+
+## Die Revolution der Sprachmodelle
+
+Die erste Revolution auf diesem Gebiet ereignete sich, als man begann, die Sprachmodelle mit praktisch der Gesamtheit aller im Internet verfügbaren Texte zu trainieren. Wir sprechen hier von Trillionen von Worteinheiten, sogenannten Token, die als Grundlage dienten. Nicht irgendwelche speziellen Texte, sondern alles, was überhaupt im Netz zu finden ist, wurde herangezogen, um etwas zu definieren, das technisch gesehen als "Embedding" oder "Einbettung" bezeichnet wird.
+
+### Das Prinzip der Embeddings
+
+Lassen Sie mich das Prinzip der Embeddings näher erläutern. Es handelt sich dabei um komprimierte Zahlenwerte, die Aufschluss darüber geben, in welchem Verwendungszusammenhang bestimmte Wörter mit anderen Wörtern stehen können. Im Grunde genommen werden gigantische Tabellen erstellt, die nichts anderes tun, als zu registrieren, welches Wort welchem anderen Wort folgt und in welchem Kontext von anderen Wörtern es auftritt.
+
+Über mathematisch raffinierte Verfahren, auf die wir hier nicht näher eingehen müssen, lassen sich diese Tabellen so weit kombinieren und komprimieren, dass am Ende eine Tabelle mit 1500 Spalten ausreicht, um jedem einzelnen Satz eine Zuordnung zu geben, welche Rolle jedes Wort innerhalb dieses Satzes für die Bedeutung spielt. Das ist eine erstaunlich geringe Zahl, wenn man bedenkt, wie komplex Sprache ist.
+
+### Die Bedeutung eines Satzes
+
+Oft wird vereinfachend gesagt, dass dieser Zahlenwert von 1536 Zahlen die Bedeutung eines Satzes ausdrückt. Das ist jedoch nicht ganz korrekt. Zunächst einmal drückt er nur die Kombinationshäufigkeit der Wörter untereinander aus - ein Schritt vor der eigentlichen Frage nach der Bedeutung. Aber es bringt uns der Antwort näher.
+
+## Die Herausforderung der Bedeutungsgleichheit
+
+Eine der ersten Herausforderungen, denen sich die KI-Forschung stellte, war die Frage, welche verschiedenen sprachlichen Ausdrücke die gleiche Bedeutung haben. Eine einfache Frage, die jedoch schwierig zu beantworten ist: Wie kann man maschinell erkennen, dass unterschiedliche Sätze, die von der Syntax her verschieden sind, dennoch das Gleiche ausdrücken?
+
+### Beispiele für Bedeutungsgleichheit
+
+Lassen Sie uns einige Beispiele betrachten:
+
+- Die Aktiv-Passiv-Konvertierung: "Der Hund jagt die Katze" und "Die Katze wird vom Hund gejagt" bedeuten das Gleiche, obwohl sie sprachlich verschieden sind.
+
+- Die Übersetzung: "Der Hund ist schwarz" hat die gleiche Bedeutung wie "The dog is black". Obwohl jedes einzelne Wort vom Ausdruck her verschieden ist, drücken beide Sätze dasselbe aus.
+
+## Die Lösung durch künstliche Intelligenz
+
+In den letzten fünf Jahren hat die KI eine Lösung für diese Herausforderung gefunden. Wie Sie sich vorstellen können, war die Computerlinguistik schon seit mindestens 50 Jahren damit beschäftigt, dieses Problem zu lösen - allerdings mit nur mäßigem Erfolg. Doch jetzt ist es möglich, und das ist einer der Gründe, warum maschinelle Übersetzung heute zur Grundausstattung von KI-Modellen gehört.
+
+### Komplexe Übersetzungen
+
+Moderne KI-Systeme sind in der Lage, komplexe Texte, sogar Fachtexte, adäquat in eine andere Sprache zu übersetzen. Und zwar nicht nur Wort für Wort, wie man es früher stümperhaft versucht hat, indem man jedes einzelne Wort in eine Übertragungstabelle einfügte und froh war, wenn die grammatischen Anforderungen halbwegs erfüllt wurden. Nein, heute kann ein Satz vollständig umgebaut oder sogar in Teilsätze zerlegt werden, um das Gleiche auszudrücken - genauso wie es ein guter menschlicher Übersetzer tun würde.
+
+## Das Training der KI-Modelle
+
+Embeddings sind die Grundvoraussetzung für diesen Erfolg. Sie sind ein Teil des riesigen Trainings, das die KI-Modelle durchlaufen. Für GPT 3.5 beispielsweise dauerte das Training etwa zwei Jahre und erforderte einen extremen Computeraufwand. Durch dieses Training anhand von Embeddings und vielen Textbeispielen lernen die KI-Modelle, die Frage nach Bedeutungsgleichheit erfolgreich zu beantworten.
+
+### Die Parameter der Modelle
+
+Das Training ist im Grunde ein Feintuning von Milliarden von Parametern - Stellschrauben, die so justiert werden müssen, dass die KI die Anforderungen an semantische Regeln richtig umsetzt. Das Trainingsziel ist dabei ganz einfach: Die Frage nach der Bedeutung zu lösen.
+
+### Trainingsdatensätze und Übersetzungsliteratur
+
+Für das Training gibt es hervorragende Datensätze, an denen man den Erfolg messen kann. Einer der entscheidenden Datensätze sind die Klassiker der Übersetzungsliteratur. Hier haben die besten Übersetzer der Welt eine literarische Quelle in einer Sprache vorgegeben und eine höchst anspruchsvolle Übersetzung als bedeutungsgleichen Ausdruck zugeordnet. Alles, was die großen Konzerne an Übersetzungsliteratur bekommen konnten, haben sie für das Training verwendet.
+
+Das ist eines der Geheimnisse, warum nun plötzlich auch Latein gut übersetzt wird. Die KI-Entwickler haben die Klassiker der Teutner-Serie genommen, die hervorragenden Übersetzungen der Philologen, und hatten damit eine präzise Übersetzungszuordnung zwischen modernen Sprachen und den Texten von Horaz oder Cicero.
+
+## Weitere Trainingsdaten
+
+Natürlich hat man auch die gesamte philosophische Literatur digitalisiert, denn hier finden sich wertvolle sprachphilosophische Reflexionen über die Inhalte. Was sind logische Schlussformen? Das kennen Sie alles aus den Logik-Lehrbüchern. Sie können aus den KI-Programmen herauskitzeln, dass sie diese Texte Satz für Satz trainiert haben. Nicht nur Philosophie-Studenten üben in Logik 1 die Logiktexte, auch alle KI-Modelle haben das intus, weil hier die Regeln der Semantik geübt werden. Ein Modus ponendo ponens gehört zum Repertoire des Schließens für KI-Modelle genauso wie für einen Philosophie-Studenten.
+
+Allerdings geht das manchmal auch noch deutlich daneben...# Bedeutungsgleichheit und Embeddings in der KI
+
+In der Welt der künstlichen Intelligenz spielen Wiederholungen eine ebenso entscheidende Rolle wie beim menschlichen Lernen. So wie ein einzelner Besuch einer Logikvorlesung nicht ausreicht, um die Materie vollständig zu beherrschen, benötigen auch Maschinen mehrfache Wiederholungen, um Inhalte zu verinnerlichen. Embeddings, numerische Repräsentationen von Wörtern oder Sätzen, dienen hierbei als Grundlage für das Training von KI-Modellen zur Bedeutungszuordnung. Doch Vorsicht: Embeddings allein reichen nicht aus, um die Bedeutung sprachlicher Ausdrücke vollständig zu erfassen.
+
+## Kontextabhängigkeit der Bedeutung
+
+Die Frage, ob Ausdrücke semantisch gleich sind, lässt sich in den meisten Fällen nicht pauschal beantworten. Der Kontext, in dem Sprache verwendet wird, spielt eine entscheidende Rolle bei der Beurteilung der Bedeutung sprachlicher Vorkommnisse. Embeddings reduzieren die komplexen Bedeutungsdimensionen auf einige Tausend mathematische Dimensionen - eine starke Vereinfachung, die jedoch den aktuellen Stand der Technik widerspiegelt.
+
+## Funktionsweise der KI bei inhaltlichen Fragen
+
+Stellen Sie sich vor, Sie fragen eine KI: "Fliegt da ein Schwan über den Baum?" Die KI übersetzt diese Eingabe zunächst in eine numerische Repräsentation, die sogenannten Embeddings. Dieser Satz erhält dann eine Zahl in 5.536 Dimensionen zugeordnet - eine erstaunlich kompakte Darstellung der dahinterstehenden Komplexität. Mit dieser Zahl durchsucht die KI eine Datenbank nach bedeutungsähnlichen Aussagen, unabhängig von der Sprache oder syntaktischen Transformationen wie Aktiv-Passiv-Konstruktionen. Die Zeichenabfolge (Strings) spielt keine Rolle mehr; es geht einzig um den Inhalt.
+
+## Erweiterung der Embeddings auf multimediale Inhalte
+
+Die Revolution der KI beschränkt sich nicht nur auf Texte. Embeddings lassen sich auch auf Bilder, Videos, Audio, 3D-Objekte und sogar Hologramme anwenden. KI-Programme können somit nicht nur Texte inhaltlich verstehen, sondern auch begleitende visuelle Elemente wie Diagramme oder Daten erschließen. Diese Erweiterung eröffnet völlig neue Möglichkeiten der Informationsverarbeitung.
+
+# Attention is all you need - die zweite Revolution
+
+Der Artikel "Attention is all you need", erschienen auf dem Preprint-Server arXiv der Cornell University, markiert einen weiteren Meilenstein in der KI-Revolution. Die Autoren, darunter Jakob Uskoreits Sohn, haben sich ihr ganzes Leben mit Übersetzungen beschäftigt - ein Bereich, der den Boden für die KI-Revolution bereitet hat.
+
+## Transformation von Sequenzen
+
+Der Artikel befasst sich mit der Transformation von Sequenzen, also Satzabfolgen. Sprache wird hier als eine Abfolge von Satztokenwörtern verstanden. Die Aufgabe besteht darin, nicht nur die Bedeutung dieser Ausdrücke zu identifizieren, sondern auch vorherzusagen, welches Wort als nächstes folgen könnte. Diese Funktion kennen Sie vielleicht von Rechtschreibkorrekturprogrammen oder der Wortvervollständigung auf Smartphones.
+
+## Die Bedeutung der Sequenztransformation
+
+Die Fähigkeit, die nächste Zeichenfolge vorherzusagen, mag auf den ersten Blick technisch interessant, aber nicht besonders aufregend erscheinen. Doch genau hier liegt der Schlüssel zur zweiten Revolution. Denn es geht nicht nur um sprachliche Ausdrücke, sondern um die Dimension der Bedeutung.
+
+# Rettungsversuch und KI-Demonstration
+
+Nachdem meine Folie sich unbeabsichtigt geschlossen hat, versuche ich einen Rettungsversuch mit Hilfe der KI. Nicht, um nach einer Lösung zu fragen, sondern um Ihnen live zu demonstrieren, was der Clou an der Vorhersage der nächsten Zeichenfolge ist.
+
+Ich gebe den Satz "Der Hund ist schwarz." ein. Was die KI als Fortsetzung vorschlägt, ist jedes Mal anders und oft überraschend. In der Evolution des User-Interfaces ist das, was früher der Go# Interaktion mit KI-Modellen
+
+Heute möchte ich Ihnen von einem faszinierenden Experiment berichten, das ich kürzlich mit einem KI-Modell durchgeführt habe. Stellen Sie sich vor, Sie geben dem Programm eine einfache Aussage ein, wie beispielsweise "Der Hund ist schwarz." Was erwarten Sie, dass das Modell darauf antwortet? Genau das habe ich ausprobiert und die Ergebnisse waren höchst aufschlussreich.
+
+## Die Herausforderung der Feststellung
+
+Als ich die Aussage "Der Hund ist schwarz." in das KI-Modell eingab, war ich gespannt, welche Reaktion es zeigen würde. Zu meiner Überraschung schien das Programm zunächst etwas perplex zu sein. Es wusste offenbar nicht so recht, was es mit dieser schlichten Feststellung anfangen sollte. 
+
+Ich wiederholte die Eingabe, doch das Modell reagierte erneut mit einer Entschuldigung und gab dann eine ausführliche Beschreibung eines schwarzen Labradors aus. Es assoziierte alles, was man mit schwarzen Hunden in Verbindung bringen könnte und generierte einen regelrechten pseudoliterarischen Erguss.
+
+Als ich die Aussage ein weiteres Mal wiederholte, erkannte das Programm immerhin, dass seine vorherige Antwort wohl nicht ganz das Richtige war. Es entschuldigte sich erneut und wiederholte die ursprüngliche Aussage in ihrer prägnanten Form.
+
+## Von der Frage zur Anweisung
+
+Dieses Experiment verdeutlicht einen wichtigen Wandel in der Nutzung von KI-Modellen. Anfangs dienten sie hauptsächlich dazu, Fragen zu beantworten - ähnlich wie bei einer Google-Suche. Die Pragmatik des Dialogführens war klar: Frage und Antwort.
+
+Doch mittlerweile hat sich der Fokus verschoben. Statt Fragen zu stellen, geben wir den Modellen immer häufiger Anweisungen oder Instruktionen. Deshalb wurden viele Modelle neu trainiert und tragen nun Namen, die auf ihre Fähigkeit zur Ausführung von Anweisungen hindeuten.
+
+## Die Bedeutung der Aufmerksamkeit
+
+Der Attention-Mechanismus spielt bei der Generierung plausibler Textfolgen eine entscheidende Rolle. Je nachdem, ob wir eine Frage stellen, eine Instruktion geben oder etwas sagen, das offensichtlich eine bestimmte Reaktion erfordert, passt sich die Ausgabe des Modells an.
+
+Doch was passiert, wenn wir dem Programm eine Aussage präsentieren, auf die es keine sinnvolle Antwort geben kann? Hier zeigt sich eine interessante Eigenschaft der meisten KI-Modelle: Sie sind so programmiert, dass sie immer etwas ausgeben müssen. Schweigsame Modelle, die bei einer Unsinnsfrage einfach nichts sagen, gibt es nicht.
+
+## Die Macht der Kontextualisierung
+
+Der revolutionäre Aspekt der gegenwärtigen KI-Modelle liegt in ihrer Fähigkeit, sprachliche Ausdrücke zu kontextualisieren. Nehmen wir das Beispiel der Übersetzung. Wenn ich dem Programm die Anweisung gebe: "Übersetze den Text 'Der Hund ist schwarz'", dann versteht es die Bedeutung und gibt korrekt "The dog is black" aus.
+
+Dieser Komplex aus Anweisung und sprachlichem Ausdruck wird vom Modell richtig verstanden und die entsprechende Ausgabe generiert. Intern reformuliert das Programm die Eingabe in eine explizite Wiedergabe des Inhalts, um sicherzustellen, dass alles eindeutig ist.# Erweiterung des Eingabekontexts zur Steuerung der Ausgabe
+
+In den gegenwärtigen KI-Modellen wird der Kontext explizit gemacht und mit in den Eingabekontext geschrieben. Auf diese Weise wird der generierte Text gesteuert. Wenn ich beispielsweise ohne weiteren Kontext den Satz "Der Hund ist schwarz" eingebe, fängt das Programm von sich aus an, weitere Informationen zu generieren. Durch Zusatzinformationen im Kontext lässt sich die Ausgabe jedoch stark beeinflussen.
+
+## Das Problem der Halluzination
+
+Die Halluzination entsteht dadurch, dass es keinerlei Beschränkungen auf den Inhalt oder sachliche Prüfungen gibt. Die aktuellen Modelle beherrschen lediglich die Übersetzung von sprachlichem Ausdruck in ihre Bedeutung - sie haben Sprachkompetenz, aber keinerlei Sachkompetenz. Es existieren keine Mechanismen, die prüfen, ob ein generierter Satz tatsächlich sachlich korrekt ist.
+
+Obwohl durch die KI-Programme die Dimension der Wahrheit, Rechtfertigung und Kritik eröffnet wird, lösen sie diese Fragen noch nicht ein. Sachliche Korrektheit wird nicht geprüft, Evidenzen nicht angeführt und Kritik nicht geübt. Diese Aspekte sind schlichtweg nicht Teil der Programme.
+
+## Konsequenzen für die Verwendung von KI-generierten Texten
+
+Hausarbeiten sollten niemals mit Chat-GPT geschrieben werden, da die Wahrscheinlichkeit für falsche Informationen extrem hoch ist. Die Programme sind perfekt darin, Ausgaben sinnvoll erscheinen zu lassen, aber nicht in der Lage, deren Wahrheitsgehalt zu überprüfen.
+
+Ein Beispiel hierfür ist meine Erfahrung mit einer Abfrage zu Leonhard Eulers Publikationsverhalten im Jahr 1756. Statt zuzugeben, keine Informationen zu haben, generierte das Programm eine perfekt aussehende, aber völlig erfundene Literaturangabe. Selbst als Experte konnte ich die Fälschung zunächst nicht erkennen - so überzeugend war die Formatierung bis hin zu passenden bibliografischen Details. Ohne Fachwissen wäre der Fake nicht aufgefallen.
+
+# Erweiterung der KI-Modelle um Wissen und Validierung
+
+## Notwendige Ergänzungen für sachliche Korrektheit
+
+Um zu garantieren, dass generierte Informationen richtig sind, müssen den KI-Modellen zusätzliche Elemente hinzugefügt werden. Sie benötigen Zugriff auf das Wissen der Welt, das ihnen momentan fehlt.
+
+Als Wissenschaftler würde man zur Prüfung einer Aussage wie folgt vorgehen:
+
+- Konsultation glaubwürdiger Referenzen
+- Recherche in Primärquellen (z.B. Eulers Opera Omnia)
+- Aufsuchen einer Bibliothek zur Verifizierung der Publikation
+
+Dieses Vorgehen müsste in zukünftigen KI-Systemen abgebildet werden, um sachliche Korrektheit herzustellen.
+
+## Verhältnis von Sprache und Sachlichkeit
+
+Sprache und Sachlichkeit sind vergleichbar komplex. Der sprachliche Ausdruck sollte idealerweise dem sachlichen Inhalt in der Welt entsprechen - eine Korrespondenztheorie der Wahrheit. Stimmen beide überein, ist die Aussage wahr, ansonsten falsch.
+
+Diese Korrespondenz muss den KI-Modellen methodisch beigebracht werden, um über reine Sprachkompetenz hinauszugehen. Aktuell fehlt ihnen der Zugriff auf die Realität, auf die sich die Sprache beziehen sollte.
+
+# Auswirkungen der KI-Entwicklung auf Sprache und Bedeutung
+
+## Zirkularität der Bedeutung in KI-trainierten Texten
+
+Wenn immer mehr Texte von KI-Systemen generiert werden, die auf jahrhundertealten Daten trainiert wurden, entsteht die Gefahr einer Zirkularität der Bedeutung. Neue Bedeutungsebenen von Begriffen könnten nicht mehr hinzukommen, die Sprache käme zum Stillstand - zumindest bei Systemen, die nur reproduzieren, was sie in den Vorlagen finden.
+
+## Übersetzungsfähigkeiten aktueller Programme
+
+Die aktuellen Programme arbeiten bereits auf der Bedeutungsebene und sind in der Lage, beliebige Sätze zu übersetzen, auch wenn die übersetzte Formulierung nirgends in der Literatur vorhanden ist.
+
+Selbst anspruchsvolle Texte wie Goethes Faust oder Werke von Thomas Mann, die nicht in jede Sprache übersetzt wurden, können von den Programmen übertragen werden. Ob die Übersetzung angemessen ist oder Fehler enthält, lässt sich diskutieren - aber die Programme werden einen Übersetzungsvorschlag liefern.# Einleitung
+
+Einen schönen guten Morgen, meine Damen und Herren. Heute möchte ich Ihnen etwas über die faszinierenden Entwicklungen im Bereich der Künstlichen Intelligenz und insbesondere der Sprachmodelle erzählen. Lassen Sie uns gemeinsam ergründen, wie diese Systeme funktionieren und welche Herausforderungen und Möglichkeiten sich daraus ergeben.
+
+# Die Bedeutung der Sprachverwendung
+
+Zunächst einmal stellt sich die Frage, wie die Bedeutung in der Sprache eigentlich entsteht. In der Philosophie gibt es dazu verschiedene Ansätze, aber eine zentrale Erkenntnis ist, dass die Bedeutung eng mit der tatsächlichen Verwendung der Sprache verknüpft ist. Die Sprachmodelle der KI versuchen genau das zu erfassen - sie analysieren riesige Textkorpora und lernen daraus, in welchen Kontexten bestimmte Ausdrücke typischerweise vorkommen. 
+
+Aber bedeutet das nun, dass die Entwicklung der Sprachmodelle davon abhängt, dass immer mehr Texte produziert werden? Nein, so einfach ist es nicht. Die Trainingsdaten sind in der Regel nur eine repräsentative Teilmenge aller verfügbaren Texte. Und natürlich verändert sich Sprache auch im Laufe der Zeit. Die historische Entwicklung von Bedeutungsverschiebungen ist eine große Herausforderung für die Forschung. Hier gibt es noch viel zu tun.
+
+# Die Gefahren fehlerhafter Kontexte
+
+Ein interessantes Phänomen, das wir beobachten konnten, sind Sprachmarotten, die in den Modellen entstehen können. In einem Fall wurden die Modelle offenbar mit Texten trainiert, in denen es nicht um tatsächliche Kausalzusammenhänge ging, sondern darum, was Personen glauben, was die Ursache von etwas ist. Das führte dazu, dass die Modelle Unsinn produzierten, wenn es um kausales Schließen ging. 
+
+Dieses Beispiel zeigt, wie wichtig die sorgfältige Auswahl und Aufbereitung der Trainingsdaten ist. Fehlerhafte oder irreführende Kontexte können sich hartnäckig in den Modellen festsetzen. Manchmal hilft es schon, in den Eingabetexten explizit klarzustellen, welche Art von Antwort man erwartet. Aber in manchen Fällen muss man vielleicht auch einsehen, dass das Modell für bestimmte Aufgaben einfach nicht geeignet ist.
+
+# Erfolge und Anwendungen
+
+Trotz dieser Herausforderungen gibt es aber auch beeindruckende Erfolge zu vermelden. Übersetzungen waren nicht nur ein kultureller Gewinn, sondern auch ein wichtiger Motor für das Training von Bedeutungsgleichheit. Die Modelle sind inzwischen in der Lage, hochwertige Zusammenfassungen von langen Texten zu erstellen. Mit einer Kontextlänge von 200.000 Wörtern kann man ganze Bücher eingeben und sich die Kapitel in kompakter Form zusammenfassen lassen.
+
+# Die Bedeutung des Chats
+
+Ein faszinierender Aspekt, der oft übersehen wird, ist die Rolle des Chats in der Interaktion mit Sprachmodellen wie ChatGPT. Die Entwickler wissen natürlich, dass man Begriffe nicht einfach durch notwendige und hinreichende Definitionen eingeben kann. Stattdessen nutzen sie Wittgensteinsche Gebrauchsdefinitionen. Und genau hier kommt der Chat ins Spiel.
+
+In einem Chat findet oft eine Art semantische Korrektur statt. Wir fragen "Was meinst du damit?" oder "Meinst du dies oder jenes?". Dadurch klären wir die Bedeutung dessen, was der andere gesagt hat. Und genau das passiert auch in der Interaktion mit ChatGPT. Wenn wir eine Frage stellen und das Modell antwortet, dann können wir durch Rückfragen und Klarstellungen den Kontext präzisieren. 
+
+Das bedeutet, dass wir als Nutzer aktiv zur Intelligenz des Systems beitragen. Indem wir chatten, helfen wir dem Modell, die Bedeutung zu erschließen und bessere Antworten zu geben. Das ist ein genialer Ansatz, der bewusst so entworfen wurde und bis heute genutzt wird.

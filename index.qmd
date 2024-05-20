@@ -1,0 +1,11 @@
+# Vorlesung *Philosophie der AI* {.unnumbered}
+
+Diese Website enthält die Living Pages zur Vorlesung *Philosophie der KI* von Prof. Dr. Gerd Graßhoff. Die Vorlesung findet im Sommersemester 2024 an der 
+Humboldt-Universität zu Berlin statt. 
+Die Living Pages der Vorlesung wurden aus dem Transkript der mündlich gehaltenen Vorlesung mit AI transkribiert und mit den Modellen von
+den Modellen von *Lettre AI* transkribiert und bearbeitet. Die Ergebnisse dieser Transkription werden von Gerd Graßhoff weiter redigiert, 
+ergänzt und mit weiterführenden Links und Verweisen versehen.
+
+Die Seiten richten sich an alle, die sich für die Philosophie der Künstlichen Intelligenz interessieren. 
+Sie stehen unter der Creative Commons Lizenz 4.0 und dürfen gerne zitiert werden. Andere Verwendunge wie auszugsweise Kopien oder 
+digitale Nutzungen erfordern die Erlaubnis des Autors.
