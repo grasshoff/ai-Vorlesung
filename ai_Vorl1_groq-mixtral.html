@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Gerd Graßhoff">
+<meta name="dcterms.date" content="2024-05-01">
+
+<title>Philosophie der AI – 1&nbsp; Philosophie der AI</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./references.html" rel="next">
+<link href="./index.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar docked">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./ai_Vorl1_groq-mixtral.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Philosophie der AI</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Philosophie der AI</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Vorlesung <em>Philosophie der AI</em></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ai_Vorl1_groq-mixtral.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Philosophie der AI</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">References</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Inhalt</h2>
+   
+  <ul>
+  <li><a href="#philosophie-der-ki-die-revolution-der-künstlichen-intelligenz" id="toc-philosophie-der-ki-die-revolution-der-künstlichen-intelligenz" class="nav-link active" data-scroll-target="#philosophie-der-ki-die-revolution-der-künstlichen-intelligenz"><span class="header-section-number">2</span> Philosophie der KI: Die Revolution der künstlichen Intelligenz</a>
+  <ul class="collapse">
+  <li><a href="#die-ära-der-künstlichen-intelligenz" id="toc-die-ära-der-künstlichen-intelligenz" class="nav-link" data-scroll-target="#die-ära-der-künstlichen-intelligenz"><span class="header-section-number">2.1</span> Die Ära der künstlichen Intelligenz</a>
+  <ul class="collapse">
+  <li><a href="#der-philosophische-aspekt-von-ai" id="toc-der-philosophische-aspekt-von-ai" class="nav-link" data-scroll-target="#der-philosophische-aspekt-von-ai"><span class="header-section-number">2.1.1</span> Der philosophische Aspekt von AI</a></li>
+  </ul></li>
+  <li><a href="#die-geschichte-der-ki" id="toc-die-geschichte-der-ki" class="nav-link" data-scroll-target="#die-geschichte-der-ki"><span class="header-section-number">2.2</span> Die Geschichte der KI</a>
+  <ul class="collapse">
+  <li><a href="#die-zukunft-der-ki" id="toc-die-zukunft-der-ki" class="nav-link" data-scroll-target="#die-zukunft-der-ki"><span class="header-section-number">2.2.1</span> Die Zukunft der KI</a></li>
+  </ul></li>
+  <li><a href="#die-relevanz-der-ki" id="toc-die-relevanz-der-ki" class="nav-link" data-scroll-target="#die-relevanz-der-ki"><span class="header-section-number">2.3</span> Die Relevanz der KI</a></li>
+  <li><a href="#die-attraktivität-der-ki" id="toc-die-attraktivität-der-ki" class="nav-link" data-scroll-target="#die-attraktivität-der-ki"><span class="header-section-number">2.4</span> Die Attraktivität der KI</a>
+  <ul class="collapse">
+  <li><a href="#die-webrevolution" id="toc-die-webrevolution" class="nav-link" data-scroll-target="#die-webrevolution"><span class="header-section-number">2.4.1</span> Die Webrevolution</a></li>
+  <li><a href="#die-ablösung-der-webwelt-durch-ki" id="toc-die-ablösung-der-webwelt-durch-ki" class="nav-link" data-scroll-target="#die-ablösung-der-webwelt-durch-ki"><span class="header-section-number">2.4.2</span> Die Ablösung der Webwelt durch KI</a></li>
+  </ul></li>
+  <li><a href="#fazit" id="toc-fazit" class="nav-link" data-scroll-target="#fazit"><span class="header-section-number">2.5</span> Fazit</a></li>
+  <li><a href="#die-veränderung-der-informationsstruktur-und--verantwortung" id="toc-die-veränderung-der-informationsstruktur-und--verantwortung" class="nav-link" data-scroll-target="#die-veränderung-der-informationsstruktur-und--verantwortung"><span class="header-section-number">2.6</span> Die Veränderung der Informationsstruktur und -verantwortung</a></li>
+  <li><a href="#die-vorteile-von-künstlicher-intelligenz-ki" id="toc-die-vorteile-von-künstlicher-intelligenz-ki" class="nav-link" data-scroll-target="#die-vorteile-von-künstlicher-intelligenz-ki"><span class="header-section-number">2.7</span> Die Vorteile von Künstlicher Intelligenz (KI)</a>
+  <ul class="collapse">
+  <li><a href="#maschinelle-übersetzung" id="toc-maschinelle-übersetzung" class="nav-link" data-scroll-target="#maschinelle-übersetzung"><span class="header-section-number">2.7.1</span> Maschinelle Übersetzung</a></li>
+  </ul></li>
+  <li><a href="#die-zukunft-der-maschinellen-übersetzung-und-ki" id="toc-die-zukunft-der-maschinellen-übersetzung-und-ki" class="nav-link" data-scroll-target="#die-zukunft-der-maschinellen-übersetzung-und-ki"><span class="header-section-number">2.8</span> Die Zukunft der maschinellen Übersetzung und KI</a>
+  <ul class="collapse">
+  <li><a href="#die-rolle-der-ki-in-der-wissenschaft" id="toc-die-rolle-der-ki-in-der-wissenschaft" class="nav-link" data-scroll-target="#die-rolle-der-ki-in-der-wissenschaft"><span class="header-section-number">2.8.1</span> Die Rolle der KI in der Wissenschaft</a></li>
+  </ul></li>
+  <li><a href="#die-herausforderungen-der-ki" id="toc-die-herausforderungen-der-ki" class="nav-link" data-scroll-target="#die-herausforderungen-der-ki"><span class="header-section-number">2.9</span> Die Herausforderungen der KI</a>
+  <ul class="collapse">
+  <li><a href="#die-frage-der-verantwortung" id="toc-die-frage-der-verantwortung" class="nav-link" data-scroll-target="#die-frage-der-verantwortung"><span class="header-section-number">2.9.1</span> Die Frage der Verantwortung</a></li>
+  </ul></li>
+  <li><a href="#die-zukunft-der-ki-1" id="toc-die-zukunft-der-ki-1" class="nav-link" data-scroll-target="#die-zukunft-der-ki-1"><span class="header-section-number">2.10</span> Die Zukunft der KI</a>
+  <ul class="collapse">
+  <li><a href="#die-rolle-der-ki-in-der-zukunft" id="toc-die-rolle-der-ki-in-der-zukunft" class="nav-link" data-scroll-target="#die-rolle-der-ki-in-der-zukunft"><span class="header-section-number">2.10.1</span> Die Rolle der KI in der Zukunft</a></li>
+  </ul></li>
+  <li><a href="#die-transformative-kraft-der-sprache-in-der-ki" id="toc-die-transformative-kraft-der-sprache-in-der-ki" class="nav-link" data-scroll-target="#die-transformative-kraft-der-sprache-in-der-ki"><span class="header-section-number">2.11</span> Die transformative Kraft der Sprache in der KI</a></li>
+  <li><a href="#die-rolle-der-universität-in-der-technischen-entwicklung" id="toc-die-rolle-der-universität-in-der-technischen-entwicklung" class="nav-link" data-scroll-target="#die-rolle-der-universität-in-der-technischen-entwicklung"><span class="header-section-number">2.12</span> Die Rolle der Universität in der technischen Entwicklung</a></li>
+  <li><a href="#die-gute-geschichte-der-ki" id="toc-die-gute-geschichte-der-ki" class="nav-link" data-scroll-target="#die-gute-geschichte-der-ki"><span class="header-section-number">2.13</span> Die “gute Geschichte” der KI</a></li>
+  <li><a href="#herausforderungen-und-probleme" id="toc-herausforderungen-und-probleme" class="nav-link" data-scroll-target="#herausforderungen-und-probleme"><span class="header-section-number">2.14</span> Herausforderungen und Probleme</a></li>
+  <li><a href="#selektive-information-und-diskriminierung" id="toc-selektive-information-und-diskriminierung" class="nav-link" data-scroll-target="#selektive-information-und-diskriminierung"><span class="header-section-number">2.15</span> Selektive Information und Diskriminierung</a></li>
+  <li><a href="#die-zukunft-der-ki-3" id="toc-die-zukunft-der-ki-3" class="nav-link" data-scroll-target="#die-zukunft-der-ki-3"><span class="header-section-number">2.16</span> Die Zukunft der KI</a></li>
+  <li><a href="#überwachungsaspekte-und-politische-kontrolle" id="toc-überwachungsaspekte-und-politische-kontrolle" class="nav-link" data-scroll-target="#überwachungsaspekte-und-politische-kontrolle"><span class="header-section-number">2.17</span> Überwachungsaspekte und politische Kontrolle</a></li>
+  <li><a href="#die-zukunft-der-ki-4" id="toc-die-zukunft-der-ki-4" class="nav-link" data-scroll-target="#die-zukunft-der-ki-4"><span class="header-section-number">2.18</span> Die Zukunft der KI</a></li>
+  <li><a href="#fragen-und-diskussion" id="toc-fragen-und-diskussion" class="nav-link" data-scroll-target="#fragen-und-diskussion"><span class="header-section-number">2.19</span> Fragen und Diskussion</a></li>
+  <li><a href="#galileis-vater-und-die-wissenschaftliche-nutzung-anderer-sprachen" id="toc-galileis-vater-und-die-wissenschaftliche-nutzung-anderer-sprachen" class="nav-link" data-scroll-target="#galileis-vater-und-die-wissenschaftliche-nutzung-anderer-sprachen"><span class="header-section-number">2.20</span> Galileis Vater und die wissenschaftliche Nutzung anderer Sprachen</a>
+  <ul class="collapse">
+  <li><a href="#die-grenzen-von-google-bei-der-beantwortung-historischer-fragen" id="toc-die-grenzen-von-google-bei-der-beantwortung-historischer-fragen" class="nav-link" data-scroll-target="#die-grenzen-von-google-bei-der-beantwortung-historischer-fragen"><span class="header-section-number">2.20.1</span> Die Grenzen von Google bei der Beantwortung historischer Fragen</a></li>
+  </ul></li>
+  <li><a href="#die-grenzen-der-aktuellen-akademischen-techniken" id="toc-die-grenzen-der-aktuellen-akademischen-techniken" class="nav-link" data-scroll-target="#die-grenzen-der-aktuellen-akademischen-techniken"><span class="header-section-number">2.21</span> Die Grenzen der aktuellen akademischen Techniken</a>
+  <ul class="collapse">
+  <li><a href="#die-schwierigkeit-aussagen-in-quellen-zu-finden" id="toc-die-schwierigkeit-aussagen-in-quellen-zu-finden" class="nav-link" data-scroll-target="#die-schwierigkeit-aussagen-in-quellen-zu-finden"><span class="header-section-number">2.21.1</span> Die Schwierigkeit, Aussagen in Quellen zu finden</a></li>
+  </ul></li>
+  <li><a href="#die-herausforderung-aussagen-in-briefen-zu-finden" id="toc-die-herausforderung-aussagen-in-briefen-zu-finden" class="nav-link" data-scroll-target="#die-herausforderung-aussagen-in-briefen-zu-finden"><span class="header-section-number">2.22</span> Die Herausforderung, Aussagen in Briefen zu finden</a></li>
+  <li><a href="#die-suche-nach-aussagen-in-umfangreichen-schriften" id="toc-die-suche-nach-aussagen-in-umfangreichen-schriften" class="nav-link" data-scroll-target="#die-suche-nach-aussagen-in-umfangreichen-schriften"><span class="header-section-number">2.23</span> Die Suche nach Aussagen in umfangreichen Schriften</a></li>
+  <li><a href="#die-grenzen-der-ki-bei-der-beantwortung-historischer-fragen" id="toc-die-grenzen-der-ki-bei-der-beantwortung-historischer-fragen" class="nav-link" data-scroll-target="#die-grenzen-der-ki-bei-der-beantwortung-historischer-fragen"><span class="header-section-number">2.24</span> Die Grenzen der KI bei der Beantwortung historischer Fragen</a>
+  <ul class="collapse">
+  <li><a href="#die-möglichkeiten-und-grenzen-von-ki-bei-der-beantwortung-historischer-fragen" id="toc-die-möglichkeiten-und-grenzen-von-ki-bei-der-beantwortung-historischer-fragen" class="nav-link" data-scroll-target="#die-möglichkeiten-und-grenzen-von-ki-bei-der-beantwortung-historischer-fragen"><span class="header-section-number">2.24.1</span> Die Möglichkeiten und Grenzen von KI bei der Beantwortung historischer Fragen</a></li>
+  </ul></li>
+  <li><a href="#die-bedeutung-von-metaphern-und-metaphernverständnis" id="toc-die-bedeutung-von-metaphern-und-metaphernverständnis" class="nav-link" data-scroll-target="#die-bedeutung-von-metaphern-und-metaphernverständnis"><span class="header-section-number">2.25</span> Die Bedeutung von Metaphern und Metaphernverständnis</a></li>
+  <li><a href="#die-bedeutung-von-bildinterpretation-und-ironischem-elementen" id="toc-die-bedeutung-von-bildinterpretation-und-ironischem-elementen" class="nav-link" data-scroll-target="#die-bedeutung-von-bildinterpretation-und-ironischem-elementen"><span class="header-section-number">2.26</span> Die Bedeutung von Bildinterpretation und ironischem Elementen</a></li>
+  <li><a href="#der-philosophische-aspekt-der-ki-revolution" id="toc-der-philosophische-aspekt-der-ki-revolution" class="nav-link" data-scroll-target="#der-philosophische-aspekt-der-ki-revolution"><span class="header-section-number">2.27</span> Der philosophische Aspekt der KI-Revolution</a></li>
+  </ul></li>
+  </ul>
+</nav>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Philosophie der AI</span></h1>
+<p class="subtitle lead">ai_Vorl1</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Gerd Graßhoff </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">May 1, 2024</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="philosophie-der-ki-die-revolution-der-künstlichen-intelligenz" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> Philosophie der KI: Die Revolution der künstlichen Intelligenz</h1>
+<p>Ich begrüße Sie herzlich zur ersten Vorlesung der Philosophie der KI, oder wie sie früher im Vorlesungsverzeichnis stand: Philosophie der künstlichen Intelligenz. Ich habe mich entschieden, den Titel zu kürzen, da der Begriff “AI” momentan in der Diskussion steht und ich Ihnen im Laufe des Semesters eine Übersicht über die philosophischen Beiträge und Fundamente der KI geben möchte. Dabei werde ich Sie durch die Grundlagen führen und zeigen, dass die eigentliche Innovation, der technologische Kern hinter dem Funktionieren der KI, anders ist, als viele Entwickler glauben. Ich bin davon überzeugt, dass die Philosophie die inhaltliche, systematische Basis dessen ist, was wir heute unter KI kennenlernen.</p>
+<section id="die-ära-der-künstlichen-intelligenz" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="die-ära-der-künstlichen-intelligenz"><span class="header-section-number">2.1</span> Die Ära der künstlichen Intelligenz</h2>
+<p>Die künstliche Intelligenz erlebt heute eine Renaissance der analytischen Philosophie, die den Kern der KI ausmacht. Wir sind nicht nur Zeugen einer technologisch-gesellschaftlichen, politischen und sonstigen Revolution, sondern stehen am Anfang einer Phase der Entwicklung der technologischen Revolution durch die Einführung der künstlichen Intelligenz. Die Möglichkeiten und technologischen Anforderungen ändern sich so schnell, dass sie sich auch während dieser Vorlesung ändern werden. Ich werde Ihnen die Gelegenheit geben, einige dieser Tools auszuprobieren, sei es während der Vorlesung, sei es auch in der Nachbereitung oder Vorbereitung.</p>
+<section id="der-philosophische-aspekt-von-ai" class="level3" data-number="2.1.1">
+<h3 data-number="2.1.1" class="anchored" data-anchor-id="der-philosophische-aspekt-von-ai"><span class="header-section-number">2.1.1</span> Der philosophische Aspekt von AI</h3>
+<p>Zu Beginn der Vorlesung werde ich nicht auf die Einführung in ChatGPT oder ähnliche Tools eingehen, sondern tiefer schürfend die philosophischen Aspekte dieser künstlichen Intelligenz thematisieren. Der modische Erscheinung des Begriffs AI oder KI möchte ich vorweg eine Frage stellen: Was verstehen Sie unter AI?</p>
+</section>
+</section>
+<section id="die-geschichte-der-ki" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="die-geschichte-der-ki"><span class="header-section-number">2.2</span> Die Geschichte der KI</h2>
+<p>Die Künstliche Intelligenz ist ein Begriff einer technischen Möglichkeit oder früher eher einer Vision, die Mitte der 50er Jahre erfunden wurde. Sie wurde erfunden von einigen Kollegen aus Pittsburgh, die dort ein Projekt verfolgten mit dem Ziel, maschinelle Computertechnologien zu entwickeln, die den menschlichen kognitiven Fähigkeiten nicht nur ebenbürtig sind, sondern sie sogar schlagen. Die Vorstellung war, dass Künstliche Intelligenz die Meisterdisziplin des menschlichen Denkens schnell überflügeln wird. Der Sektor eins war Schachspielen. Wie Sie wissen, ist das erst wirklich ernsthaft gelungen Anfang der 2000er Jahre. Das andere Ziel, nämlich Computer zu bauen, die wissenschaftlich kreativ denken, ist bis heute nicht wirklich erreicht.</p>
+<section id="die-zukunft-der-ki" class="level3" data-number="2.2.1">
+<h3 data-number="2.2.1" class="anchored" data-anchor-id="die-zukunft-der-ki"><span class="header-section-number">2.2.1</span> Die Zukunft der KI</h3>
+<p>Heute in der Öffentlichkeit ist eine KI präsent, die sich so präsentiert: Ich hoffe, ja, Sie können es vielleicht nicht, ich kann es nicht größer machen, ich weiß nicht, wie ich den Bildschirm irgendwie etwas lesefreundlicher mache, deswegen lese ich es vor. Also eine Anzeige, ich glaube vor einem halben Jahr, ein neuer Werbeauftritt der Firma Samsung mit einer, ich lese es vor, Bespoke AI 11-Kilogramm-Washing-Maschine Serie 8 mit AI-Eco-Bubble und Quick-Drive. Also Sie sehen, im Prinzip ist es technisch eine Waschmaschine, aber mit AI. Verkauft sich super. So, was ist daran AI? Nichts. Also es ist ein Verkaufslabel, mehr ist es nicht.</p>
+</section>
+</section>
+<section id="die-relevanz-der-ki" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="die-relevanz-der-ki"><span class="header-section-number">2.3</span> Die Relevanz der KI</h2>
+<p>Alles ist derzeit AI. Zu den Episoden 55 erfunden, der Begriff künstliche Intelligenz mit einer Vision, dass es also ein Mitwettbewerber für kreatives Denken ist, der hier geschaffen wird. Die hat sich zunächst nicht erfüllt, aber sind wir jetzt in einer Zeit, wo sie sich erfüllen könnte? Und meine Antwort ist ja. Und ich möchte Ihnen einen systematischen Grund geben, der, glaube ich, der für mich entscheidend ist und den ich Ihnen heute präsentieren möchte und den so vermitteln, dass er auch nachvollziehbar ist.</p>
+</section>
+<section id="die-attraktivität-der-ki" class="level2" data-number="2.4">
+<h2 data-number="2.4" class="anchored" data-anchor-id="die-attraktivität-der-ki"><span class="header-section-number">2.4</span> Die Attraktivität der KI</h2>
+<p>Aber wo liegt denn potenziell überhaupt die Attraktivität der AI, wie immer wir uns ihr nähern? Ist es eine bessere Internetsuchmaschine oder ist derzeit vielleicht mit einer der Triebfäder? Wenn Sie daran denken, wie lange es das Internet schon gibt, ist das, was die Technologiegeschichte betrifft, noch nicht sehr alt. So ein bisschen mehr als 20 Jahre. Und wer das noch mitgemacht hat, wie die ersten Anfänge von Browsern, wie sie damals hießen und heute noch hießen, aber damals oft verwechselt wurden mit Duschanlagen oder Ähnlichem. Also was ein Internetbrowser eigentlich ist, das wurde vor 20 Jahren in etwa eingeführt.</p>
+<section id="die-webrevolution" class="level3" data-number="2.4.1">
+<h3 data-number="2.4.1" class="anchored" data-anchor-id="die-webrevolution"><span class="header-section-number">2.4.1</span> Die Webrevolution</h3>
+<p>Im Kern mögen die ersten Monate am CERN zur reinen wissenschaftlichen Kommunikation. Und mittlerweile, wissen Sie, können wir ohne das Internet fast technisch und gesellschaftlich gar nichts machen. Im Kern ist die Konstruktion aber die, und das war die Grundidee der CERN-Entwicklung, dass irgendwo wissenschaftliche Maschinen, die Inhalte vermitteln wollen, Webzugängliche Seiten erstellen als Informationsquellen, die sie auch verantwortlich als Wissenschaftler, als technologische Provider bereitstellen, inhaltlich verantworten und auch eben pflegen und für die Zugänglichkeit über die Zeit hinweg sorgen. Die Browser sind nur das Lesefrontend, was diejenigen, die die Inhalte lesen wollen, nutzen, um die Inhalte über das Internet technisch fern zu übertragen.</p>
+</section>
+<section id="die-ablösung-der-webwelt-durch-ki" class="level3" data-number="2.4.2">
+<h3 data-number="2.4.2" class="anchored" data-anchor-id="die-ablösung-der-webwelt-durch-ki"><span class="header-section-number">2.4.2</span> Die Ablösung der Webwelt durch KI</h3>
+<p>Was wir jetzt erleben, ist eine Ablösung dieser Webwelt durch KI. Es wird nicht mehr der Browser, der die Inhalte verantwortet, auch nicht pflegt und nicht bereitstellt. Und das ist eine revolutionäre Änderung der Architektur der Informationsflüsse, aber auch der Probleme, die damit verbunden sind. Und einen Teil werden wir kennenlernen oder haben Sie schon erfahren. Denn das Web funktionierte deshalb bisher, weil die Inhalte, wie ich sagte, von den jeweilig bereitstellenden Personen, Institutionen oder Wissenschaftlern autorisiert wurden. Ihre Korrektheit und Richtigkeit wurde durch die Glaubwürdigkeit und auch die Gewissenhaftigkeit der Provider bereitgestellt. Das ändert sich. Und Sie alle wissen, welche Gefahren damit entstehen und welche Potenziale. Denn auf der einen Seite sind es jetzt große Internetfirmen, die die Inhalte über die KI-Maschinen, den sogenannten Bots, bereitstellen. Oder, wenn Sie es also besonders böswillig meinen, dann auch solche Institutionen oder Staaten oder böswillige Gestalten, die die Inhalte generieren, in das Netz einbringen und die gar nicht mehr als autorisierende Internetprovider in Erscheinung treten. Also es wird heute diskutiert unter Internetinhalten der Social Media. Das ist aber nur die Oberfläche. Der Kern des Wechsels und des Problems liegt daran, dass die Grundarchitektur des Internets mit den verantwortlichen Providern abgelöst wird durch, ich will nicht sagen unverantwortliche Bots, aber die schwächere Form ist durch nicht mehr verantwortliche Internetinhaltsprovider. Und das hat eben mit der AI-Revolution und mit dem Umändern der Informationsflüsse im Internet zu tun.</p>
+</section>
+</section>
+<section id="fazit" class="level2" data-number="2.5">
+<h2 data-number="2.5" class="anchored" data-anchor-id="fazit"><span class="header-section-number">2.5</span> Fazit</h2>
+<p>Die Philosophie der KI ist ein spannendes und aktuelles Thema, das uns alle betrifft. Wir stehen am Anfang einer Phase der Entwicklung der technologischen Revolution durch die Einführung der künstlichen Intelligenz. Die Möglichkeiten und technologischen Anforderungen ändern sich so schnell, dass sie sich auch während dieser Vorlesung ändern werden. Ich lade Sie ein, sich auf diese Reise mit mir zu begeben und die philosophischen Aspekte dieser künstlichen Intelligenz zu erkunden.# Die Zukunft der Informationsbeschaffung und Künstliche Intelligenz</p>
+<p>Die Art und Weise, wie wir Informationen suchen und konsumieren, hat sich im Laufe der Zeit dramatisch verändert. Heutzutage ist es undenkbar, ohne Suchmaschinen wie Google auszukommen, um an die benötigten Informationen zu gelangen. Doch was passiert, wenn sich die Architektur der Informationsbeschaffung und Bereitstellung ändert? Wie wird sich unsere Gesellschaft und unser Wissensdurst in der Zukunft stillen, wenn die etablierten Provider nicht mehr die gleiche Verantwortung für die Qualität der Informationen tragen?</p>
+</section>
+<section id="die-veränderung-der-informationsstruktur-und--verantwortung" class="level2" data-number="2.6">
+<h2 data-number="2.6" class="anchored" data-anchor-id="die-veränderung-der-informationsstruktur-und--verantwortung"><span class="header-section-number">2.6</span> Die Veränderung der Informationsstruktur und -verantwortung</h2>
+<p>Die Art und Weise, wie wir Informationen konsumieren, wird sich drastisch verändern. Die Verantwortung für die Qualität der Informationen wird nicht länger bei den etablierten Providern liegen, sondern bei den neuen Akteuren in der sich ständig weiterentwickelnden digitalen Welt. Die Veränderungen sind dynamisch und schwer vorherzusehen, aber eines ist sicher: Die Entwicklung wird stattfinden, und jeder Staat, jede Region und jedes Europa sollte daran interessiert sein, nicht die Kontrolle über diese Entwicklung zu verlieren.</p>
+</section>
+<section id="die-vorteile-von-künstlicher-intelligenz-ki" class="level2" data-number="2.7">
+<h2 data-number="2.7" class="anchored" data-anchor-id="die-vorteile-von-künstlicher-intelligenz-ki"><span class="header-section-number">2.7</span> Die Vorteile von Künstlicher Intelligenz (KI)</h2>
+<p>Die KI wird nicht nur die Art und Weise, wie wir Informationen konsumieren, verändern, sondern auch die Qualität und Zugänglichkeit der Informationen verbessern. Ein Bereich, in dem dies besonders deutlich wird, ist die maschinelle Übersetzung.</p>
+<section id="maschinelle-übersetzung" class="level3" data-number="2.7.1">
+<h3 data-number="2.7.1" class="anchored" data-anchor-id="maschinelle-übersetzung"><span class="header-section-number">2.7.1</span> Maschinelle Übersetzung</h3>
+<p>Die maschinelle Übersetzung hat in den letzten Jahren enorme Fortschritte gemacht. Die Qualität der Übersetzungen ist so gut geworden, dass sie für akademische Zwecke genutzt werden kann. Dies ist ein großer Fortschritt, wenn man bedenkt, dass die maschinelle Übersetzung in der Vergangenheit oft nur als Partygag funktionierte.</p>
+<p>Ein Beispiel für die Leistungsfähigkeit der maschinellen Übersetzung ist die Übersetzung lateinischer Texte. Latein war in der Vergangenheit eine wichtige Sprache für wissenschaftliche Publikationen, und viele historische Quellen sind immer noch in Latein verfasst. Die maschinelle Übersetzung ermöglicht es nun, diese Texte für ein breiteres Publikum zugänglich zu machen.</p>
+</section>
+</section>
+<section id="die-zukunft-der-maschinellen-übersetzung-und-ki" class="level2" data-number="2.8">
+<h2 data-number="2.8" class="anchored" data-anchor-id="die-zukunft-der-maschinellen-übersetzung-und-ki"><span class="header-section-number">2.8</span> Die Zukunft der maschinellen Übersetzung und KI</h2>
+<p>Die maschinelle Übersetzung ist nur ein Beispiel für die Möglichkeiten, die die KI bietet. Die KI wird nicht nur die Art und Weise, wie wir Informationen konsumieren, verändern, sondern auch die Art und Weise, wie wir mit Informationen interagieren.</p>
+<section id="die-rolle-der-ki-in-der-wissenschaft" class="level3" data-number="2.8.1">
+<h3 data-number="2.8.1" class="anchored" data-anchor-id="die-rolle-der-ki-in-der-wissenschaft"><span class="header-section-number">2.8.1</span> Die Rolle der KI in der Wissenschaft</h3>
+<p>Die KI wird auch in der Wissenschaft eine immer wichtigere Rolle spielen. Die maschinelle Übersetzung ist nur ein Beispiel für die Möglichkeiten, die die KI bietet. Die KI kann auch bei der Analyse großer Datenmengen, der Erstellung von Forschungsberichten und der Verbesserung der Rechtschreibung und Grammatik helfen.</p>
+<section id="die-maschinelle-übersetzung-in-der-wissenschaft" class="level4" data-number="2.8.1.1">
+<h4 data-number="2.8.1.1" class="anchored" data-anchor-id="die-maschinelle-übersetzung-in-der-wissenschaft"><span class="header-section-number">2.8.1.1</span> Die maschinelle Übersetzung in der Wissenschaft</h4>
+<p>Die maschinelle Übersetzung wird in der Wissenschaft immer wichtiger, da sie es ermöglicht, wissenschaftliche Publikationen einem breiteren Publikum zugänglich zu machen. Die maschinelle Übersetzung kann auch dazu beitragen, die Sprachbarrieren in der Wissenschaft abzubauen und die Zusammenarbeit zwischen Wissenschaftlern aus verschiedenen Ländern zu erleichtern.</p>
+</section>
+<section id="die-analyse-großer-datenmengen" class="level4" data-number="2.8.1.2">
+<h4 data-number="2.8.1.2" class="anchored" data-anchor-id="die-analyse-großer-datenmengen"><span class="header-section-number">2.8.1.2</span> Die Analyse großer Datenmengen</h4>
+<p>Die KI kann auch bei der Analyse großer Datenmengen helfen. Die KI kann Muster und Trends in großen Datenmengen erkennen, die für Menschen nicht sichtbar sind. Dies kann dazu beitragen, neue Erkenntnisse in verschiedenen Disziplinen zu gewinnen.</p>
+</section>
+<section id="die-erstellung-von-forschungsberichten" class="level4" data-number="2.8.1.3">
+<h4 data-number="2.8.1.3" class="anchored" data-anchor-id="die-erstellung-von-forschungsberichten"><span class="header-section-number">2.8.1.3</span> Die Erstellung von Forschungsberichten</h4>
+<p>Die KI kann auch bei der Erstellung von Forschungsberichten helfen. Die KI kann die Arbeit von Forschern erleichtern, indem sie automatisch Forschungsberichte erstellt, die den normalen Publikationen qualitativ gleichen.</p>
+</section>
+<section id="die-verbesserung-der-rechtschreibung-und-grammatik" class="level4" data-number="2.8.1.4">
+<h4 data-number="2.8.1.4" class="anchored" data-anchor-id="die-verbesserung-der-rechtschreibung-und-grammatik"><span class="header-section-number">2.8.1.4</span> Die Verbesserung der Rechtschreibung und Grammatik</h4>
+<p>Die KI kann auch bei der Verbesserung der Rechtschreibung und Grammatik helfen. Die KI kann Texte auf Rechtschreib- und Grammatikfehler überprüfen und Vorschläge zur Verbesserung machen. Dies kann dazu beitragen, die Qualität wissenschaftlicher Publikationen zu verbessern.</p>
+</section>
+</section>
+</section>
+<section id="die-herausforderungen-der-ki" class="level2" data-number="2.9">
+<h2 data-number="2.9" class="anchored" data-anchor-id="die-herausforderungen-der-ki"><span class="header-section-number">2.9</span> Die Herausforderungen der KI</h2>
+<p>Die KI bietet viele Möglichkeiten, aber sie bringt auch Herausforderungen mit sich. Eine der größten Herausforderungen ist die Frage der Verantwortung. Wer ist verantwortlich für die Ergebnisse der KI? Wer ist verantwortlich, wenn die KI Fehler macht?</p>
+<section id="die-frage-der-verantwortung" class="level3" data-number="2.9.1">
+<h3 data-number="2.9.1" class="anchored" data-anchor-id="die-frage-der-verantwortung"><span class="header-section-number">2.9.1</span> Die Frage der Verantwortung</h3>
+<p>Die Frage der Verantwortung ist eine der größten Herausforderungen bei der Einführung von KI. Wer ist verantwortlich, wenn die KI Fehler macht? Wer ist verantwortlich, wenn die KI zu falschen Schlussfolgerungen kommt? Diese Fragen müssen beantwortet werden, bevor die KI in verschiedenen Bereichen eingesetzt wird.</p>
+<section id="die-verantwortung-von-forschern" class="level4" data-number="2.9.1.1">
+<h4 data-number="2.9.1.1" class="anchored" data-anchor-id="die-verantwortung-von-forschern"><span class="header-section-number">2.9.1.1</span> Die Verantwortung von Forschern</h4>
+<p>Forscher haben eine wichtige Rolle bei der Lösung der Frage der Verantwortung. Forscher müssen sich bewusst sein, dass die KI nicht perfekt ist und dass sie Fehler machen kann. Forscher müssen sich auch bewusst sein, dass sie für die Ergebnisse der KI verantwortlich sind.</p>
+</section>
+<section id="die-verantwortung-von-unternehmen" class="level4" data-number="2.9.1.2">
+<h4 data-number="2.9.1.2" class="anchored" data-anchor-id="die-verantwortung-von-unternehmen"><span class="header-section-number">2.9.1.2</span> Die Verantwortung von Unternehmen</h4>
+<p>Unternehmen, die KI-Lösungen anbieten, haben auch eine wichtige Rolle bei der Lösung der Frage der Verantwortung. Unternehmen müssen sicherstellen, dass ihre KI-Lösungen sicher und zuverlässig sind. Unternehmen müssen auch sicherstellen, dass ihre KI-Lösungen transparent sind und dass die Benutzer verstehen, wie die KI funktioniert.</p>
+</section>
+<section id="die-verantwortung-von-regierungen" class="level4" data-number="2.9.1.3">
+<h4 data-number="2.9.1.3" class="anchored" data-anchor-id="die-verantwortung-von-regierungen"><span class="header-section-number">2.9.1.3</span> Die Verantwortung von Regierungen</h4>
+<p>Regierungen haben auch eine wichtige Rolle bei der Lösung der Frage der Verantwortung. Regierungen müssen sicherstellen, dass die KI-Lösungen sicher und zuverlässig sind. Regierungen müssen auch sicherstellen, dass die KI-Lösungen transparent sind und dass die Benutzer verstehen, wie die KI funktioniert.</p>
+</section>
+</section>
+</section>
+<section id="die-zukunft-der-ki-1" class="level2" data-number="2.10">
+<h2 data-number="2.10" class="anchored" data-anchor-id="die-zukunft-der-ki-1"><span class="header-section-number">2.10</span> Die Zukunft der KI</h2>
+<p>Die KI wird die Art und Weise, wie wir Informationen konsumieren und interagieren, verändern. Die KI wird auch die Art und Weise, wie wir mit Informationen interagieren, verändern. Die KI bietet viele Möglichkeiten, aber sie bringt auch Herausforderungen mit sich. Die Frage der Verantwortung ist eine der größten Herausforderungen bei der Einführung von KI. Wer ist verantwortlich, wenn die KI Fehler macht? Wer ist verantwortlich, wenn die KI zu falschen Schlussfolgerungen kommt? Diese Fragen müssen beantwortet werden, bevor die KI in verschiedenen Bereichen eingesetzt wird.</p>
+<section id="die-rolle-der-ki-in-der-zukunft" class="level3" data-number="2.10.1">
+<h3 data-number="2.10.1" class="anchored" data-anchor-id="die-rolle-der-ki-in-der-zukunft"><span class="header-section-number">2.10.1</span> Die Rolle der KI in der Zukunft</h3>
+<p>Die KI wird in der Zukunft eine immer wichtigere Rolle spielen. Die KI wird nicht nur die Art und Weise, wie wir Informationen konsumieren, verändern, sondern auch die Art und Weise, wie wir mit Informationen interagieren. Die KI wird dazu beitragen, die Sprachbarrieren in der Wissenschaft abzubauen und die Zusammenarbeit zwischen Wissenschaftlern aus verschiedenen Ländern zu erleichtern. Die KI wird auch dazu beitragen, die Qualität wissenschaftlicher Publikationen zu verbessern.</p>
+<section id="die-verantwortung-von-forschern-unternehmen-und-regierungen" class="level4" data-number="2.10.1.1">
+<h4 data-number="2.10.1.1" class="anchored" data-anchor-id="die-verantwortung-von-forschern-unternehmen-und-regierungen"><span class="header-section-number">2.10.1.1</span> Die Verantwortung von Forschern, Unternehmen und Regierungen</h4>
+<p>Die Frage der Verantwortung ist eine der größten Herausforderungen bei der Einführung von KI. Wer ist verantwortlich, wenn die KI Fehler macht? Wer ist verantwortlich, wenn die KI zu falschen Schlussfolgerungen kommt? Diese Fragen müssen beantwortet werden, bevor die KI in verschiedenen Bereichen eingesetzt wird. Forscher, Unternehmen und Regierungen müssen sich bewusst sein, dass sie für die Ergebnisse der KI verantwortlich sind.</p>
+</section>
+<section id="die-zukunft-der-ki-2" class="level4" data-number="2.10.1.2">
+<h4 data-number="2.10.1.2" class="anchored" data-anchor-id="die-zukunft-der-ki-2"><span class="header-section-number">2.10.1.2</span> Die Zukunft der KI</h4>
+<p>Die KI wird die Art und Weise, wie wir Informationen konsumieren und interagieren, verändern. Die KI wird auch die Art und Weise, wie wir mit Informationen interagieren, verändern. Die KI bietet viele Möglichkeiten, aber sie bringt auch Herausforderungen mit sich. Die Frage der Verantwortung ist eine der größten Herausforderungen bei der Einführung von KI. Wer ist verantwortlich, wenn die KI Fehler macht? Wer ist verantwortlich, wenn die KI zu falschen Schlussfolgerungen kommt? Diese Fragen müssen beantwortet werden, bevor die KI in verschiedenen Bereichen eingesetzt wird.# Künstliche Intelligenz: Möglichkeiten und Herausforderungen</p>
+<p>In meiner Vorlesung möchte ich heute über die zunehmende Bedeutung von künstlicher Intelligenz (KI) sprechen und die damit einhergehenden Möglichkeiten und Herausforderungen beleuchten. Dabei konzentriere ich mich auf den Umgang und die Ausnutzung von Sprache zu KI-Modellen.</p>
+</section>
+</section>
+</section>
+<section id="die-transformative-kraft-der-sprache-in-der-ki" class="level2" data-number="2.11">
+<h2 data-number="2.11" class="anchored" data-anchor-id="die-transformative-kraft-der-sprache-in-der-ki"><span class="header-section-number">2.11</span> Die transformative Kraft der Sprache in der KI</h2>
+<p>Die Sprache ist der Kern der KI-Technologie. Auch wenn Sie Bildverarbeitung durchführen, übersetzen Programme im Hintergrund ein Bild in eine Bildbeschreibung. Die Modelle funktionieren nicht durch einen automatischen Reflex von einem Bild zu einer Sprache, sondern immer in einer Zwischenphase, die ein Bild in eine Sprachbeschreibung übersetzt.</p>
+</section>
+<section id="die-rolle-der-universität-in-der-technischen-entwicklung" class="level2" data-number="2.12">
+<h2 data-number="2.12" class="anchored" data-anchor-id="die-rolle-der-universität-in-der-technischen-entwicklung"><span class="header-section-number">2.12</span> Die Rolle der Universität in der technischen Entwicklung</h2>
+<p>Obwohl Universitäten die Fundamente für die technische Entwicklung gelegt haben, sind sie in der technischen Führerschaft nicht mehr vorne mitmischen, da der Mittelaufwand enorm hoch ist. Die technische Seite werde ich nicht behandeln, sondern den Fokus auf die Verarbeitung und Weitergabe von Daten legen.</p>
+</section>
+<section id="die-gute-geschichte-der-ki" class="level2" data-number="2.13">
+<h2 data-number="2.13" class="anchored" data-anchor-id="die-gute-geschichte-der-ki"><span class="header-section-number">2.13</span> Die “gute Geschichte” der KI</h2>
+<p>Die “gute Geschichte” der KI besteht darin, dass die Antwort nicht mehr von einer autoritativen Quelle gesucht wird, sondern das Programm selbst die Antwort aus den verfügbaren Informationen zusammenstellt. Die KI erstellt die Antwort, anstatt dass der Inhaltsprovider die Informationen bereitstellt.</p>
+</section>
+<section id="herausforderungen-und-probleme" class="level2" data-number="2.14">
+<h2 data-number="2.14" class="anchored" data-anchor-id="herausforderungen-und-probleme"><span class="header-section-number">2.14</span> Herausforderungen und Probleme</h2>
+<p>Es gibt jedoch auch Probleme, wie zum Beispiel die Übersetzung von Text in Audio, Bild in Text oder Audio in Text. Auch das Zusammenfassen von Informationen ist eine Herausforderung. Die KI kann ein ganzes Buch lesen und auf einer halben Seite zusammenfassen. Die Möglichkeiten sind enorm, aber es gibt auch Probleme.</p>
+<p>Ein Beispiel ist die sogenannte “Halluzination” von KI-Modellen. Das passiert, wenn die KI glaubwürdig wirkt, aber falsche oder manipulative Informationen liefert. Ein bekanntes Beispiel ist der Google-Desaster vor anderthalb Jahren, als ein Supermodell halluzinierte und eine falsche Antwort auf eine Frage gab.</p>
+</section>
+<section id="selektive-information-und-diskriminierung" class="level2" data-number="2.15">
+<h2 data-number="2.15" class="anchored" data-anchor-id="selektive-information-und-diskriminierung"><span class="header-section-number">2.15</span> Selektive Information und Diskriminierung</h2>
+<p>Ein weiteres Problem ist die selektive Information, die eintretet, weil jede Antwort auf einer Annahme oder Voraussetzung beruht. Diese Voraussetzungen haben immer auch Alternativen, die häufig nicht berücksichtigt werden. Das führt zu selektiver Information und potenzieller Diskriminierung.</p>
+</section>
+<section id="die-zukunft-der-ki-3" class="level2" data-number="2.16">
+<h2 data-number="2.16" class="anchored" data-anchor-id="die-zukunft-der-ki-3"><span class="header-section-number">2.16</span> Die Zukunft der KI</h2>
+<p>Die Entwicklung der KI ist unausweichlich und wird uns zunehmend beschäftigen. Wir müssen uns mit den Vorteilen und Problemen auseinandersetzen und die Technologie gestalten, anstatt sie zu kontrollieren. Wir dürfen uns nicht vor den Fragen drücken, die sich aus der Entwicklung der KI ergeben.</p>
+</section>
+<section id="überwachungsaspekte-und-politische-kontrolle" class="level2" data-number="2.17">
+<h2 data-number="2.17" class="anchored" data-anchor-id="überwachungsaspekte-und-politische-kontrolle"><span class="header-section-number">2.17</span> Überwachungsaspekte und politische Kontrolle</h2>
+<p>Überwachungsaspekte sind ein weiterer wichtiger Punkt. In China ist es beispielsweise möglich, durch Gesichtserkennung und Überwachungskameras den Aufenthaltsort und die Tätigkeiten von Personen genauestens zu protokollieren. Die Konferenz an der EU beschäftigt sich derzeit mit der Frage, wie weit diese Technologien zugelassen werden sollen.</p>
+</section>
+<section id="die-zukunft-der-ki-4" class="level2" data-number="2.18">
+<h2 data-number="2.18" class="anchored" data-anchor-id="die-zukunft-der-ki-4"><span class="header-section-number">2.18</span> Die Zukunft der KI</h2>
+<p>Die Zukunft der KI ist vielversprechend, aber auch herausfordernd. Wir müssen die Technologie gestalten und uns mit den Problemen auseinandersetzen, die sich aus der Entwicklung der KI ergeben. Die Möglichkeiten sind enorm, aber es gibt auch Risiken und Herausforderungen.</p>
+</section>
+<section id="fragen-und-diskussion" class="level2" data-number="2.19">
+<h2 data-number="2.19" class="anchored" data-anchor-id="fragen-und-diskussion"><span class="header-section-number">2.19</span> Fragen und Diskussion</h2>
+<p>Ich lade Sie ein, Fragen zu stellen und über die Themen zu diskutieren, die ich heute angesprochen habe. Lassen Sie uns gemeinsam über die Zukunft der KI nachdenken und wie wir sie gestalten können.# Zwei Fragen und eine Konferenz</p>
+<p>Ich möchte heute über zwei Fragen sprechen, die mich beschäftigen. Zunächst einmal habe ich eine Frage zu einer Konferenz, die ich besuchen möchte. Ich habe gehört, dass sie nicht im August stattfindet, wie ich ursprünglich dachte. Stattdessen ist es eine sich wiederholende Konferenzserie, die bereits in Institutionen breite Aufmerksamkeit und Kenntnis gefunden hat. Sogar auf EU-Ebene wurden diese Themen bereits im März des letzten Jahres diskutiert, wenn auch ohne Lösung. Es gibt keine Konferenz, die behauptet, das Problem morgen gelöst zu haben. Stattdessen müssen wir uns mit den philosophischen Aspekten auseinandersetzen, die sowohl den Vorteilen als auch den Gefahren dieser Themen zugrunde liegen.</p>
+</section>
+<section id="galileis-vater-und-die-wissenschaftliche-nutzung-anderer-sprachen" class="level2" data-number="2.20">
+<h2 data-number="2.20" class="anchored" data-anchor-id="galileis-vater-und-die-wissenschaftliche-nutzung-anderer-sprachen"><span class="header-section-number">2.20</span> Galileis Vater und die wissenschaftliche Nutzung anderer Sprachen</h2>
+<p>Lassen Sie mich ein Beispiel geben. Es kursiert in der Fachliteratur das Gerücht, dass Galileis Vater sich negativ zu der wissenschaftlichen Nutzung anderer Sprachen als Latein geäußert hat. Hier haben wir einen potenziellen Vater-Sohn-Konflikt, da Galilei bekannt ist für seine Nutzung des Italienischen in der Wissenschaft. Es ist interessant zu beobachten, wie sich diese Frage auf die historische Wahrheit auswirkt.</p>
+<section id="die-grenzen-von-google-bei-der-beantwortung-historischer-fragen" class="level3" data-number="2.20.1">
+<h3 data-number="2.20.1" class="anchored" data-anchor-id="die-grenzen-von-google-bei-der-beantwortung-historischer-fragen"><span class="header-section-number">2.20.1</span> Die Grenzen von Google bei der Beantwortung historischer Fragen</h3>
+<p>Nehmen wir an, jemand möchte herausfinden, ob sich eine bestimmte Person X negativ zu einer bestimmten These geäußert hat. Diese Frage kann nicht durch Google beantwortet werden, da es kein Dokument gibt, das diese Frage beantwortet. Die Frage ist jedoch historisch wahr oder falsch. Wie können wir also entscheiden, ob sie wahr oder falsch ist? Nicht durch Google-Techniken, sondern durch eine neue Dimension der Recherche, die bestimmte Fähigkeiten anders hat.</p>
+</section>
+</section>
+<section id="die-grenzen-der-aktuellen-akademischen-techniken" class="level2" data-number="2.21">
+<h2 data-number="2.21" class="anchored" data-anchor-id="die-grenzen-der-aktuellen-akademischen-techniken"><span class="header-section-number">2.21</span> Die Grenzen der aktuellen akademischen Techniken</h2>
+<p>Es gibt Fragen, die auch für forschende Personen nicht lösbar sind. Mir geht es um die unlösbaren Probleme der realen Forschungswelt, die mit KI, aber aufgrund bestimmter Fähigkeiten zu lösen sind. Hierbei möchte ich sprachanalytisch komprimieren.</p>
+<section id="die-schwierigkeit-aussagen-in-quellen-zu-finden" class="level3" data-number="2.21.1">
+<h3 data-number="2.21.1" class="anchored" data-anchor-id="die-schwierigkeit-aussagen-in-quellen-zu-finden"><span class="header-section-number">2.21.1</span> Die Schwierigkeit, Aussagen in Quellen zu finden</h3>
+<p>Nehmen wir an, Person A äußert sich in einer Quelle Q zu einer Person namens Jochen Schmidt. Ist diese Antwort wahr oder falsch? Hier haben Sie eine gewisse Chance, wenn Sie die Quelle gefunden haben. Wenn die Person A in der Quelle benannt und ihre Äußerung zu Jochen Schmidt eindeutig ist, können Sie sagen, dass die Schwierigkeitsstufe 0 erreicht ist. Wenn das Ihre Examensaufgabe ist, haben Sie eine gewisse Chance, die zu lösen. Sie müssen nur eben die Quellen alle lesen, solange bis Sie die gefunden haben.</p>
+</section>
+</section>
+<section id="die-herausforderung-aussagen-in-briefen-zu-finden" class="level2" data-number="2.22">
+<h2 data-number="2.22" class="anchored" data-anchor-id="die-herausforderung-aussagen-in-briefen-zu-finden"><span class="header-section-number">2.22</span> Die Herausforderung, Aussagen in Briefen zu finden</h2>
+<p>Person A äußert sich in seinen Briefen zu einem Thema T. Das können Sie fast nicht lösen, ohne eine Lebensdauer der Lektüre mit dem gesammelten Schrifttum der Person A zu absolvieren. Wer das also z. B. für eine Examensarbeit zu einer Biografie einer Person Heinz Müller oder so verfassen sollte, hat eine enorme Forschungsaufgabe vor sich.</p>
+</section>
+<section id="die-suche-nach-aussagen-in-umfangreichen-schriften" class="level2" data-number="2.23">
+<h2 data-number="2.23" class="anchored" data-anchor-id="die-suche-nach-aussagen-in-umfangreichen-schriften"><span class="header-section-number">2.23</span> Die Suche nach Aussagen in umfangreichen Schriften</h2>
+<p>Traf eine Person A in seinen Schriften Aussagen der Art T, wenn Person A viel geschrieben hat? Z. B. Briefe Napoleons. Hat sich Napoleon zu Aspekten der Vorläufer der Genfer Konvention bei der Kriegsführung jemals geäußert? Können Sie nicht lösen. Aus praktischen Gründen. Diese Fragen möchte man in der Wissenschaft beantwortet haben. Und Sie können sich vorstellen, welche enormen Konsequenzen auch für die Wissenschaft selbst es hat, wenn Sie solche Fragen überhaupt beantworten können.</p>
+</section>
+<section id="die-grenzen-der-ki-bei-der-beantwortung-historischer-fragen" class="level2" data-number="2.24">
+<h2 data-number="2.24" class="anchored" data-anchor-id="die-grenzen-der-ki-bei-der-beantwortung-historischer-fragen"><span class="header-section-number">2.24</span> Die Grenzen der KI bei der Beantwortung historischer Fragen</h2>
+<p>Eine Frage, die Person A traf in seinen Schriften, keine Aussage T, wird von normal arbeitenden Historikern nicht beantwortet. Es gibt deswegen in der Literatur eigentlich so eine Unsitte, andere Literatur zu zitieren, die sich aus irgendwelchen Gründen dazu bemüßigt fühlte, solche Fragen zu beantworten.</p>
+<section id="die-möglichkeiten-und-grenzen-von-ki-bei-der-beantwortung-historischer-fragen" class="level3" data-number="2.24.1">
+<h3 data-number="2.24.1" class="anchored" data-anchor-id="die-möglichkeiten-und-grenzen-von-ki-bei-der-beantwortung-historischer-fragen"><span class="header-section-number">2.24.1</span> Die Möglichkeiten und Grenzen von KI bei der Beantwortung historischer Fragen</h3>
+<p>Mit KI können Sie in Zukunft solche Fragen beantworten. Schwieriger, aber möglich. Inwieweit ist denn das speziell für KI? Weil das würde ich erwarten, das kann man grammatisch lösen. Soweit ich die Aussage T privatisiert bekomme, kann ich auf dem Korpus einfach prüfen, ob diese Bedingung irgendwo erfüllt ist. Was heißt das? Genau diesen Punkt, ich muss mal so ein bisschen auf die Uhr gucken, dass ich meine Kurve noch kriege hier, aber die berührt schon diese Kurve. Was heißt das, in Ihrem Korpus können Sie es prüfen? Weil angenommen, Sie haben einen Idealfall. Sie haben Kafkas gesammelten Briefwechsel in einer Datenbank. So, jetzt möchte ich hier, nehmen wir ruhig dieses Beispiel. Gibt es eine antisemitische Formulierung in der Datenbank? Wie sieht die denn aus? Wenn Sie Ihre Datenbank so Art googlemäßig nach bestimmten Wortvorkommnissen durchsuchen, ja, dann können Sie das lösen. Das ist die klassische Art, wie wir das machen. Aber inhaltlich, was ist denn jetzt eine antisemitische Äußerung? Wenn sobald es darum geht, und deswegen habe ich es hier gesagt, keine Aussage T. Ich habe nicht gesagt, dass es kein Satzvorkommnis hier gibt. Das ist die alte Art der Dokumentenaufzeichnung und der Dokumentenabfrage. Das können Sie tun mit einer Datenbank. Aber Sie können mit keiner Datenbank heute inhaltliche Suchen vornehmen. Ich würde behaupten, dass auch KI nicht die Aussage treffen kann, dass es keine Aussage gab, weil man immer davon ausgehen müsste, dass eine Datenbank nicht vollständig ist. Und es kann eigentlich nur mit Wahrscheinlichkeit verfolgt werden. Wahrscheinlich ist heute wahrscheinlich etwas. Ja, ich würde den Begriff der Wahrscheinlichkeit hier weglassen oder kritisieren. Wahrscheinlichkeiten sind Werte numerisch zwischen 0 und 1. Die können Sie ja auch nicht erwarten oder geben. Was Sie aber geben sollten, entspricht genau Ihrer Situation. Nämlich, dass man sagt, ich habe diese und jene Grundgesamtheit von Briefwechseln, von Äußerungen als Dokumente für die Befunde zur Verfügung und unter der Voraussetzung, dass sie die alleinige Entscheidungsgrundlage sind, ist folgendes Fazit abzuleiten. So, das wäre eine differenzierte Befundlage. Das heißt, so wie ich es jetzt hier vereinfacht dargestellt habe, haben Sie völlig recht. Man kann ja nicht ausschließen, dass genau die Briefe, die diese Inhalte haben, zum Beispiel vernichtet worden sind. Das kann man sich leicht vorstellen. Und schon haben Sie eine Veränderung des Wahrheitswertes dieser Frage. Und da haben Sie völlig recht. Dieses kann passieren und dieses kann auch KI nicht nehmen. Aber es kann die qualifizierte, wenn wir das modifizieren mit der Wahrscheinlichkeit, es kann die modifizierte Antwort geben auf der Basis dieser Evidenz, die ich zur Verfügung habe. Da kann man sagen, in diesem Gesamtbestand gibt es keine derartige Äußerung.</p>
+</section>
+</section>
+<section id="die-bedeutung-von-metaphern-und-metaphernverständnis" class="level2" data-number="2.25">
+<h2 data-number="2.25" class="anchored" data-anchor-id="die-bedeutung-von-metaphern-und-metaphernverständnis"><span class="header-section-number">2.25</span> Die Bedeutung von Metaphern und Metaphernverständnis</h2>
+<p>Die Fähigkeit, Metaphern und Metaphernverständnis zu erkennen, ist entscheidend, um die Bedeutung von Sprache und Bildern zu verstehen. Ein Modell, das eine größere Datenbank von Fotografien und eine bessere Metapher oder Ikonen hat, als ein Modell, das nur Sprache hat, ist in der Lage, eine bessere Interpretation von Bildern und Sprache zu geben.</p>
+</section>
+<section id="die-bedeutung-von-bildinterpretation-und-ironischem-elementen" class="level2" data-number="2.26">
+<h2 data-number="2.26" class="anchored" data-anchor-id="die-bedeutung-von-bildinterpretation-und-ironischem-elementen"><span class="header-section-number">2.26</span> Die Bedeutung von Bildinterpretation und ironischem Elementen</h2>
+<p>Alle Programme funktionieren so, dass sie zunächst auch Bildinterpretation, wie beim Kunsthistoriker, in eine Sprachinterpretation übertragen. Und in dieser Sprachinterpretation muss dann natürlich auch die Erkennbarkeit auch von ironischen Elementen gemeistert werden.</p>
+</section>
+<section id="der-philosophische-aspekt-der-ki-revolution" class="level2" data-number="2.27">
+<h2 data-number="2.27" class="anchored" data-anchor-id="der-philosophische-aspekt-der-ki-revolution"><span class="header-section-number">2.27</span> Der philosophische Aspekt der KI-Revolution</h2>
+<p>Die KI-Revolution hat einen philosophischen Aspekt, da wir nun Maschinen haben, die mit Aussagen umgehen können, die wahr oder falsch sind. Dies ist ein wichtiger Unterschied zur Vergangenheit, als wir nur mit Sätzen arbeiteten, die Formulierungen bestimmter Art und Weise waren. Jetzt können wir uns auf diese Aussagen beziehen, was sowohl eine Möglichkeit als auch eine Gefahr der KI-Revolution darstellt.</p>
+<p>Damit schließe ich für heute. Nächste Woche geht es weiter. Vielen Dank.</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./index.html" class="pagination-link" aria-label="Vorlesung *Philosophie der AI*">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Vorlesung <em>Philosophie der AI</em></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./references.html" class="pagination-link" aria-label="References">
+        <span class="nav-page-text">References</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© CC-By OpenScienceTechnology GmbH</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>This page is built with <a href="https://quarto.org/">Quarto</a></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
