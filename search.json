@@ -722,11 +722,11 @@
   {
     "objectID": "modell.html",
     "href": "modell.html",
-    "title": "5  Modell",
+    "title": "Modell",
     "section": "",
-    "text": "Über diesen Link wird das Lettre AI Studio aufgerufen, das mit erweiterbaren AI Modellen die Aufgaben von Vorlesung und begleitenden Seminaren unterstützt.\n\n[Lettre AI Studio]",
+    "text": "Über diesen Link wird das Lettre AI Studio aufgerufen, das mit erweiterbaren AI Modellen die Aufgaben von Vorlesung und begleitenden Seminaren unterstützt.\n\n[Lettre AI Studio](https://ai-vorlesung.streamlit.app/",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Modell</span>"
+      "Modell"
     ]
   }
 ]
