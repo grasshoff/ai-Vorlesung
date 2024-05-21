@@ -4,9 +4,9 @@
     "href": "index.html",
     "title": "Philosophie der AI",
     "section": "",
-    "text": "Vorlesung Philosophie der AI\nDiese Website enthält die Living Pages zur Vorlesung Philosophie der KI von Prof. Dr. Gerd Graßhoff. Die Vorlesung findet im Sommersemester 2024 an der Humboldt-Universität zu Berlin statt. Die Living Pages basieren auf dem Transkript der mündlich gehaltenen Vorlesung, das mit den Modellen von Lettre AI transkribiert und bearbeitet wurde.\nDer transkribierte Inhalt wird von Gerd Graßhoff weiter redigiert, ergänzt und mit zusätzlichen Links und Verweisen angereichert.\nDie Seiten richten sich an alle, die sich für die Philosophie der Künstlichen Intelligenz interessieren. Sie stehen unter der Creative Commons Lizenz 4.0 und dürfen gerne zitiert werden. Andere Nutzungen, wie auszugsweise Kopien oder digitale Verwendungen, erfordern die Erlaubnis des Autors.",
+    "text": "Philosophie der AI\nDiese Website enthält die Living Pages zur Vorlesung Philosophie der KI von Prof. Dr. Gerd Graßhoff. Die Vorlesung findet im Sommersemester 2024 an der Humboldt-Universität zu Berlin statt. Die Living Pages basieren auf dem Transkript der mündlich gehaltenen Vorlesung, das mit den Modellen von Lettre AI transkribiert und bearbeitet wurde.\nDer transkribierte Inhalt wird von Gerd Graßhoff weiter redigiert, ergänzt und mit zusätzlichen Links und Verweisen angereichert.\nDie Seiten richten sich an alle, die sich für die Philosophie der Künstlichen Intelligenz interessieren. Sie stehen unter der Creative Commons Lizenz 4.0 und dürfen gerne zitiert werden. Andere Nutzungen, wie auszugsweise Kopien oder digitale Verwendungen, erfordern die Erlaubnis des Autors.",
     "crumbs": [
-      "Vorlesung *Philosophie der AI*"
+      "*Philosophie der AI*"
     ]
   },
   {
@@ -717,6 +717,16 @@
     "text": "Copeland, B. Jack, ed. 2004. The Essential Turing: Seminal Writings\nin Computing, Logic, Philosophy, Artificial Intelligence, and Artificial\nLife: Plus the Secrets of Enigma. Oxford University Press.\n\n\nDavies, D. W. 1950. “A Theory of Chess and Noughts and\nCrosses.” Science News 16: 40–64.\n\n\nGödel, Kurt. 1986. Kurt Gödel: Collected Works: Volume\ni: Publications 1929-1936. Vol. 1. Oxford University Press, USA.\n\n\nNeumann, J. von. 1963. “The General and Logical Theory of\nAutomata.” In Collected Works, edited by A. H. Taub,\n5:288–89. Oxford: Pergamon Press.\n\n\nNewborn, M. 1997. Kasparov Versus Deep Blue: Computer Chess Comes of\nAge. New York: Springer.\n\n\nSamuel, A. L. 1959. “Some Studies in Machine Learning Using the\nGame of Checkers.” IBM Journal of Research and\nDevelopment 3: 211–29.\n\n\nShannon, C. E. 1950a. “A Chess-Playing Machine.”\nScientific American 182: 48–51.\n\n\n———. 1950b. “Programming a Computer for Playing Chess.”\nPhilosophical Magazine 41: 256–75.",
     "crumbs": [
       "References"
+    ]
+  },
+  {
+    "objectID": "modell.html",
+    "href": "modell.html",
+    "title": "5  Modell",
+    "section": "",
+    "text": "Über diesen Link wird das Lettre AI Studio aufgerufen, das mit erweiterbaren AI Modellen die Aufgaben von Vorlesung und begleitenden Seminaren unterstützt.\n\n[Lettre AI Studio]",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Modell</span>"
     ]
   }
 ]
