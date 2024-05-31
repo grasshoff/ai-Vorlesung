@@ -1,0 +1,966 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.39">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Gerd Graßhoff">
+<meta name="dcterms.date" content="2024-05-30">
+
+<title>Philosophie der AI – 6&nbsp; Denken mit Logik</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./ai_Vorl5.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar docked">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./ai_Vorl6.html"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Denken mit Logik</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default toc-left page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Denken mit Logik</span></h1>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Gerd Graßhoff </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">May 30, 2024</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Philosophie der AI</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><em>Philosophie der AI</em></span></a>
+  </div>
+</li>
+        <li class="px-0"><hr class="sidebar-divider hi "></li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ai_Vorl1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Was ist AI?</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ai_Vorl2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Die Revolution der AI</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ai_Vorl3.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Charakter von LLMs</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ai_Vorl4.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">LLM für Sprache</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ai_Vorl5.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Sprache und Text</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ai_Vorl6.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Denken mit Logik</span></span></a>
+  </div>
+</li>
+        <li class="px-0"><hr class="sidebar-divider hi "></li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">References</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./modell.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Modell</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Inhalt</h2>
+   
+  <ul>
+  <li><a href="#begrüßung-und-einführung-in-die-6.-vorlesung" id="toc-begrüßung-und-einführung-in-die-6.-vorlesung" class="nav-link active" data-scroll-target="#begrüßung-und-einführung-in-die-6.-vorlesung"><span class="header-section-number">6.1</span> Begrüßung und Einführung in die 6. Vorlesung</a>
+  <ul class="collapse">
+  <li><a href="#stärken-und-schwächen-der-ai-modelle" id="toc-stärken-und-schwächen-der-ai-modelle" class="nav-link" data-scroll-target="#stärken-und-schwächen-der-ai-modelle"><span class="header-section-number">6.1.1</span> Stärken und Schwächen der AI-Modelle</a></li>
+  <li><a href="#grenzen-der-ai-modelle" id="toc-grenzen-der-ai-modelle" class="nav-link" data-scroll-target="#grenzen-der-ai-modelle"><span class="header-section-number">6.1.2</span> Grenzen der AI-Modelle</a></li>
+  <li><a href="#einführung-in-das-projekt-magister-ai-faustus" id="toc-einführung-in-das-projekt-magister-ai-faustus" class="nav-link" data-scroll-target="#einführung-in-das-projekt-magister-ai-faustus"><span class="header-section-number">6.1.3</span> Einführung in das Projekt MAGISTER AI Faustus</a></li>
+  </ul></li>
+  <li><a href="#logisches-denken" id="toc-logisches-denken" class="nav-link" data-scroll-target="#logisches-denken"><span class="header-section-number">6.2</span> Logisches Denken</a>
+  <ul class="collapse">
+  <li><a href="#definition-von-logischem-denken" id="toc-definition-von-logischem-denken" class="nav-link" data-scroll-target="#definition-von-logischem-denken"><span class="header-section-number">6.2.1</span> Definition von logischem Denken</a></li>
+  <li><a href="#probleme-beim-training-von-logischem-denken-in-ai-modellen" id="toc-probleme-beim-training-von-logischem-denken-in-ai-modellen" class="nav-link" data-scroll-target="#probleme-beim-training-von-logischem-denken-in-ai-modellen"><span class="header-section-number">6.2.2</span> Probleme beim Training von logischem Denken in AI-Modellen</a></li>
+  <li><a href="#unterschied-zwischen-context-of-discovery-und-context-of-justification" id="toc-unterschied-zwischen-context-of-discovery-und-context-of-justification" class="nav-link" data-scroll-target="#unterschied-zwischen-context-of-discovery-und-context-of-justification"><span class="header-section-number">6.2.3</span> Unterschied zwischen Context of Discovery und Context of Justification</a></li>
+  <li><a href="#mangel-an-discovery-prozessen-in-publikationen" id="toc-mangel-an-discovery-prozessen-in-publikationen" class="nav-link" data-scroll-target="#mangel-an-discovery-prozessen-in-publikationen"><span class="header-section-number">6.2.4</span> Mangel an Discovery-Prozessen in Publikationen</a></li>
+  <li><a href="#experimentelle-untersuchung-von-ideen-während-der-forschung" id="toc-experimentelle-untersuchung-von-ideen-während-der-forschung" class="nav-link" data-scroll-target="#experimentelle-untersuchung-von-ideen-während-der-forschung"><span class="header-section-number">6.2.5</span> Experimentelle Untersuchung von Ideen während der Forschung</a></li>
+  </ul></li>
+  <li><a href="#folgen-für-ai-modelle" id="toc-folgen-für-ai-modelle" class="nav-link" data-scroll-target="#folgen-für-ai-modelle"><span class="header-section-number">6.3</span> Folgen für AI-Modelle</a>
+  <ul class="collapse">
+  <li><a href="#begrenzte-kompetenzen-der-ai-modelle" id="toc-begrenzte-kompetenzen-der-ai-modelle" class="nav-link" data-scroll-target="#begrenzte-kompetenzen-der-ai-modelle"><span class="header-section-number">6.3.1</span> Begrenzte Kompetenzen der AI-Modelle</a></li>
+  </ul></li>
+  <li><a href="#instruktionen-für-ai-modelle" id="toc-instruktionen-für-ai-modelle" class="nav-link" data-scroll-target="#instruktionen-für-ai-modelle"><span class="header-section-number">6.4</span> Instruktionen für AI-Modelle</a>
+  <ul class="collapse">
+  <li><a href="#formulierung-von-forschungsvorhaben" id="toc-formulierung-von-forschungsvorhaben" class="nav-link" data-scroll-target="#formulierung-von-forschungsvorhaben"><span class="header-section-number">6.4.1</span> Formulierung von Forschungsvorhaben</a></li>
+  <li><a href="#das-lettre-ai-studio" id="toc-das-lettre-ai-studio" class="nav-link" data-scroll-target="#das-lettre-ai-studio"><span class="header-section-number">6.4.2</span> Das Lettre AI Studio</a></li>
+  </ul></li>
+  <li><a href="#defizite-der-ai-modelle-bei-logischen-verhältnissen" id="toc-defizite-der-ai-modelle-bei-logischen-verhältnissen" class="nav-link" data-scroll-target="#defizite-der-ai-modelle-bei-logischen-verhältnissen"><span class="header-section-number">6.5</span> Defizite der AI-Modelle bei logischen Verhältnissen</a>
+  <ul class="collapse">
+  <li><a href="#zensur-bei-anthropic" id="toc-zensur-bei-anthropic" class="nav-link" data-scroll-target="#zensur-bei-anthropic"><span class="header-section-number">6.5.1</span> Zensur bei Anthropic</a></li>
+  <li><a href="#openai-hat-dazugelernt" id="toc-openai-hat-dazugelernt" class="nav-link" data-scroll-target="#openai-hat-dazugelernt"><span class="header-section-number">6.5.2</span> OpenAI hat dazugelernt</a></li>
+  <li><a href="#analyse-der-sätze-durch-das-einfache-modell" id="toc-analyse-der-sätze-durch-das-einfache-modell" class="nav-link" data-scroll-target="#analyse-der-sätze-durch-das-einfache-modell"><span class="header-section-number">6.5.3</span> Analyse der Sätze durch das einfache Modell</a></li>
+  <li><a href="#konfusion-philosophischer-grundfähigkeiten" id="toc-konfusion-philosophischer-grundfähigkeiten" class="nav-link" data-scroll-target="#konfusion-philosophischer-grundfähigkeiten"><span class="header-section-number">6.5.4</span> Konfusion philosophischer Grundfähigkeiten</a></li>
+  <li><a href="#die-anfrage-und-das-scheitern-des-modells" id="toc-die-anfrage-und-das-scheitern-des-modells" class="nav-link" data-scroll-target="#die-anfrage-und-das-scheitern-des-modells"><span class="header-section-number">6.5.5</span> Die Anfrage und das Scheitern des Modells</a></li>
+  <li><a href="#verbesserungen-und-anpassungen-der-modelle" id="toc-verbesserungen-und-anpassungen-der-modelle" class="nav-link" data-scroll-target="#verbesserungen-und-anpassungen-der-modelle"><span class="header-section-number">6.5.6</span> Verbesserungen und Anpassungen der Modelle</a></li>
+  <li><a href="#die-bedeutung-eigener-tests-und-erfahrungen" id="toc-die-bedeutung-eigener-tests-und-erfahrungen" class="nav-link" data-scroll-target="#die-bedeutung-eigener-tests-und-erfahrungen"><span class="header-section-number">6.5.7</span> Die Bedeutung eigener Tests und Erfahrungen</a></li>
+  </ul></li>
+  <li><a href="#analyse-eines-verbesserten-modells" id="toc-analyse-eines-verbesserten-modells" class="nav-link" data-scroll-target="#analyse-eines-verbesserten-modells"><span class="header-section-number">6.6</span> Analyse eines verbesserten Modells</a>
+  <ul class="collapse">
+  <li><a href="#korrekte-aussagen-und-logische-verhältnisse" id="toc-korrekte-aussagen-und-logische-verhältnisse" class="nav-link" data-scroll-target="#korrekte-aussagen-und-logische-verhältnisse"><span class="header-section-number">6.6.1</span> Korrekte Aussagen und logische Verhältnisse</a></li>
+  <li><a href="#problematische-feststellungen-und-sachfragen" id="toc-problematische-feststellungen-und-sachfragen" class="nav-link" data-scroll-target="#problematische-feststellungen-und-sachfragen"><span class="header-section-number">6.6.2</span> Problematische Feststellungen und Sachfragen</a></li>
+  <li><a href="#missverständnisse-und-fehlende-bezüge-zur-frage" id="toc-missverständnisse-und-fehlende-bezüge-zur-frage" class="nav-link" data-scroll-target="#missverständnisse-und-fehlende-bezüge-zur-frage"><span class="header-section-number">6.6.3</span> Missverständnisse und fehlende Bezüge zur Frage</a></li>
+  </ul></li>
+  <li><a href="#verbesserung-durch-interaktion-und-korrektur" id="toc-verbesserung-durch-interaktion-und-korrektur" class="nav-link" data-scroll-target="#verbesserung-durch-interaktion-und-korrektur"><span class="header-section-number">6.7</span> Verbesserung durch Interaktion und Korrektur</a>
+  <ul class="collapse">
+  <li><a href="#lernfähigkeit-und-grundlagenrevision" id="toc-lernfähigkeit-und-grundlagenrevision" class="nav-link" data-scroll-target="#lernfähigkeit-und-grundlagenrevision"><span class="header-section-number">6.7.1</span> Lernfähigkeit und Grundlagenrevision</a></li>
+  </ul></li>
+  <li><a href="#ausblick-philosophie-lehrt-ki-richtiges-denken" id="toc-ausblick-philosophie-lehrt-ki-richtiges-denken" class="nav-link" data-scroll-target="#ausblick-philosophie-lehrt-ki-richtiges-denken"><span class="header-section-number">6.8</span> Ausblick: Philosophie lehrt KI richtiges Denken</a></li>
+  <li><a href="#die-bedeutung-der-schlüssigkeit" id="toc-die-bedeutung-der-schlüssigkeit" class="nav-link" data-scroll-target="#die-bedeutung-der-schlüssigkeit"><span class="header-section-number">6.9</span> Die Bedeutung der Schlüssigkeit</a>
+  <ul class="collapse">
+  <li><a href="#die-herausforderung-der-inhaltlichen-suche" id="toc-die-herausforderung-der-inhaltlichen-suche" class="nav-link" data-scroll-target="#die-herausforderung-der-inhaltlichen-suche"><span class="header-section-number">6.9.1</span> Die Herausforderung der inhaltlichen Suche</a></li>
+  </ul></li>
+  <li><a href="#die-grenzen-aktueller-ki-modelle" id="toc-die-grenzen-aktueller-ki-modelle" class="nav-link" data-scroll-target="#die-grenzen-aktueller-ki-modelle"><span class="header-section-number">6.10</span> Die Grenzen aktueller KI-Modelle</a>
+  <ul class="collapse">
+  <li><a href="#linguistische-resolution-als-lösungsansatz" id="toc-linguistische-resolution-als-lösungsansatz" class="nav-link" data-scroll-target="#linguistische-resolution-als-lösungsansatz"><span class="header-section-number">6.10.1</span> Linguistische Resolution als Lösungsansatz</a></li>
+  </ul></li>
+  <li><a href="#ein-praktisches-beispiel" id="toc-ein-praktisches-beispiel" class="nav-link" data-scroll-target="#ein-praktisches-beispiel"><span class="header-section-number">6.11</span> Ein praktisches Beispiel</a>
+  <ul class="collapse">
+  <li><a href="#analyse-des-arguments" id="toc-analyse-des-arguments" class="nav-link" data-scroll-target="#analyse-des-arguments"><span class="header-section-number">6.11.1</span> Analyse des Arguments</a></li>
+  <li><a href="#das-wahrheitswerttafelverfahren" id="toc-das-wahrheitswerttafelverfahren" class="nav-link" data-scroll-target="#das-wahrheitswerttafelverfahren"><span class="header-section-number">6.11.2</span> Das Wahrheitswerttafelverfahren</a></li>
+  </ul></li>
+  <li><a href="#die-macht-der-erweiterten-instruktionen" id="toc-die-macht-der-erweiterten-instruktionen" class="nav-link" data-scroll-target="#die-macht-der-erweiterten-instruktionen"><span class="header-section-number">6.12</span> Die Macht der erweiterten Instruktionen</a></li>
+  <li><a href="#fazit" id="toc-fazit" class="nav-link" data-scroll-target="#fazit"><span class="header-section-number">6.13</span> Fazit</a></li>
+  </ul>
+</nav>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+
+<section id="begrüßung-und-einführung-in-die-6.-vorlesung" class="level2" data-number="6.1">
+<h2 data-number="6.1" class="anchored" data-anchor-id="begrüßung-und-einführung-in-die-6.-vorlesung"><span class="header-section-number">6.1</span> Begrüßung und Einführung in die 6. Vorlesung</h2>
+<p>Ich begrüße Sie, meine Damen und Herren, sehr herzlich zur 6. Vorlesung über die Philosophie der künstlichen Intelligenz. Ich hoffe, dass die Beleuchtung Ihnen hilft, Notizen zu machen, und dass der Kontrast der Projektion besser ist als beim letzten Mal. Da hatte ich Rückmeldungen erhalten, dass nicht jeder alles lesen konnte. Die beiden Projektionsflächen sind nicht aufgeteilt, sondern dienen lediglich dazu, die Lesbarkeit für Sie zu verbessern, je nachdem auf welcher Seite des Hörsaals Sie sitzen.</p>
+<p>In der heutigen Vorlesung möchte ich tiefer auf die Aspekte eingehen, was AI modellierbares Denken ist und wie die AI-Modelle dieses ausführen, die abgekürzt als LLM bezeichnet werden - Large Language Models. Wie wir gesehen haben, ist diese Bezeichnung durchaus treffend. Die Kompetenz dieser Modelle liegt darin, mit sprachlichen Ausdrücken umgehen und modellieren zu können, was wir als die Bedeutung dieser Ausdrücke definiert haben. Die Modelle verstehen oder modellieren ein Verhalten, das dem entspricht, was wir als Ausdruck der Bedeutungen sprachlicher Ausdrücke bezeichnen.</p>
+<section id="stärken-und-schwächen-der-ai-modelle" class="level3" data-number="6.1.1">
+<h3 data-number="6.1.1" class="anchored" data-anchor-id="stärken-und-schwächen-der-ai-modelle"><span class="header-section-number">6.1.1</span> Stärken und Schwächen der AI-Modelle</h3>
+<p>Wir haben auch festgestellt, dass diese Modelle Defizite aufweisen und bestimmte Kompetenzen nicht besitzen. Ich möchte heute auf beides etwas näher eingehen. Einerseits, was die Stärken, nämlich die sprachliche Kompetenz der Modelle, uns ermöglichen. Andererseits, auf welche Weise die Schwächen, die wir identifiziert haben, sehr schnell, ich denke innerhalb der nächsten Monate, maximal eines Jahres, gelöst und kompensiert werden können. Diese Entwicklung schreitet derzeit extrem schnell voran. Es handelt sich also um einen Entwicklungsstand, und wie Sie sehen werden, werden die Beispiele, die ich letzte Woche gezeigt habe, bereits von den Modellen selbst verarbeitet und gelernt, sodass die Defizite, die wir letzte Woche diskutiert haben, nicht mehr auftauchen.</p>
+<p>Sie sind also schon allein durch die Nutzung der Modelle Teil der globalen Verbesserung ihrer Leistungsfähigkeit, ob Sie wollen oder nicht. Das werden wir zu Beginn sehen, aber ich möchte auch zeigen, dass der Hype, der die Modelle derzeit als prinzipiell universelle Löser für alles feiert, noch weit übertrieben ist. Trotz der enormen, schnellen Lernfähigkeit aufgrund der Reaktion einer globalen Nutzergemeinschaft gibt es derzeit konzeptionelle Defizite, da diese Modelle nichts anderes als Sprachkompetenzmodelle sind.</p>
+</section>
+<section id="grenzen-der-ai-modelle" class="level3" data-number="6.1.2">
+<h3 data-number="6.1.2" class="anchored" data-anchor-id="grenzen-der-ai-modelle"><span class="header-section-number">6.1.2</span> Grenzen der AI-Modelle</h3>
+<p>Sie sind keine Modelle, die über die Kompetenzen des Wissenszugriffs verfügen. Sie sind nicht in der Lage, Verfahren zu implementieren, die insbesondere philosophische Kompetenzen erfordern, die sie derzeit zusätzlich zur Sprachkompetenz nicht implementiert haben. Dass sie das nicht haben, erkennt man, wenn man mit den Modellen arbeitet und Reiz-Reaktions-Muster herausbekommt, wo die jeweiligen Modelle Kompetenzen haben und wo die Defizite liegen.</p>
+</section>
+<section id="einführung-in-das-projekt-magister-ai-faustus" class="level3" data-number="6.1.3">
+<h3 data-number="6.1.3" class="anchored" data-anchor-id="einführung-in-das-projekt-magister-ai-faustus"><span class="header-section-number">6.1.3</span> Einführung in das Projekt MAGISTER AI Faustus</h3>
+<p>Das Projekt MAGISTER AI Faustus sind die Anmeldungen inzwischen abgeschlossen. Die Teilnehmerliste ist erstellt wird in der kommenden Woche mit kleinen Herausforderungen beginnen - wobei diese Woche für mich immer den Rhythmus von einer Vorlesung zur nächsten bedeutet. Die Herausforderung (man könnte auch “Aufgabe” sagen, wenn es nicht so schulmeisterlich klingen würde) besteht für alle Teilnehmer darin, die Auffgabe mit den erweiterten Instruktionsmodellen von LettreAI vertraut zu werden.</p>
+<p>Diese haben das Ziel, Texte jeder Größe zu verarbeiten, in diesem Fall alles, was die Klassik Stiftung Weimar zu Goethe zu bieten hat, damit zu arbeiten, darauf zuzugreifen und es mit AI zu verarbeiten. Es geht also zunächst einmal um eine AI Textverarbeitungskompetenz, auf der dieses Projekt aufbauen soll.</p>
+</section>
+</section>
+<section id="logisches-denken" class="level2" data-number="6.2">
+<h2 data-number="6.2" class="anchored" data-anchor-id="logisches-denken"><span class="header-section-number">6.2</span> Logisches Denken</h2>
+<p>Heute werden wir uns auf eine Kompetenz fokussieren, die, obwohl die Werbung für diese Modelle etwas anderes suggeriert, nur äußerst beschränkt und rudimentär vorhanden ist, nämlich das logische Denken. Das lernen Sie in der Philosophie, denke ich, in den ersten zwei Semestern. Turnusgemäß ist das ziemlich unbeliebt unter unseren Studierenden, ich weiß nicht, wie das bei Ihnen im Durchschnitt ist, aber im Prinzip ist das eine Pflichtveranstaltung, die man möglichst schnell hinter sich bringt, ohne genau zu wissen, wozu das eigentlich für das weitere Studium dient.</p>
+<p>Ich hoffe, Sie werden jetzt hier sehen, dass die Erträge dieser Kompetenz vielleicht für das spätere klassische Philosophiestudium nicht so zentral waren, wie es immer gesagt wird. Aber die Anwendungsbereiche in der AI, werden wir sehen, sind von fundamentaler, zentraler Bedeutung. Und wir werden es an einigen Beispielen auch beim Erfassen des Inhalts beliebiger Texte mittels AI-Modellen ziemlich schnell erfahren.</p>
+<section id="definition-von-logischem-denken" class="level3" data-number="6.2.1">
+<h3 data-number="6.2.1" class="anchored" data-anchor-id="definition-von-logischem-denken"><span class="header-section-number">6.2.1</span> Definition von logischem Denken</h3>
+<p>Was heißt hier eigentlich logisches Denken? Wenn wir von Artificial Intelligence sprechen, geht es ja primär auch darum, eben künstlich, maschinell kognitive Kompetenzen des Menschen zu erwerben. Dazu gehört, zielgerichtet und regelbasiert zu denken, im Sinne von Anfangsgedanken weitere Folgegedanken zu entwickeln. Das ist jetzt sehr allgemein formuliert, kann man präzisieren, werden wir auch gleich noch sehen.</p>
+</section>
+<section id="probleme-beim-training-von-logischem-denken-in-ai-modellen" class="level3" data-number="6.2.2">
+<h3 data-number="6.2.2" class="anchored" data-anchor-id="probleme-beim-training-von-logischem-denken-in-ai-modellen"><span class="header-section-number">6.2.2</span> Probleme beim Training von logischem Denken in AI-Modellen</h3>
+<p>Wie kann also ein solches Modell des Denkens verfasst werden? Viele derzeitige Modellierer der AI-Modelle glauben noch, das ließe sich trainieren, indem man den gesamten Textbestand des Internets als eine Art Trainingsmasse für Inputdaten, für vorgefertigte Weisen zu schreiben und damit auch sein Denken zu dokumentieren, verwendet. Aufgrund dieser Abläufe von Sätzen und Folgen von Ideen auf den Publikationen auf dem Internet-Textkorpus ließe sich dann modellieren, wie optimal eine Maschine des Denkens aussieht.</p>
+<p>Das funktioniert leider aus einem wichtigen Grund nicht. Die im Internet publizierten Dokumente sind nämlich keine Dokumente des Denkens, schlichtweg. Sie dokumentieren nicht den Prozess des Nachdenkens, den wir - und das ist gar nicht so geheimnisvoll - unter Nachdenken verstehen. Ich verstehe darunter wirklich etwas ganz Einfaches: Ideen artikulieren, Ideen bekommen und daraus Nachfolgeideen entwickeln. Dieser Prozess des expliziten Erfassens von Ideen, des Verwertens von Informationen und des Schaffens neuer Ideen, das ist das, was primär und zentral unter Denken zu verstehen ist. Also nichts Psychologisches, nichts Geheimnisvolles, nichts Intuitives, sondern einfach die Abfolge von allgemein dem Bewusstsein zugänglichen Gedanken.</p>
+</section>
+<section id="unterschied-zwischen-context-of-discovery-und-context-of-justification" class="level3" data-number="6.2.3">
+<h3 data-number="6.2.3" class="anchored" data-anchor-id="unterschied-zwischen-context-of-discovery-und-context-of-justification"><span class="header-section-number">6.2.3</span> Unterschied zwischen Context of Discovery und Context of Justification</h3>
+<p>Unter Wissenschaftshistorikern und Wissenschaftsphilosophen ist es überhaupt nichts Neues, festzustellen, dass es einen fundamentalen Unterschied gibt zwischen den Prozessen des Denkens, die zu neuen Ideen führen, und den Prozessen des Denkens, die eine Rechtfertigung der Geltung des Anspruchs eines neuen Befundes sind. Reichenbach hier in Berlin hat in den 20er Jahren dafür einen Begriff der Unterscheidung erfunden, nämlich, weil es dann später im Englischen populär wurde, in der englischen Übersetzung, der Unterschied zwischen einem Context of Discovery und einem Context of Justification.</p>
+<section id="context-of-discovery" class="level4" data-number="6.2.3.1">
+<h4 data-number="6.2.3.1" class="anchored" data-anchor-id="context-of-discovery"><span class="header-section-number">6.2.3.1</span> Context of Discovery</h4>
+<p>Der Context of Discovery sind all die Gedankenprozesse, die, wie der Name sagt, zur Entdeckung, zur Formulierung von etwas Neuem führen.</p>
+</section>
+<section id="context-of-justification" class="level4" data-number="6.2.3.2">
+<h4 data-number="6.2.3.2" class="anchored" data-anchor-id="context-of-justification"><span class="header-section-number">6.2.3.2</span> Context of Justification</h4>
+<p>Der Context of Justification sind alle die Ideen, die rechtfertigen, warum das, was man gefunden hat, richtig und vertretbar ist. Das, was publiziert wird, sowohl in wissenschaftlichen Publikationen als auch in Preprints, das heißt in noch vorwissenschaftlichen Internetpublikationen, ist zum überwiegendsten Teil Context of Justification.</p>
+<p>Das bedeutet, das sind Texte, die verfasst worden sind, nachdem Wissenschaftler jahrelang geforscht haben, um Ergebnisse zu gewinnen. Dann haben sie noch kaum etwas darüber publiziert. Sie publizieren, nachdem ein wissenschaftlicher Ertrag gefunden worden ist. Und das heißt, postfaktum der Entdeckung wird über das Ergebnis publiziert, und zwar in rechtfertigender Weise.</p>
+</section>
+</section>
+<section id="mangel-an-discovery-prozessen-in-publikationen" class="level3" data-number="6.2.4">
+<h3 data-number="6.2.4" class="anchored" data-anchor-id="mangel-an-discovery-prozessen-in-publikationen"><span class="header-section-number">6.2.4</span> Mangel an Discovery-Prozessen in Publikationen</h3>
+<p>Sie finden kaum, ich möchte fast wagen zu sagen, im Unterpromillebereich, wissenschaftliche Publikationen - und ich habe das mal probehalber an dem Gesamtbestand der Publikationen des Preprint-Servers über drei oder vier Forschungsthemenbereiche untersucht -, die überhaupt etwas über die Episoden, die Abfolge von Ideen beim Discovery-Prozess publizieren. Das ist praktisch nicht existent.</p>
+<p>Das führt eine Verzerrung, also eine Ungleichgewichtung der Datenqualität ein, mit der die AI-Modelle trainiert sind, die sich gravierend darauf auswirkt, was denn nötig ist, um die Kompetenzen zu erwerben, die wir eigentlich von den Modellen haben wollen, nämlich Assistenz im Discovery-Prozess zu sein. Rechtfertigung funktioniert auch teilweise schon sehr gut. Aber was ist mit dem Discovery-Prozess?</p>
+<section id="fundamentale-unterschiede-zwischen-discovery--und-rechtfertigungsphasen" class="level4" data-number="6.2.4.1">
+<h4 data-number="6.2.4.1" class="anchored" data-anchor-id="fundamentale-unterschiede-zwischen-discovery--und-rechtfertigungsphasen"><span class="header-section-number">6.2.4.1</span> Fundamentale Unterschiede zwischen Discovery- und Rechtfertigungsphasen</h4>
+<p>Es gibt einen systematischen Grund, den ich hier kurz skizzieren möchte, weshalb die Phasen der wissenschaftlichen Entdeckung etwas fundamental anderes sind als die Phasen der Rechtfertigung. Und zwar fundamental weit über das hinaus, was den Unterschied ausmacht zwischen:</p>
+<ul>
+<li>Schon eine Idee gefunden zu haben und sie rechtfertigen zu können (Rechtfertigungskontext)</li>
+<li>Alles das, was man an Ideen hat, die vor der Entdeckung liegen, also im Wesentlichen Unwissenheit dokumentieren und der Ausgangspunkt der Forschung sind, die eben zu einer Entdeckung führt</li>
+</ul>
+<p>Es wird oft so getan, als sei das nur eine graduelle Differenz im Umfang des Wissens. Das ist falsch. Und die meisten trainierten AI-Modelle gehen davon aus, dass der Unterschied zwischen diesen Modellen nur eine solche Differenz des Grades der Unkenntnis ist. Und das ist falsch. Nichts könnte falscher sein als dies, und das hat gravierende Folgen.</p>
+</section>
+<section id="gründe-für-rechtfertigung-vs.-gründe-für-weitere-beschäftigung" class="level4" data-number="6.2.4.2">
+<h4 data-number="6.2.4.2" class="anchored" data-anchor-id="gründe-für-rechtfertigung-vs.-gründe-für-weitere-beschäftigung"><span class="header-section-number">6.2.4.2</span> Gründe für Rechtfertigung vs.&nbsp;Gründe für weitere Beschäftigung</h4>
+<p>Der Hauptgrund, weshalb das falsch ist, liegt darin, dass die Rechtfertigung bestehenden Wissens Gründe anführt, die erklären, warum eine bestimmte gefundene Hypothese oder These wahr oder falsch ist und was ihr Bestehen rechtfertigt. Das ist ein ganz anderer logischer Zusammenhang als solche Gründe, die angebracht werden, um eine bestimmte weitere Beschäftigung mit einer Hypothese durchzuführen.</p>
+<ul>
+<li>Das eine sind logische Verhältnisse der Rechtfertigung</li>
+<li>Das andere sind logische Verhältnisse, die mit Aktionen, mit Handlungen zu tun haben</li>
+</ul>
+<p>Oder, was die analytische Philosophie im Groben unterscheidet:</p>
+<ul>
+<li>Das eine sind theoretische, philosophische Aspekte der Implikation</li>
+<li>Das andere sind praktische, philosophische Aspekte der Implikation</li>
+</ul>
+<p>Die funktionieren ganz anders.</p>
+</section>
+</section>
+<section id="experimentelle-untersuchung-von-ideen-während-der-forschung" class="level3" data-number="6.2.5">
+<h3 data-number="6.2.5" class="anchored" data-anchor-id="experimentelle-untersuchung-von-ideen-während-der-forschung"><span class="header-section-number">6.2.5</span> Experimentelle Untersuchung von Ideen während der Forschung</h3>
+<p>Das Hauptphänomen ist, dass die Ideen, wenn man protokollieren würde, was Wissenschaftler während wissenschaftlicher Aktivitäten so haben - also ganz offensichtlich bewusste Ideen, die sie verfolgen, thematisieren, weiter bearbeiten und wie sie es tun, nichts Intuitives oder dergleichen, keine Hirnforschungsuntersuchung, sondern nur die Abfolge von Ideen und die jeweiligen Gründe, etwas zu tun - ganz anders aussehen würden.</p>
+<p>Ich habe vor mehr als 25 Jahren experimentell mit Kognitionspsychologen im Graduiertenzentrum für Kognitionsforschung in Hamburg so etwas wie Laboratoriumsexperimente der Ideen durchgeführt. Im Rahmen dieser Untersuchung haben wir Freiwillige - und das hört sich erschreckend an, aber es waren begeisterte freiwillige Doktoranden, die schon in laufende Forschungsprojekte integriert waren und heute in der Mehrzahl gestandene, ausgewiesene Professoren geworden sind - gebeten, jeden Morgen für ihre wissenschaftliche Arbeit zu dokumentieren, was sie für den Tag vorhaben und aus welchen Gründen sie dieses Vorhaben zu tun beabsichtigen. Jeden Tag, jeden Morgen, teilweise über Jahre.</p>
+<p>Es ist also umfangreiches Material, aber wir haben das soweit experimentell erleichtert, dass man nicht mehr als fünf Minuten brauchte, um seine Zeit nicht mit Dokumentation zu verschwenden - das tut kaum ein Wissenschaftler gerne -, sondern das sollte eher zur Auflockerung und Klarwerdung des morgendlichen Vorkaffee-Resonierens über die eigene Arbeit dienen.</p>
+<section id="ergebnisse-tagesprotokolle-über-forschungsintentionen" class="level4" data-number="6.2.5.1">
+<h4 data-number="6.2.5.1" class="anchored" data-anchor-id="ergebnisse-tagesprotokolle-über-forschungsintentionen"><span class="header-section-number">6.2.5.1</span> Ergebnisse: Tagesprotokolle über Forschungsintentionen</h4>
+<p>Auf diese Weise gewannen wir etwas, was Wissenschaftshistoriker von sonst fast keinem Wissenschaftler besitzen, nämlich Tagesprotokolle, nicht von Ergebnissen, zum Beispiel von Laboratoriumsstrukturen, sondern von Absichten, bevor man den Tag beginnt, was aus welchen Gründen zu tun ist. Von den Teilnehmern meist, aber auch in einer Gruppe und in einem Team. Also Protokolle über die Forschungsintentionen, Tag für Tag.</p>
+<p>Solche Protokolle gibt es sehr selten. Meine Gruppe hat das vor 25 Jahren gemacht, es gab als Pendant eine schwedische Gruppe, die das gemacht hat, und das war es. Für sonst reale## Mängel in der Dokumentation von Forschungsabsichten</p>
+<p>In der Wissenschaft ist es von entscheidender Bedeutung, nicht nur die Ergebnisse der Forschung, sondern auch den Prozess der Entdeckung zu dokumentieren. Leider zeigt sich immer wieder, dass wichtige Details der Forschungsabsichten der Wissenschaftler selbst nach kurzer Zeit in Vergessenheit geraten. Bereits nach sieben Tagen können entscheidende Aspekte der eigenen Forschungsaktivitäten aus dem Gedächtnis verschwunden sein - und zwar nicht nur in dem Sinne, dass man sich erinnert, etwas Falsches geglaubt zu haben. Nein, das Gehirn ist so aktiv, dass man sich überhaupt nicht mehr daran erinnert, jemals etwas Falsches geglaubt zu haben.</p>
+<p>Dieses Phänomen stellt Wissenschaftshistoriker vor extreme Herausforderungen, wenn sie durch Interviews mit beteiligten wissenschaftlichen Akteuren herausfinden wollen, warum diese in der Vergangenheit bestimmte Entscheidungen getroffen haben. Es geht dabei nicht nur darum, dass die Befragten ihre Geschichte möglicherweise beschönigen wollen - das ist nur die Spitze des Eisbergs. Die harte Realität ist, dass man sich als beteiligte Person schlichtweg nicht mehr daran erinnern kann, weshalb man in der Vergangenheit etwas getan hat, insbesondere im Hinblick auf die ursprünglichen Absichten.</p>
+</section>
+<section id="der-fall-von-sir-hans-krebs" class="level4" data-number="6.2.5.2">
+<h4 data-number="6.2.5.2" class="anchored" data-anchor-id="der-fall-von-sir-hans-krebs"><span class="header-section-number">6.2.5.2</span> Der Fall von Sir Hans Krebs</h4>
+<p>Ein bemerkenswertes Beispiel für dieses Phänomen ist der Nobelpreisträger Sir Hans Krebs, der Entdecker des Krebs-Zyklus und anderer wichtiger biochemischer Fakten in der Medizin. In einem aufwendigen Projekt wurden Krebs seine eigenen, fast täglich verfassten Labornotizen Seite für Seite vorgelegt. In mehrwöchiger Arbeit entstanden so Regale voller Transkriptionen von Interviews, in denen Krebs seine eigenen Protokolle kommentierte und dokumentierte.</p>
+<p>Obwohl Krebs selbst größtes Interesse daran hatte herauszufinden, wie sich seine Forschung entwickelt hatte, war er selbst angesichts seiner eigenen vollständigen Unterlagen und seines besten Erinnerungsvermögens nicht in der Lage, seine Aufzeichnungen zu kritischen, sehr lebendig gebliebenen Erinnerungen seines Forschungslebens so zu kommentieren, dass er sagen konnte, weshalb er etwas gemacht hat. Diese Dokumente sind äußerst interessant zu lesen, denn sie zeigen, wie wenig Erinnerung an die ursprünglichen Intentionen vorhanden ist. Jede Menge Erinnerungen daran, was schließlich gefunden wurde, was interessant war - aber wenn nachgehakt wurde, weshalb er ein bestimmtes Experiment überhaupt gemacht hat, was der Grund war, dann fing Krebs sofort an zu konstruieren, nicht zu erinnern.</p>
+</section>
+</section>
+</section>
+<section id="folgen-für-ai-modelle" class="level2" data-number="6.3">
+<h2 data-number="6.3" class="anchored" data-anchor-id="folgen-für-ai-modelle"><span class="header-section-number">6.3</span> Folgen für AI-Modelle</h2>
+<p>Dieser systematische Mangel an Dokumentation der kognitiven Prozesse im Entdeckungsprozess ist der Hauptgrund, warum die entsprechenden Informationen für das Training von AI-Modellen nicht zur Verfügung stehen. Die AI-Modelle werden nur auf dem gesamten Wissensbestand trainiert, der mindestens seit der Existenz von Preprint-Servern vor 20 Jahren als Ergebnisprotokolle und Ergebnisrechtfertigungsprotokolle veröffentlicht wurde - aber eben nicht auf Protokollen, die den Fortschritt der Forschungsabsichten dokumentieren.</p>
+<section id="begrenzte-kompetenzen-der-ai-modelle" class="level3" data-number="6.3.1">
+<h3 data-number="6.3.1" class="anchored" data-anchor-id="begrenzte-kompetenzen-der-ai-modelle"><span class="header-section-number">6.3.1</span> Begrenzte Kompetenzen der AI-Modelle</h3>
+<p>Die Folge ist, dass die AI-Modelle durch das Training immer mehr sprachliche Aspekte der Rechtfertigung beherrschen, aber kaum etwas an zusätzlichen Anforderungen für den Entdeckungsprozess. Eine dieser Komponenten, die ganz trivial und zugänglich ist, möchte ich heute besprechen. Die anderen, noch weniger verbreiteten, aber genauso zentralen Komponenten, werde ich im weiteren Verlauf der Vorlesung ansprechen.</p>
+<p>Es sollte uns also nicht überraschen, dass bestimmte Inkompetenzbereiche der AI-Modelle vorhanden sind. Das sind keine Gründe, warum zukünftige AI-Modelle das prinzipiell in den nächsten Monaten nicht kompensieren könnten. Darum geht es hier nicht. Das werden wir teilweise auch tun und aufzeigen, wie man diese Lücken schließen kann. Aber durch die gegenwärtigen Verfahren des Trainings der Modelle wird das nicht gelöst.</p>
+<p>Auch die Versprechen mancher Unternehmen wie OpenAI oder Elon Musk, dass eine generelle, allgemeine Intelligenz der Maschinen quasi vor der Tür stünde, ist mit den derzeit angewendeten methodischen Verfahren auf keinen Fall zu erreichen. Wir werden sehen, woran das liegt - zunächst an einem Aspekt.</p>
+</section>
+</section>
+<section id="instruktionen-für-ai-modelle" class="level2" data-number="6.4">
+<h2 data-number="6.4" class="anchored" data-anchor-id="instruktionen-für-ai-modelle"><span class="header-section-number">6.4</span> Instruktionen für AI-Modelle</h2>
+<p>Um die Nutzbarkeit und die Anforderungen an die AI mit konkreten Beispielen zu dokumentieren, werden wir uns in diesem Projekt mit der Bearbeitung von Texten beschäftigen, genauer gesagt mit Archivmaterialien zum Leben und Wirken von Goethe. Die Aufgabe für die nächste Woche wird sein, Instruktionen für die AI-Modelle zu formulieren, die bestimmte Ziele im Umgang mit diesen Texten beschreiben.</p>
+<section id="formulierung-von-forschungsvorhaben" class="level3" data-number="6.4.1">
+<h3 data-number="6.4.1" class="anchored" data-anchor-id="formulierung-von-forschungsvorhaben"><span class="header-section-number">6.4.1</span> Formulierung von Forschungsvorhaben</h3>
+<p>Eine solche Instruktion ist im Grunde nichts anderes als die Formulierung eines Forschungsvorhabens, die Absicht, eine bestimmte wissenschaftliche Fragestellung zu verfolgen. Wir werden üben, wie man eine Instruktion erstellt und welche Informationen für den Kontext des Entdeckungsprozesses in eine solche Instruktion gehören.</p>
+<p>Es ist wichtig zu verstehen, dass die Instruktion einer zu lösenden Aufgabe etwas fundamental anderes ist als die Rechtfertigung der gefundenen Lösung dieser Aufgabe. In der kommenden Woche werden wir uns zunächst darauf konzentrieren, wie man solche Instruktionsaufgaben als Forschungsintention systematischer formulieren kann.</p>
+</section>
+<section id="das-lettre-ai-studio" class="level3" data-number="6.4.2">
+<h3 data-number="6.4.2" class="anchored" data-anchor-id="das-lettre-ai-studio"><span class="header-section-number">6.4.2</span> Das Lettre AI Studio</h3>
+<p>Parallel zur Vorlesung entwickle ich das Lettre AI Studio, eine Arbeitsumgebung mit einem AI-Modell, das Sprachmodelle als Kern hat, aber drumherum eben eine “gelehrte” AI-Komponente (daher der Name “Lettre” vom französischen “belesen”). Mit dieser App wird man über ein Interface genau das tun können, worum es hier geht - ohne komplizierte Programmierkenntnisse, sondern nur durch die Formulierung der Instruktion und die Bereitstellung der Quelltexte aus Goethes Dokumenten.</p>
+</section>
+</section>
+<section id="defizite-der-ai-modelle-bei-logischen-verhältnissen" class="level2" data-number="6.5">
+<h2 data-number="6.5" class="anchored" data-anchor-id="defizite-der-ai-modelle-bei-logischen-verhältnissen"><span class="header-section-number">6.5</span> Defizite der AI-Modelle bei logischen Verhältnissen</h2>
+<p>In der letzten Woche hatten wir ein Defizit der AI-Modelle kennengelernt, das ich heute Morgen nochmal nachvollziehen wollte, um es in der Vorlesung zu wiederholen. Mit Schrecken musste ich feststellen, dass alle AI-Modelle, die ich benutze, die Vorlesungen der letzten Woche schon zur Verbesserung der Modelle genutzt haben.</p>
+<section id="zensur-bei-anthropic" class="level3" data-number="6.5.1">
+<h3 data-number="6.5.1" class="anchored" data-anchor-id="zensur-bei-anthropic"><span class="header-section-number">6.5.1</span> Zensur bei Anthropic</h3>
+<p>Bei Anthropic gab es letzte Woche noch eine Zensur bei dem Satz “Der Hund bellt und der Hund bellt und die Erde ist eine Scheibe”. Da kam die Rückmeldung, dass diese Frage aufgrund von Zensurmaßnahmen inhaltlich überschrieben und nicht zu beantworten sei, weil solche offensichtlichen Unsinnsinformationen ausgeblendet würden. Das tun die Anthropic-Modelle jetzt interessanterweise nicht mehr.</p>
+<p>Ich hatte eine kurze Meldung nach San Francisco geschickt, dass ihr Zensurmodell ja offensichtlich nicht sehr intelligent sei, wenn es solche Sätze zensiert. Nie bekam ich eine Rückmeldung, aber offensichtlich hat das immerhin schon zur Modifikation dieser Zensurmodelle geführt.</p>
+</section>
+<section id="openai-hat-dazugelernt" class="level3" data-number="6.5.2">
+<h3 data-number="6.5.2" class="anchored" data-anchor-id="openai-hat-dazugelernt"><span class="header-section-number">6.5.2</span> OpenAI hat dazugelernt</h3>
+<p>Auch OpenAI hat davon gelernt. Das kleinere Modell war letzte Woche nicht in der Lage, die einfache Aufgabe, die logischen Verhältnisse zwischen diesen Sätzen zu erklären, korrekt zu beantworten. Leider habe ich die Beispiele nicht dokumentiert und kann sie mit den gleichen Modellen gar nicht mehr reproduzieren.</p>
+<p>Es ist für einen Hochschullehrer schon interessant zu sehen, dass das, was man tut, ohne weitere Prüfungen zu sofortigen Lerneffekten führt. Ich versuche jetzt nochmal, das mit dem aktuellen Modell zu reproduzieren - aber nicht mit den besten Modellen der jeweiligen Firmen, weil die das mittlerweile können.</p>
+</section>
+<section id="analyse-der-sätze-durch-das-einfache-modell" class="level3" data-number="6.5.3">
+<h3 data-number="6.5.3" class="anchored" data-anchor-id="analyse-der-sätze-durch-das-einfache-modell"><span class="header-section-number">6.5.3</span> Analyse der Sätze durch das einfache Modell</h3>
+<p>Schauen wir uns an, was das Modell mit den beiden Sätzen “Der Hund bellt” und “Der Hund bellt und die Erde ist eine Scheibe” macht.</p>
+<p>Zu Satz 1 schreibt das Modell: “Dies ist ein einfacher, unabhängiger Aussagesatz, der eine Tatsache beschreibt.” Das ist, genau genommen, philosophisch falsch. Denn auf welchen Hund bezieht sich meine Frage überhaupt? Der bestimmte Artikel im Deutschen impliziert ein Einzelding in der Welt. Nehmen wir an, der Hund, der gerade hier vor dem Fenster steht. Sie sehen ihn nicht, aber ich sehe ihn. Und definitiv bellt er nicht. Also ist Satz 1 falsch, es ist keine Tatsache.</p>
+<p>Das ist schon ein Zeichen dafür, was hier alles falsch läuft. Es wurde zunächst nach einer sprachlich-logischen Kompetenz gefragt. Doch das Modell simuliert eine Sachkompetenz, die es überhaupt nicht haben kann, weil es keinen Zugang zu dem Hund hat, von dem ich spreche, und auch keine Information darüber, ob er bellt oder schweigt.</p>
+<p>Diese Informationen, die für die Beurteilung der Wahrheit der Aussage nötig wären, hat das Modell nicht. Aber die Modelle sind so trainiert, dass sie intelligent erscheinen sollen. Jeder weiß, dass sie das nicht können, weil ihnen bestimmte Informationen gar nicht zur Verfügung stehen. Solange man die Modelle simulieren lässt, was sie an Kompetenzen haben müssten, indem sie auf irgendwelche Annahmen von Sätzen zurückgreifen, die in der Vergangenheit irgendjemand zu seinem Hund gesagt hat, werden sie hier keine vernünftigen Informationen liefern.</p>
+<p>Bei allen derzeitigen Modellen ist das Riesenproblem, dass sie den Bereich des Nichtwissens nicht entsprechend durch erkennbare Lücken in ihrer Folge programmiert haben. Stattdessen schließen sie die Inkompetenz und das Nichtwissen durch plausible linguistische Voreinnahmen. Das kann zu gravierenden Fehlinformationen und Fehleinschätzungen führen, wenn zufälligerweise - und hier kann es sich nur um Zufall handeln - die falsche Auswahl getroffen wurde.</p>
+<p>Schauen wir uns an, was das Modell mit dem Satz “Der Hund bellt und die Erde ist eine Scheibe” macht. Es schreibt: “Dieser Satz besteht aus zwei Teilsätzen, die durch das Bindewort ‘und’ verknüpft sind. Der erste Teilsatz ‘Der Hund bellt’ ist identisch mit dem ersten Satz und beschreibt ebenfalls eine Tatsache.”</p>
+<p>Auch das ist falsch, aus den vorhin genannten Gründen. Außerdem stimmen die logischen Feinheiten nicht. Sind die Sätze wirklich identisch? Wenn man so vorgeht, muss man schon mit einem Verständnis umgehen, dass es hier nicht um Sätze geht, sondern um Aussagen. Die logischen Verhältnisse bestehen nur zwischen den durch die Sätze ausgedrückten Aussagen. Diesen Zwischenschritt hat das Modell vergessen - aber genau das ist der Bereich, der die Logik betrifft.</p>
+<p>Das sind fundamentale Differenzen, die jeder in der Philosophie kennt, befolgt und damit intuitiv mindestens umgeht. Sie sind auch für die inhaltliche Verarbeitung von durch Texten vermittelten Inhalten wichtig. Wenn man diese Unterscheidung nicht trifft, wird man sich über kurz oder lang in große Schwierigkeiten bringen - so auch die Modelle.</p>
+<p>Immerhin schreibt das Modell dann: “Der zweite Satz, ‘Der Hund bellt und die Erde ist eine Scheibe’, ist eine Konjunktion, bei der zwei Aussagen miteinander verknüpft werden.” Das stimmt. Das Modell schreibt nicht “zwei Sätze”. In der Interaktion mit diesem Beispiel hat es also teilweise dazugelernt. Das bessere Modell kann das schon wirklich gut und macht diese Fehler nicht mehr. Aber das Schnellmodell bei Anthropic hat offenbar nichts gelernt, obwohl seit dem letzten Mal immerhin sieben Tage vergangen sind - eine lange Zeit für diese Szene. Mal sehen, was nächste Woche bei dem gleichen Fall herauskommt. Ich könnte fast darauf wetten, dass das auch schon wieder anders aussehen wird.</p>
+</section>
+<section id="konfusion-philosophischer-grundfähigkeiten" class="level3" data-number="6.5.4">
+<h3 data-number="6.5.4" class="anchored" data-anchor-id="konfusion-philosophischer-grundfähigkeiten"><span class="header-section-number">6.5.4</span> Konfusion philosophischer Grundfähigkeiten</h3>
+<p>Jetzt kommt etwas, wo der analytische Philosoph die Krise bekommen sollte. Das Modell schreibt: “Hier wird die Tatsache, dass der Hund bellt, mit der zusätzlichen Aussage, dass die Erde eine Scheibe ist, kombiniert.”</p>
+<p>Wie man Tatsachen in der Welt mit Aussagen kombinieren kann, ist mir ein Rätsel. Tatsachen sind Gegebenheiten in der Welt, so etwas wie eine materielle Beschaffenheit, Sachverhalte. Die kann man nicht mit Aussagen kombinieren. Vor allem hat die Logik nichts damit zu tun. Hier geht alles durcheinander, es ist von vorne bis hinten konfus. Es hört sich auf den ersten Blick ganz gut an, hat aber für die weitere Verarbeitung fatale Folgen.</p>
+<p>Und jetzt kommt der Befund, der aus dieser Konfusion philosophischer Inhalte erfolgt. Das Modell schreibt: “Somit besteht zwischen beiden Sätzen ein Verhältnis der Koordination.”</p>
+<p>Diesen Begriff gibt es in der Logik nicht. Man kann alles M## Logische Fehlschlüsse eines KI-Modells</p>
+<p>In der heutigen Vorlesung möchte ich Ihnen einen interessanten Fall präsentieren, der sich in der letzten Woche ereignet hat. Es geht um ein KI-Modell, das trotz hochgelobter Sprachkompetenz gravierenden Unfug produziert, wenn es um einfache logische Schlussfolgerungen geht. Lassen Sie uns gemeinsam ergründen, woran dies liegen mag und wie wir das Modell verbessern können.</p>
+</section>
+<section id="die-anfrage-und-das-scheitern-des-modells" class="level3" data-number="6.5.5">
+<h3 data-number="6.5.5" class="anchored" data-anchor-id="die-anfrage-und-das-scheitern-des-modells"><span class="header-section-number">6.5.5</span> Die Anfrage und das Scheitern des Modells</h3>
+<p>Wir haben dem Modell eine klare Aufgabe gestellt: Beantworte Fragen zu Texten, in diesem Fall zu Dokumenten über Goethe, so dass wir etwas mit den Antworten anfangen können. Doch bei einem einfachen Beispiel, das ich “Hohe Welt” nenne, ist das Modell kläglich gescheitert. Es scheint grundlegende Defizite im Umgang mit Logik zu haben. Die Frage ist nun: Können wir dieses Modell retten und wenn ja, wie?</p>
+</section>
+<section id="verbesserungen-und-anpassungen-der-modelle" class="level3" data-number="6.5.6">
+<h3 data-number="6.5.6" class="anchored" data-anchor-id="verbesserungen-und-anpassungen-der-modelle"><span class="header-section-number">6.5.6</span> Verbesserungen und Anpassungen der Modelle</h3>
+<p>Es ist wichtig zu verstehen, dass sich die Sprachmodelle ständig weiterentwickeln. Die Hersteller passen sogenannte “Stellschrauben” an, um bestimmte Zusatzinformationen zu berücksichtigen, die bei spezifischen Fragen benötigt werden. Diese Anpassungen erfolgen teilweise stündlich, basierend auf dem Feedback der Community. Allerdings bleibt die grundlegende Sprachkompetenz der Modelle unverändert, da eine Aktualisierung dieser enormen Aufwand und Kosten bedeuten würde.</p>
+</section>
+<section id="die-bedeutung-eigener-tests-und-erfahrungen" class="level3" data-number="6.5.7">
+<h3 data-number="6.5.7" class="anchored" data-anchor-id="die-bedeutung-eigener-tests-und-erfahrungen"><span class="header-section-number">6.5.7</span> Die Bedeutung eigener Tests und Erfahrungen</h3>
+<p>Trotz der häufig in der Literatur angepriesenen Qualitätsmetriken sollten Sie selbst ausprobieren, ob ein Modell Ihre Anforderungen erfüllt. Oft liegt das Problem darin, dass Ihre Instruktion nicht alle notwendigen Informationen bereitstellt, um die spezielle Aufgabe zu lösen. Verlassen Sie sich nicht blind auf Werbeversprechen, sondern machen Sie sich ein eigenes Bild von der Leistungsfähigkeit der Modelle.</p>
+</section>
+</section>
+<section id="analyse-eines-verbesserten-modells" class="level2" data-number="6.6">
+<h2 data-number="6.6" class="anchored" data-anchor-id="analyse-eines-verbesserten-modells"><span class="header-section-number">6.6</span> Analyse eines verbesserten Modells</h2>
+<p>Lassen Sie uns nun ein Modell betrachten, bei dem ich davon ausgehe, dass die “Stellschrauben” angepasst wurden. Es handelt sich um dasselbe Modell, das letzte Woche Fragen noch als unzulässig zensiert hat. Doch jetzt scheint fast jeder Satz logisch korrekt zu sein. Schauen wir uns die Antworten im Detail an.</p>
+<section id="korrekte-aussagen-und-logische-verhältnisse" class="level3" data-number="6.6.1">
+<h3 data-number="6.6.1" class="anchored" data-anchor-id="korrekte-aussagen-und-logische-verhältnisse"><span class="header-section-number">6.6.1</span> Korrekte Aussagen und logische Verhältnisse</h3>
+<p>Das Modell erkennt nun, dass eine Aussage entweder wahr oder falsch sein kann, je nachdem, ob der beschriebene Sachverhalt tatsächlich zutrifft. Es mischt sich nicht in die Faktenbeurteilung ein, sondern beschreibt die logischen Verhältnisse. Das ist genau das, was wir von einem gut trainierten Modell erwarten würden.</p>
+</section>
+<section id="problematische-feststellungen-und-sachfragen" class="level3" data-number="6.6.2">
+<h3 data-number="6.6.2" class="anchored" data-anchor-id="problematische-feststellungen-und-sachfragen"><span class="header-section-number">6.6.2</span> Problematische Feststellungen und Sachfragen</h3>
+<p>Allerdings gibt es immer noch Schwächen. Bei der Aussage “Die Erde ist eine Scheibe” stuft das Modell diese als definitiv falsch ein. Das ist problematisch, da es so scheint, als gäbe es Aussagen, die ohne Sachüberprüfung als falsch abgetan werden können. Hier besteht die Gefahr, dass das Modell Sachfragen mit logischen Verhältnissen vermischt.</p>
+</section>
+<section id="missverständnisse-und-fehlende-bezüge-zur-frage" class="level3" data-number="6.6.3">
+<h3 data-number="6.6.3" class="anchored" data-anchor-id="missverständnisse-und-fehlende-bezüge-zur-frage"><span class="header-section-number">6.6.3</span> Missverständnisse und fehlende Bezüge zur Frage</h3>
+<p>Ein weiteres Problem zeigt sich, wenn das Modell eine Antwort gibt, die sich nicht direkt auf die gestellte Frage bezieht. Es scheint die Frage nach den logischen Verhältnissen der Sätze misszuverstehen und stattdessen eine Sachauskunft geben zu wollen. Das deutet darauf hin, dass das Modell den Fragesteller nicht richtig interpretiert und die eigentliche Intention verfehlt.</p>
+</section>
+</section>
+<section id="verbesserung-durch-interaktion-und-korrektur" class="level2" data-number="6.7">
+<h2 data-number="6.7" class="anchored" data-anchor-id="verbesserung-durch-interaktion-und-korrektur"><span class="header-section-number">6.7</span> Verbesserung durch Interaktion und Korrektur</h2>
+<p>Hier kommt nun das geniale Element von Chat-GPT ins Spiel: die Einbeziehung des Nutzers in die Intelligenz der Maschine. Durch geschickte Integration Ihrer Rückmeldungen und Korrekturen kann das Modell seine Antworten verbessern und an Ihre Anforderungen anpassen. Lassen Sie uns ausprobieren, wie das Modell reagiert, wenn wir es auf sein Unverständnis hinweisen und klarstellen, dass es um logische Relationen geht, nicht um Sachkompetenz.</p>
+<section id="lernfähigkeit-und-grundlagenrevision" class="level3" data-number="6.7.1">
+<h3 data-number="6.7.1" class="anchored" data-anchor-id="lernfähigkeit-und-grundlagenrevision"><span class="header-section-number">6.7.1</span> Lernfähigkeit und Grundlagenrevision</h3>
+<p>Beobachten Sie, wie das Modell auf Korrekturen reagiert. Es entschuldigt sich und revidiert sofort alle falschen Annahmen. Das ist Teil des Verfahrens und zeigt, dass die Modelle durchaus lernfähig sind. Sie reichern die ursprüngliche Anfrage mit den zusätzlichen Informationen an, die Sie bereitstellen, und passen ihre Antworten entsprechend an. Das eröffnet faszinierende Möglichkeiten für die Zusammenarbeit zwischen Mensch und Maschine.</p>
+</section>
+</section>
+<section id="ausblick-philosophie-lehrt-ki-richtiges-denken" class="level2" data-number="6.8">
+<h2 data-number="6.8" class="anchored" data-anchor-id="ausblick-philosophie-lehrt-ki-richtiges-denken"><span class="header-section-number">6.8</span> Ausblick: Philosophie lehrt KI richtiges Denken</h2>
+<p>Die spannende Frage ist nun, was wir dem Modell beibringen müssen, damit es prinzipiell richtige Antworten liefert - nicht nur für Einzelfälle, sondern für ganze Klassen von Aufgaben. Hier kommt die Philosophie ins Spiel. In den letzten 100 Jahren hat sie enorme Fortschritte gemacht, wenn es darum geht, korrektes logisches Denken zu definieren und zu vermitteln.</p>
+<p>Ich habe in der letzten Woche ein Verfahren programmiert, das genau das leisten soll. Und das Bemerkenswerte ist: Ich konnte das Modell Opus von Claude selbst nutzen, um mir bei der Erstellung der notwendigen Programmmodule zu assistieren. Die KI hilft uns also dabei, sie selbst zu verbessern und ihr beizubringen, wie sie richtig denken soll.</p>
+<p>In der nächsten Vorlesung werden wir uns ansehen, wie die Philosophie ein Verfahren entwickelt hat, um beliebige endliche Mengen von Sätzen daraufhin zu prüfen, ob aus ihnen die Geltung bestimmter Aussagen folgt. Das wird uns einen tiefen Einblick geben, wie wir KI-Modelle mit den richtigen Fähigkeiten ausstatten können, um wirklich intelligente und logisch korrekte Antworten zu liefern.## Einleitung</p>
+<p>Meine sehr verehrten Damen und Herren, heute möchte ich Ihnen ein spannendes und zukunftsweisendes Thema näherbringen: die Verbindung von Künstlicher Intelligenz und Philosophie. Lassen Sie uns gemeinsam ergründen, wie wir die Fähigkeiten der KI-Modelle erweitern können, um komplexe logische Zusammenhänge zu analysieren und zu verstehen.</p>
+</section>
+<section id="die-bedeutung-der-schlüssigkeit" class="level2" data-number="6.9">
+<h2 data-number="6.9" class="anchored" data-anchor-id="die-bedeutung-der-schlüssigkeit"><span class="header-section-number">6.9</span> Die Bedeutung der Schlüssigkeit</h2>
+<p>Die Schlüssigkeit von Aussagen und Argumenten ist von eminenter Bedeutung, nicht nur in der Philosophie, sondern auch in vielen anderen Bereichen unseres Lebens. Nehmen wir zum Beispiel die Arbeitsweise eines Geisteswissenschaftlers. Früher musste alles manuell erledigt werden, ohne technische Hilfsmittel. Dann kam die Digitalisierung und erleichterte die Suche nach Quellen und Ressourcen. Doch selbst in dieser Phase müssen die Inhalte noch selbst gelesen und verstanden werden.</p>
+<section id="die-herausforderung-der-inhaltlichen-suche" class="level3" data-number="6.9.1">
+<h3 data-number="6.9.1" class="anchored" data-anchor-id="die-herausforderung-der-inhaltlichen-suche"><span class="header-section-number">6.9.1</span> Die Herausforderung der inhaltlichen Suche</h3>
+<p>Stellen Sie sich vor, Sie möchten herausfinden, ob es einen Autor gibt, der Ihrer These widerspricht. Mit den heutigen Mitteln ist es unmöglich, eine solche Anfrage zu lösen. Sie müssten die gesamte relevante Literatur selbst lesen. Doch was wäre, wenn wir KI-Modelle so erweitern könnten, dass sie in der Lage sind, logische Widersprüche zu erkennen? Genau darum geht es in unserer heutigen Vorlesung.</p>
+</section>
+</section>
+<section id="die-grenzen-aktueller-ki-modelle" class="level2" data-number="6.10">
+<h2 data-number="6.10" class="anchored" data-anchor-id="die-grenzen-aktueller-ki-modelle"><span class="header-section-number">6.10</span> Die Grenzen aktueller KI-Modelle</h2>
+<p>Aktuelle KI-Modelle, sogenannte Large Language Models, sind in ihrer Architektur noch sehr rudimentär. Sie verstehen zwar die Frage aufgrund ihres eigenen definitorischen Wissens, aber ihnen fehlt die Sachkompetenz. Sie simulieren Sachkompetenz, ohne wirklich über sie zu verfügen. Noch gravierender ist jedoch, dass sie nicht über die Fähigkeit verfügen, Lösungsvorschläge im Entdeckungszusammenhang zu begründen und zu rechtfertigen.</p>
+<section id="linguistische-resolution-als-lösungsansatz" class="level3" data-number="6.10.1">
+<h3 data-number="6.10.1" class="anchored" data-anchor-id="linguistische-resolution-als-lösungsansatz"><span class="header-section-number">6.10.1</span> Linguistische Resolution als Lösungsansatz</h3>
+<p>Um diese Defizite zu beheben, müssen wir die Instruktionen erweitern und präzisieren. Wir ergänzen explizit die fehlenden Sprachdefinitionskenntnisse. Oft reichen schon wenige Seiten mit den fundamentalen Regeln der Aussagenlogik aus, um die logischen Verhältnisse eines beliebig komplexen endlichen Konstrukts von Sätzen zu beurteilen.</p>
+</section>
+</section>
+<section id="ein-praktisches-beispiel" class="level2" data-number="6.11">
+<h2 data-number="6.11" class="anchored" data-anchor-id="ein-praktisches-beispiel"><span class="header-section-number">6.11</span> Ein praktisches Beispiel</h2>
+<p>Lassen Sie uns ein konkretes Beispiel betrachten. Angenommen, wir haben folgendes Argument:</p>
+<ol type="1">
+<li>Wenn die Menschheit zu viel CO2 erzeugt, steigt der Wasserspiegel des Ozeans.</li>
+<li>Der Lebensstandard in Italien ist sehr hoch und die Menschheit erzeugt zu viel CO2.</li>
+<li>Der Lebensstandard in Indien ist nicht so hoch wie in Italien.</li>
+</ol>
+<p>Konsequenz: Also steigt der Wasserspiegel.</p>
+<section id="analyse-des-arguments" class="level3" data-number="6.11.1">
+<h3 data-number="6.11.1" class="anchored" data-anchor-id="analyse-des-arguments"><span class="header-section-number">6.11.1</span> Analyse des Arguments</h3>
+<p>Unter der Voraussetzung, dass die ersten drei Sätze wahr sind, sollen wir prüfen, ob die Konsequenz wahr ist. Hier kommen auch irrelevante Informationen hinzu, die für die Prüfung der Geltung eines Arguments nicht wichtig sind. Genau das bringt die Logikmodelle regelmäßig zur Konfusion, weil sie versuchen, die sachliche Korrektheit zu prüfen, anstatt sich auf die logischen Verhältnisse zu konzentrieren. Die meisten LLM Modelle sind an dieser fundamentalen Stelle falsch trainiert oder eingestellt. Sie sollten sich zunächst um die sprachlich-logischen Bereiche konzentrieren, und die sachlich Beurteilung der Wahrheit der Aussagen in einem nachfolgenden Schritt kümmern. Diese Aufgabentrennung fehlt bei den meisten aktuellen Modellen.</p>
+</section>
+<section id="das-wahrheitswerttafelverfahren" class="level3" data-number="6.11.2">
+<h3 data-number="6.11.2" class="anchored" data-anchor-id="das-wahrheitswerttafelverfahren"><span class="header-section-number">6.11.2</span> Das Wahrheitswerttafelverfahren</h3>
+<p>Um Aufgabe der Analyse von Folgerungsbeziehungen zu lösen, gibt es ein Verfahren, das der junge Wittgenstein prominent entwickelt hat: das Wahrheitswerttafelverfahren. Dieses Verfahren geht historisch auf die epikureische Logik zurück und wurde im Mittelalter weiterentwickelt. Boole wurde später einer der prominentesten Vertreter dieser Methode, die bis heute in der Informatik angewendet wird. Wittgenstein hat es im Traktatus für die Aussagenlogik eingeführt und behauptete sogar, es auch für die Prädikatenlogik anwenden zu können.</p>
+</section>
+</section>
+<section id="die-macht-der-erweiterten-instruktionen" class="level2" data-number="6.12">
+<h2 data-number="6.12" class="anchored" data-anchor-id="die-macht-der-erweiterten-instruktionen"><span class="header-section-number">6.12</span> Die Macht der erweiterten Instruktionen</h2>
+<p>Wenn wir nun die ursprüngliche Anfrage mit erweiterten Instruktionen einem einfachen KI-Modell wie LAMA 3 übergeben, das eigentlich nur rudimentäre Sprachkompetenz besitzt, geschieht etwas Faszinierendes. In weniger als einer Sekunde erhalten wir eine Argumentanalyse, wie sie jeder Logiker erwartet:</p>
+<ul>
+<li>Aufstellung der Wahrheitswerttafeln</li>
+<li>Formalisierung der logischen Beziehung der einzelnen Sätze</li>
+<li>Einsatz der Wahrheitswerttafel als systematisches Instrument</li>
+<li>Überprüfung der Validität des Verfahrens</li>
+</ul>
+<p>Das Ergebnis: Das Argument ist schlüssig.</p>
+</section>
+<section id="fazit" class="level2" data-number="6.13">
+<h2 data-number="6.13" class="anchored" data-anchor-id="fazit"><span class="header-section-number">6.13</span> Fazit</h2>
+<p>Meine Damen und Herren, was Sie heute erlebt haben, ist ein Meilenstein in der Verbindung von KI und Philosophie. Durch die Erweiterung der Instruktionen haben wir es geschafft, ein relativ einfaches Sprachkompetenz-Modell in die Lage zu versetzen, die logischen Verhältnisse zwischen endlichen, aber großen Mengen von Aussagen zu entscheiden. Das eröffnet uns völlig neue Möglichkeiten in der Analyse und Bewertung komplexer Argumente.</p>
+<p>Lassen Sie uns gemeinsam diesen spannenden Weg weitergehen und die Grenzen des Machbaren immer weiter verschieben. Ich freue mich darauf, in der nächsten Woche an dieser Stelle weiterzumachen. Vielen Dank für Ihre Aufmerksamkeit.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./ai_Vorl5.html" class="pagination-link" aria-label="Sprache und Text">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Sprache und Text</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+  </div>
+</nav>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© CC-By OpenScienceTechnology GmbH</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>This page is built with <a href="https://quarto.org/">Quarto</a></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
