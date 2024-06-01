@@ -22,7 +22,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -73,7 +93,7 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-sidebar docked">
+<body class="nav-sidebar docked slimcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -126,6 +146,9 @@ ul.task-list li input[type="checkbox"] {
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Philosophie der AI</a> 
+        <div class="sidebar-tools-main">
+    <a href="./Philosophie-der-AI.pdf" title="Download PDF" class="quarto-navigation-tool px-1" aria-label="Download PDF"><i class="bi bi-file-pdf"></i></a>
+</div>
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -188,7 +211,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./modell.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Modell</span></a>
+ <span class="menu-text">LettreAI Studio</span></a>
   </div>
 </li>
     </ul>
@@ -264,7 +287,7 @@ ul.task-list li input[type="checkbox"] {
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
     </div>
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content">
+<main class="content quarto-banner-title-block page-columns page-full" id="quarto-document-content">
 
 
 
@@ -289,7 +312,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Diese haben das Ziel, Texte jeder Größe zu verarbeiten, in diesem Fall alles, was die Klassik Stiftung Weimar zu Goethe zu bieten hat, damit zu arbeiten, darauf zuzugreifen und es mit AI zu verarbeiten. Es geht also zunächst einmal um eine AI Textverarbeitungskompetenz, auf der dieses Projekt aufbauen soll.</p>
 </section>
 </section>
-<section id="logisches-denken" class="level2" data-number="6.2">
+<section id="logisches-denken" class="level2 page-columns page-full" data-number="6.2">
 <h2 data-number="6.2" class="anchored" data-anchor-id="logisches-denken"><span class="header-section-number">6.2</span> Logisches Denken</h2>
 <p>Heute werden wir uns auf eine Kompetenz fokussieren, die, obwohl die Werbung für diese Modelle etwas anderes suggeriert, nur äußerst beschränkt und rudimentär vorhanden ist, nämlich das logische Denken. Das lernen Sie in der Philosophie, denke ich, in den ersten zwei Semestern. Turnusgemäß ist das ziemlich unbeliebt unter unseren Studierenden, ich weiß nicht, wie das bei Ihnen im Durchschnitt ist, aber im Prinzip ist das eine Pflichtveranstaltung, die man möglichst schnell hinter sich bringt, ohne genau zu wissen, wozu das eigentlich für das weitere Studium dient.</p>
 <p>Ich hoffe, Sie werden jetzt hier sehen, dass die Erträge dieser Kompetenz vielleicht für das spätere klassische Philosophiestudium nicht so zentral waren, wie es immer gesagt wird. Aber die Anwendungsbereiche in der AI, werden wir sehen, sind von fundamentaler, zentraler Bedeutung. Und wir werden es an einigen Beispielen auch beim Erfassen des Inhalts beliebiger Texte mittels AI-Modellen ziemlich schnell erfahren.</p>
@@ -302,10 +325,12 @@ ul.task-list li input[type="checkbox"] {
 <p>Wie kann also ein solches Modell des Denkens verfasst werden? Viele derzeitige Modellierer der AI-Modelle glauben noch, das ließe sich trainieren, indem man den gesamten Textbestand des Internets als eine Art Trainingsmasse für Inputdaten, für vorgefertigte Weisen zu schreiben und damit auch sein Denken zu dokumentieren, verwendet. Aufgrund dieser Abläufe von Sätzen und Folgen von Ideen auf den Publikationen auf dem Internet-Textkorpus ließe sich dann modellieren, wie optimal eine Maschine des Denkens aussieht.</p>
 <p>Das funktioniert leider aus einem wichtigen Grund nicht. Die im Internet publizierten Dokumente sind nämlich keine Dokumente des Denkens, schlichtweg. Sie dokumentieren nicht den Prozess des Nachdenkens, den wir - und das ist gar nicht so geheimnisvoll - unter Nachdenken verstehen. Ich verstehe darunter wirklich etwas ganz Einfaches: Ideen artikulieren, Ideen bekommen und daraus Nachfolgeideen entwickeln. Dieser Prozess des expliziten Erfassens von Ideen, des Verwertens von Informationen und des Schaffens neuer Ideen, das ist das, was primär und zentral unter Denken zu verstehen ist. Also nichts Psychologisches, nichts Geheimnisvolles, nichts Intuitives, sondern einfach die Abfolge von allgemein dem Bewusstsein zugänglichen Gedanken.</p>
 </section>
-<section id="unterschied-zwischen-context-of-discovery-und-context-of-justification" class="level3" data-number="6.2.3">
+<section id="unterschied-zwischen-context-of-discovery-und-context-of-justification" class="level3 page-columns page-full" data-number="6.2.3">
 <h3 data-number="6.2.3" class="anchored" data-anchor-id="unterschied-zwischen-context-of-discovery-und-context-of-justification"><span class="header-section-number">6.2.3</span> Unterschied zwischen Context of Discovery und Context of Justification</h3>
-<p>Unter Wissenschaftshistorikern und Wissenschaftsphilosophen ist es überhaupt nichts Neues, festzustellen, dass es einen fundamentalen Unterschied gibt zwischen den Prozessen des Denkens, die zu neuen Ideen führen, und den Prozessen des Denkens, die eine Rechtfertigung der Geltung des Anspruchs eines neuen Befundes sind. Reichenbach hier in Berlin hat in den 20er Jahren dafür einen Begriff der Unterscheidung erfunden, nämlich, weil es dann später im Englischen populär wurde, in der englischen Übersetzung, der Unterschied zwischen einem Context of Discovery und einem Context of Justification.</p>
-<section id="context-of-discovery" class="level4" data-number="6.2.3.1">
+<p>Unter Wissenschaftshistorikern und Wissenschaftsphilosophen ist es überhaupt nichts Neues, festzustellen, dass es einen fundamentalen Unterschied gibt zwischen den Prozessen des Denkens, die zu neuen Ideen führen, und den Prozessen des Denkens, die eine Rechtfertigung der Geltung des Anspruchs eines neuen Befundes sind. Reichenbach hier in Berlin hat in den 20er Jahren dafür einen Begriff der Unterscheidung erfunden, nämlich, weil es dann später im Englischen populär wurde, in der englischen Übersetzung, der Unterschied zwischen einem Context of Discovery und einem Context of Justification.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
+<div class="no-row-height column-margin column-container"><div id="fn1"><p><sup>1</sup>&nbsp;<span class="citation" data-cites="Hoyningen_1987">Hoyningen-Huene (<a href="references.html#ref-Hoyningen_1987" role="doc-biblioref">1987</a>)</span></p><div id="ref-Hoyningen_1987" class="csl-entry" role="listitem">
+Hoyningen-Huene, Paul. 1987. <span>“Context of Discovery and Context of Justification.”</span> <em>Studies in History and Philosophy of Science Part A</em> 18 (4): 501–15. https://doi.org/<a href="https://doi.org/10.1016/0039-3681(87)90005-7">https://doi.org/10.1016/0039-3681(87)90005-7</a>.
+</div></div></div><section id="context-of-discovery" class="level4" data-number="6.2.3.1">
 <h4 data-number="6.2.3.1" class="anchored" data-anchor-id="context-of-discovery"><span class="header-section-number">6.2.3.1</span> Context of Discovery</h4>
 <p>Der Context of Discovery sind all die Gedankenprozesse, die, wie der Name sagt, zur Entdeckung, zur Formulierung von etwas Neuem führen.</p>
 </section>
@@ -357,7 +382,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="der-fall-von-sir-hans-krebs" class="level4" data-number="6.2.5.2">
 <h4 data-number="6.2.5.2" class="anchored" data-anchor-id="der-fall-von-sir-hans-krebs"><span class="header-section-number">6.2.5.2</span> Der Fall von Sir Hans Krebs</h4>
-<p>Ein bemerkenswertes Beispiel für dieses Phänomen ist der Nobelpreisträger Sir Hans Krebs, der Entdecker des Krebs-Zyklus und anderer wichtiger biochemischer Fakten in der Medizin. In einem aufwendigen Projekt wurden Krebs seine eigenen, fast täglich verfassten Labornotizen Seite für Seite vorgelegt. In mehrwöchiger Arbeit entstanden so Regale voller Transkriptionen von Interviews, in denen Krebs seine eigenen Protokolle kommentierte und dokumentierte.</p>
+<p>Ein bemerkenswertes Beispiel für dieses Phänomen ist der Nobelpreisträger Sir Hans Krebs, der Entdecker des Krebs-Zyklus und anderer wichtiger biochemischer Prozesse in der Medizin. In einem aufwendigen Projekt wurden Krebs seine eigenen, fast täglich verfassten Labornotizen Seite für Seite vorgelegt. In mehrwöchiger Arbeit entstanden so Regale voller Transkriptionen von Interviews, in denen Krebs seine eigenen Protokolle kommentierte und dokumentierte.</p>
 <p>Obwohl Krebs selbst größtes Interesse daran hatte herauszufinden, wie sich seine Forschung entwickelt hatte, war er selbst angesichts seiner eigenen vollständigen Unterlagen und seines besten Erinnerungsvermögens nicht in der Lage, seine Aufzeichnungen zu kritischen, sehr lebendig gebliebenen Erinnerungen seines Forschungslebens so zu kommentieren, dass er sagen konnte, weshalb er etwas gemacht hat. Diese Dokumente sind äußerst interessant zu lesen, denn sie zeigen, wie wenig Erinnerung an die ursprünglichen Intentionen vorhanden ist. Jede Menge Erinnerungen daran, was schließlich gefunden wurde, was interessant war - aber wenn nachgehakt wurde, weshalb er ein bestimmtes Experiment überhaupt gemacht hat, was der Grund war, dann fing Krebs sofort an zu konstruieren, nicht zu erinnern.</p>
 </section>
 </section>
@@ -478,7 +503,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Um diese Defizite zu beheben, müssen wir die Instruktionen erweitern und präzisieren. Wir ergänzen explizit die fehlenden Sprachdefinitionskenntnisse. Oft reichen schon wenige Seiten mit den fundamentalen Regeln der Aussagenlogik aus, um die logischen Verhältnisse eines beliebig komplexen endlichen Konstrukts von Sätzen zu beurteilen.</p>
 </section>
 </section>
-<section id="ein-praktisches-beispiel" class="level2" data-number="6.11">
+<section id="ein-praktisches-beispiel" class="level2 page-columns page-full" data-number="6.11">
 <h2 data-number="6.11" class="anchored" data-anchor-id="ein-praktisches-beispiel"><span class="header-section-number">6.11</span> Ein praktisches Beispiel</h2>
 <p>Lassen Sie uns ein konkretes Beispiel betrachten. Angenommen, wir haben folgendes Argument:</p>
 <ol type="1">
@@ -487,10 +512,12 @@ ul.task-list li input[type="checkbox"] {
 <li>Der Lebensstandard in Indien ist nicht so hoch wie in Italien.</li>
 </ol>
 <p>Konsequenz: Also steigt der Wasserspiegel.</p>
-<section id="analyse-des-arguments" class="level3" data-number="6.11.1">
+<section id="analyse-des-arguments" class="level3 page-columns page-full" data-number="6.11.1">
 <h3 data-number="6.11.1" class="anchored" data-anchor-id="analyse-des-arguments"><span class="header-section-number">6.11.1</span> Analyse des Arguments</h3>
-<p>Unter der Voraussetzung, dass die ersten drei Sätze wahr sind, sollen wir prüfen, ob die Konsequenz wahr ist. Hier kommen auch irrelevante Informationen hinzu, die für die Prüfung der Geltung eines Arguments nicht wichtig sind. Genau das bringt die Logikmodelle regelmäßig zur Konfusion, weil sie versuchen, die sachliche Korrektheit zu prüfen, anstatt sich auf die logischen Verhältnisse zu konzentrieren. Die meisten LLM Modelle sind an dieser fundamentalen Stelle falsch trainiert oder eingestellt. Sie sollten sich zunächst um die sprachlich-logischen Bereiche konzentrieren, und die sachlich Beurteilung der Wahrheit der Aussagen in einem nachfolgenden Schritt kümmern. Diese Aufgabentrennung fehlt bei den meisten aktuellen Modellen.</p>
-</section>
+<p>Unter der Voraussetzung, dass die ersten drei Sätze wahr sind, sollen wir prüfen, ob die Konsequenz wahr ist. Hier kommen auch irrelevante Informationen hinzu, die für die Prüfung der Geltung eines Arguments nicht wichtig sind. Genau das bringt die Logikmodelle regelmäßig zur Konfusion, weil sie versuchen, die sachliche Korrektheit zu prüfen, anstatt sich auf die logischen Verhältnisse zu konzentrieren. Die meisten LLM Modelle sind an dieser fundamentalen Stelle falsch trainiert oder eingestellt. Sie sollten sich zunächst um die sprachlich-logischen Bereiche konzentrieren, und die sachlich Beurteilung der Wahrheit der Aussagen in einem nachfolgenden Schritt kümmern. Diese Aufgabentrennung fehlt bei den meisten aktuellen Modellen.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></p>
+<div class="no-row-height column-margin column-container"><div id="fn2"><p><sup>2</sup>&nbsp;<span class="citation" data-cites="Lampert_2004">Lampert (<a href="references.html#ref-Lampert_2004" role="doc-biblioref">2004</a>)</span></p><div id="ref-Lampert_2004" class="csl-entry" role="listitem">
+Lampert, Timm. 2004. <em>Klassische Logik: Einführung mit interaktiven Übungen</em>. Berlin: <span>De</span> <span>Gruyter</span>. <a href="https://doi.org/10.1515/9783110324167">https://doi.org/10.1515/9783110324167</a>.
+</div></div></div></section>
 <section id="das-wahrheitswerttafelverfahren" class="level3" data-number="6.11.2">
 <h3 data-number="6.11.2" class="anchored" data-anchor-id="das-wahrheitswerttafelverfahren"><span class="header-section-number">6.11.2</span> Das Wahrheitswerttafelverfahren</h3>
 <p>Um Aufgabe der Analyse von Folgerungsbeziehungen zu lösen, gibt es ein Verfahren, das der junge Wittgenstein prominent entwickelt hat: das Wahrheitswerttafelverfahren. Dieses Verfahren geht historisch auf die epikureische Logik zurück und wurde im Mittelalter weiterentwickelt. Boole wurde später einer der prominentesten Vertreter dieser Methode, die bis heute in der Informatik angewendet wird. Wittgenstein hat es im Traktatus für die Aussagenlogik eingeführt und behauptete sogar, es auch für die Prädikatenlogik anwenden zu können.</p>
@@ -513,7 +540,9 @@ ul.task-list li input[type="checkbox"] {
 <p>Lassen Sie uns gemeinsam diesen spannenden Weg weitergehen und die Grenzen des Machbaren immer weiter verschieben. Ich freue mich darauf, in der nächsten Woche an dieser Stelle weiterzumachen. Vielen Dank für Ihre Aufmerksamkeit.</p>
 
 
+
 </section>
+
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
