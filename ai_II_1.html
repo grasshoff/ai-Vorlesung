@@ -1,0 +1,975 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.28">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Gerd Graßhoff">
+<meta name="dcterms.date" content="2024-05-01">
+
+<title>1&nbsp; AI-II-1a – Philosophie der AI</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-75d73ece3e5fc6e04b504c8afc5573bd.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-f80af0fcbcc60bbf7c7bc63b710154f5.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar docked">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./ai_II_1.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">AI-II-1a</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default toc-left page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">AI-II-1a</span></h1>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Gerd Graßhoff </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">May 1, 2024</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Philosophie der AI</a> 
+        <div class="sidebar-tools-main">
+    <a href="./Philosophie-der-AI.pdf" title="Download PDF" class="quarto-navigation-tool px-1" aria-label="Download PDF"><i class="bi bi-file-pdf"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><em>Philosophie der AI</em></span></a>
+  </div>
+</li>
+        <li class="px-0"><hr class="sidebar-divider hi "></li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ai_II_1.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">AI-II-1a</span></span></a>
+  </div>
+</li>
+        <li class="px-0"><hr class="sidebar-divider hi "></li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ai_Vorl1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Was ist AI?</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ai_Vorl2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Die Revolution der AI</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ai_Vorl3.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Charakter von LLMs</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ai_Vorl4.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">LLM für Sprache</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ai_Vorl5.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Sprache und Text</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ai_Vorl6.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Denken mit Logik</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ai_Vorl7.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Argumente</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ai_Vorl8.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Akteure</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ai_Vorl9.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Validierung</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ai_Vorl10.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Epistemische Bewertung</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ai-Vorl11.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Instruktion</span></span></a>
+  </div>
+</li>
+        <li class="px-0"><hr class="sidebar-divider hi "></li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">References</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Inhalt</h2>
+   
+  <ul>
+  <li><a href="#einführung-in-die-computational-epistemology" id="toc-einführung-in-die-computational-epistemology" class="nav-link active" data-scroll-target="#einführung-in-die-computational-epistemology"><span class="header-section-number">1.1</span> Einführung in die Computational Epistemology</a>
+  <ul class="collapse">
+  <li><a href="#ein-neues-forschungsfeld" id="toc-ein-neues-forschungsfeld" class="nav-link" data-scroll-target="#ein-neues-forschungsfeld"><span class="header-section-number">1.1.1</span> Ein neues Forschungsfeld</a></li>
+  <li><a href="#definition-und-abgrenzung" id="toc-definition-und-abgrenzung" class="nav-link" data-scroll-target="#definition-und-abgrenzung"><span class="header-section-number">1.1.2</span> Definition und Abgrenzung</a></li>
+  <li><a href="#zielsetzung-und-relevanz" id="toc-zielsetzung-und-relevanz" class="nav-link" data-scroll-target="#zielsetzung-und-relevanz"><span class="header-section-number">1.1.3</span> Zielsetzung und Relevanz</a></li>
+  </ul></li>
+  <li><a href="#herausforderungen-der-ai-im-bereich-des-logischen-schließens" id="toc-herausforderungen-der-ai-im-bereich-des-logischen-schließens" class="nav-link" data-scroll-target="#herausforderungen-der-ai-im-bereich-des-logischen-schließens"><span class="header-section-number">1.2</span> Herausforderungen der AI im Bereich des logischen Schließens</a>
+  <ul class="collapse">
+  <li><a href="#grundlegende-logische-operationen" id="toc-grundlegende-logische-operationen" class="nav-link" data-scroll-target="#grundlegende-logische-operationen"><span class="header-section-number">1.2.1</span> Grundlegende logische Operationen</a></li>
+  <li><a href="#die-debatte-um-ai-und-reasoning" id="toc-die-debatte-um-ai-und-reasoning" class="nav-link" data-scroll-target="#die-debatte-um-ai-und-reasoning"><span class="header-section-number">1.2.2</span> Die Debatte um AI und Reasoning</a></li>
+  <li><a href="#historische-perspektiven-auf-maschinelles-denken" id="toc-historische-perspektiven-auf-maschinelles-denken" class="nav-link" data-scroll-target="#historische-perspektiven-auf-maschinelles-denken"><span class="header-section-number">1.2.3</span> Historische Perspektiven auf maschinelles Denken</a></li>
+  </ul></li>
+  <li><a href="#die-zukunft-der-wissenschaftlichen-forschung-durch-ai" id="toc-die-zukunft-der-wissenschaftlichen-forschung-durch-ai" class="nav-link" data-scroll-target="#die-zukunft-der-wissenschaftlichen-forschung-durch-ai"><span class="header-section-number">1.3</span> Die Zukunft der wissenschaftlichen Forschung durch AI</a>
+  <ul class="collapse">
+  <li><a href="#computational-ai-und-epistemologie" id="toc-computational-ai-und-epistemologie" class="nav-link" data-scroll-target="#computational-ai-und-epistemologie"><span class="header-section-number">1.3.1</span> Computational AI und Epistemologie</a></li>
+  <li><a href="#ai-in-der-wissenschaft" id="toc-ai-in-der-wissenschaft" class="nav-link" data-scroll-target="#ai-in-der-wissenschaft"><span class="header-section-number">1.3.2</span> AI in der Wissenschaft</a></li>
+  <li><a href="#ai-und-nobelpreise" id="toc-ai-und-nobelpreise" class="nav-link" data-scroll-target="#ai-und-nobelpreise"><span class="header-section-number">1.3.3</span> AI und Nobelpreise</a></li>
+  </ul></li>
+  <li><a href="#die-grundlagen-moderner-ai-systeme" id="toc-die-grundlagen-moderner-ai-systeme" class="nav-link" data-scroll-target="#die-grundlagen-moderner-ai-systeme"><span class="header-section-number">1.4</span> Die Grundlagen moderner AI-Systeme</a>
+  <ul class="collapse">
+  <li><a href="#neuronale-netze-und-large-language-models" id="toc-neuronale-netze-und-large-language-models" class="nav-link" data-scroll-target="#neuronale-netze-und-large-language-models"><span class="header-section-number">1.4.1</span> Neuronale Netze und Large Language Models</a></li>
+  <li><a href="#sprachkompetenz-vs.-sachkompetenz" id="toc-sprachkompetenz-vs.-sachkompetenz" class="nav-link" data-scroll-target="#sprachkompetenz-vs.-sachkompetenz"><span class="header-section-number">1.4.2</span> Sprachkompetenz vs.&nbsp;Sachkompetenz</a></li>
+  </ul></li>
+  <li><a href="#die-evolution-unseres-sprachverständnisses" id="toc-die-evolution-unseres-sprachverständnisses" class="nav-link" data-scroll-target="#die-evolution-unseres-sprachverständnisses"><span class="header-section-number">1.5</span> Die Evolution unseres Sprachverständnisses</a>
+  <ul class="collapse">
+  <li><a href="#veränderung-der-sprachkonventionen" id="toc-veränderung-der-sprachkonventionen" class="nav-link" data-scroll-target="#veränderung-der-sprachkonventionen"><span class="header-section-number">1.5.1</span> Veränderung der Sprachkonventionen</a></li>
+  <li><a href="#erweiterung-des-akteursbegriffs" id="toc-erweiterung-des-akteursbegriffs" class="nav-link" data-scroll-target="#erweiterung-des-akteursbegriffs"><span class="header-section-number">1.5.2</span> Erweiterung des Akteursbegriffs</a></li>
+  </ul></li>
+  <li><a href="#die-semantische-revolution-in-der-ai" id="toc-die-semantische-revolution-in-der-ai" class="nav-link" data-scroll-target="#die-semantische-revolution-in-der-ai"><span class="header-section-number">1.6</span> Die semantische Revolution in der AI</a>
+  <ul class="collapse">
+  <li><a href="#von-der-wortübersetzung-zur-inhaltsübertragung" id="toc-von-der-wortübersetzung-zur-inhaltsübertragung" class="nav-link" data-scroll-target="#von-der-wortübersetzung-zur-inhaltsübertragung"><span class="header-section-number">1.6.1</span> Von der Wortübersetzung zur Inhaltsübertragung</a></li>
+  <li><a href="#semantische-inhalte-und-die-epistemologische-wende" id="toc-semantische-inhalte-und-die-epistemologische-wende" class="nav-link" data-scroll-target="#semantische-inhalte-und-die-epistemologische-wende"><span class="header-section-number">1.6.2</span> Semantische Inhalte und die epistemologische Wende</a></li>
+  </ul></li>
+  <li><a href="#die-zukunft-der-ai-von-der-sprache-zur-kognition" id="toc-die-zukunft-der-ai-von-der-sprache-zur-kognition" class="nav-link" data-scroll-target="#die-zukunft-der-ai-von-der-sprache-zur-kognition"><span class="header-section-number">1.7</span> Die Zukunft der AI: Von der Sprache zur Kognition</a>
+  <ul class="collapse">
+  <li><a href="#sprachverarbeitung-und-akustische-signale" id="toc-sprachverarbeitung-und-akustische-signale" class="nav-link" data-scroll-target="#sprachverarbeitung-und-akustische-signale"><span class="header-section-number">1.7.1</span> Sprachverarbeitung und akustische Signale</a></li>
+  <li><a href="#von-worten-zu-bedeutungen" id="toc-von-worten-zu-bedeutungen" class="nav-link" data-scroll-target="#von-worten-zu-bedeutungen"><span class="header-section-number">1.7.2</span> Von Worten zu Bedeutungen</a></li>
+  </ul></li>
+  <li><a href="#echtzeit-übersetzung-und-ihre-implikationen" id="toc-echtzeit-übersetzung-und-ihre-implikationen" class="nav-link" data-scroll-target="#echtzeit-übersetzung-und-ihre-implikationen"><span class="header-section-number">1.8</span> Echtzeit-Übersetzung und ihre Implikationen</a>
+  <ul class="collapse">
+  <li><a href="#die-nahe-zukunft-der-sprachkommunikation" id="toc-die-nahe-zukunft-der-sprachkommunikation" class="nav-link" data-scroll-target="#die-nahe-zukunft-der-sprachkommunikation"><span class="header-section-number">1.8.1</span> Die nahe Zukunft der Sprachkommunikation</a></li>
+  <li><a href="#ein-gedankenexperiment-zur-sprachübersetzung" id="toc-ein-gedankenexperiment-zur-sprachübersetzung" class="nav-link" data-scroll-target="#ein-gedankenexperiment-zur-sprachübersetzung"><span class="header-section-number">1.8.2</span> Ein Gedankenexperiment zur Sprachübersetzung</a></li>
+  </ul></li>
+  <li><a href="#die-grenzen-der-sprache-und-des-verstehens" id="toc-die-grenzen-der-sprache-und-des-verstehens" class="nav-link" data-scroll-target="#die-grenzen-der-sprache-und-des-verstehens"><span class="header-section-number">1.9</span> Die Grenzen der Sprache und des Verstehens</a>
+  <ul class="collapse">
+  <li><a href="#ausgestorbene-sprachen-und-künstliche-kommunikation" id="toc-ausgestorbene-sprachen-und-künstliche-kommunikation" class="nav-link" data-scroll-target="#ausgestorbene-sprachen-und-künstliche-kommunikation"><span class="header-section-number">1.9.1</span> Ausgestorbene Sprachen und künstliche Kommunikation</a></li>
+  <li><a href="#die-grenze-zwischen-mensch-und-tier-in-der-kommunikation" id="toc-die-grenze-zwischen-mensch-und-tier-in-der-kommunikation" class="nav-link" data-scroll-target="#die-grenze-zwischen-mensch-und-tier-in-der-kommunikation"><span class="header-section-number">1.9.2</span> Die Grenze zwischen Mensch und Tier in der Kommunikation</a></li>
+  </ul></li>
+  <li><a href="#die-philosophischen-implikationen" id="toc-die-philosophischen-implikationen" class="nav-link" data-scroll-target="#die-philosophischen-implikationen"><span class="header-section-number">1.10</span> Die philosophischen Implikationen</a>
+  <ul class="collapse">
+  <li><a href="#die-natur-der-kommunikation" id="toc-die-natur-der-kommunikation" class="nav-link" data-scroll-target="#die-natur-der-kommunikation"><span class="header-section-number">1.10.1</span> Die Natur der Kommunikation</a></li>
+  <li><a href="#die-verschiebung-unserer-wahrnehmung" id="toc-die-verschiebung-unserer-wahrnehmung" class="nav-link" data-scroll-target="#die-verschiebung-unserer-wahrnehmung"><span class="header-section-number">1.10.2</span> Die Verschiebung unserer Wahrnehmung</a></li>
+  <li><a href="#philosophische-fragen-zur-natur-des-verstehens" id="toc-philosophische-fragen-zur-natur-des-verstehens" class="nav-link" data-scroll-target="#philosophische-fragen-zur-natur-des-verstehens"><span class="header-section-number">1.10.3</span> Philosophische Fragen zur Natur des Verstehens</a></li>
+  </ul></li>
+  <li><a href="#empirische-perspektiven-auf-tierische-kommunikation" id="toc-empirische-perspektiven-auf-tierische-kommunikation" class="nav-link" data-scroll-target="#empirische-perspektiven-auf-tierische-kommunikation"><span class="header-section-number">1.11</span> Empirische Perspektiven auf tierische Kommunikation</a>
+  <ul class="collapse">
+  <li><a href="#reiz-reaktions-mechanismen-vs.-bedeutung" id="toc-reiz-reaktions-mechanismen-vs.-bedeutung" class="nav-link" data-scroll-target="#reiz-reaktions-mechanismen-vs.-bedeutung"><span class="header-section-number">1.11.1</span> Reiz-Reaktions-Mechanismen vs.&nbsp;Bedeutung</a></li>
+  <li><a href="#die-rolle-der-technologie-in-der-interpretation-tierischer-kommunikation" id="toc-die-rolle-der-technologie-in-der-interpretation-tierischer-kommunikation" class="nav-link" data-scroll-target="#die-rolle-der-technologie-in-der-interpretation-tierischer-kommunikation"><span class="header-section-number">1.11.2</span> Die Rolle der Technologie in der Interpretation tierischer Kommunikation</a></li>
+  <li><a href="#der-sprechende-papagei---ein-fallbeispiel" id="toc-der-sprechende-papagei---ein-fallbeispiel" class="nav-link" data-scroll-target="#der-sprechende-papagei---ein-fallbeispiel"><span class="header-section-number">1.11.3</span> Der sprechende Papagei - Ein Fallbeispiel</a></li>
+  <li><a href="#herausforderungen-der-interpretation" id="toc-herausforderungen-der-interpretation" class="nav-link" data-scroll-target="#herausforderungen-der-interpretation"><span class="header-section-number">1.11.4</span> Herausforderungen der Interpretation</a></li>
+  <li><a href="#die-frage-der-bedeutung" id="toc-die-frage-der-bedeutung" class="nav-link" data-scroll-target="#die-frage-der-bedeutung"><span class="header-section-number">1.11.5</span> Die Frage der Bedeutung</a></li>
+  <li><a href="#vergleich-zur-ki-debatte" id="toc-vergleich-zur-ki-debatte" class="nav-link" data-scroll-target="#vergleich-zur-ki-debatte"><span class="header-section-number">1.11.6</span> Vergleich zur KI-Debatte</a></li>
+  <li><a href="#ethische-und-philosophische-implikationen" id="toc-ethische-und-philosophische-implikationen" class="nav-link" data-scroll-target="#ethische-und-philosophische-implikationen"><span class="header-section-number">1.11.7</span> Ethische und philosophische Implikationen</a></li>
+  </ul></li>
+  </ul>
+</nav>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+
+<section id="einführung-in-die-computational-epistemology" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="einführung-in-die-computational-epistemology"><span class="header-section-number">1.1</span> Einführung in die Computational Epistemology</h2>
+<p>Willkommen zur zweiten Vorlesung über die Philosophie der Künstlichen Intelligenz. Obwohl diese als Teil 2 angekündigt wurde, möchte ich betonen, dass der erste Teil keine zwingende Voraussetzung für das Verständnis dieser Vorlesung darstellt. Heute werden wir uns einem spezifischen und höchst relevanten Themenfeld widmen, das ich als “Computational Epistemology” bezeichne.</p>
+<section id="ein-neues-forschungsfeld" class="level3" data-number="1.1.1">
+<h3 data-number="1.1.1" class="anchored" data-anchor-id="ein-neues-forschungsfeld"><span class="header-section-number">1.1.1</span> Ein neues Forschungsfeld</h3>
+<p>Mit der Computational Epistemology beabsichtige ich, ein völlig neues Gebiet für die Philosophie zu erschließen und zu etablieren. Nach meinem derzeitigen Kenntnisstand existiert dieses Feld in dieser Form noch nicht, obwohl es naheliegend erscheint, dass ähnliche Ideen weltweit bereits aufgekommen sein könnten. Die Einzigartigkeit dieses Ansatzes liegt in seinen neuartigen Methoden und Zielsetzungen, gepaart mit einer universellen Bedeutung.</p>
+</section>
+<section id="definition-und-abgrenzung" class="level3" data-number="1.1.2">
+<h3 data-number="1.1.2" class="anchored" data-anchor-id="definition-und-abgrenzung"><span class="header-section-number">1.1.2</span> Definition und Abgrenzung</h3>
+<p>Epistemologie, abgeleitet vom griechischen Wort “Episteme” für Wissen, befasst sich mit der Lehre vom Wissen oder der Erkenntnistheorie. Die Computational Epistemology zielt darauf ab, diese philosophische Disziplin mit den Möglichkeiten und Herausforderungen der modernen AI zu verbinden. Dabei geht es nicht darum, die gesamte philosophische Erkenntnistheorie zu digitalisieren, sondern vielmehr darum, jene Aspekte zu selektieren und anzuwenden, die für die Entwicklung und das Verständnis von AI-Modellen besonders relevant sind.</p>
+</section>
+<section id="zielsetzung-und-relevanz" class="level3" data-number="1.1.3">
+<h3 data-number="1.1.3" class="anchored" data-anchor-id="zielsetzung-und-relevanz"><span class="header-section-number">1.1.3</span> Zielsetzung und Relevanz</h3>
+<p>Mein Anspruch ist es, die Erkenntnistheorie in den Dienst der Artificial Intelligence zu stellen, um deren spezifische Bedürfnisse und Anforderungen zu adressieren. Im Laufe dieser Vorlesung werde ich aufzeigen, dass die derzeit existierenden AI-Modelle erhebliche Lücken und teilweise fehlerhafte Annäherungen an epistemologische Fragen aufweisen. Diese Defizite zu beheben, stellt ein enormes Potenzial für die Weiterentwicklung der AI dar.</p>
+</section>
+</section>
+<section id="herausforderungen-der-ai-im-bereich-des-logischen-schließens" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="herausforderungen-der-ai-im-bereich-des-logischen-schließens"><span class="header-section-number">1.2</span> Herausforderungen der AI im Bereich des logischen Schließens</h2>
+<section id="grundlegende-logische-operationen" class="level3" data-number="1.2.1">
+<h3 data-number="1.2.1" class="anchored" data-anchor-id="grundlegende-logische-operationen"><span class="header-section-number">1.2.1</span> Grundlegende logische Operationen</h3>
+<p>In der vorherigen Vorlesung haben wir uns mit einigen elementaren Beispielen der Logik befasst, insbesondere mit den Regeln des logischen Schließens. Diese Fähigkeit, aus einer gegebenen Menge von Prämissen deduktiv Schlüsse zu ziehen, ist eine fundamentale Übung in der Philosophie, die bereits in den ersten Wochen des Studiums behandelt wird. Überraschenderweise haben selbst fortschrittliche AI-Modelle noch Schwierigkeiten, diese scheinbar einfachen logischen Operationen zuverlässig durchzuführen.</p>
+</section>
+<section id="die-debatte-um-ai-und-reasoning" class="level3" data-number="1.2.2">
+<h3 data-number="1.2.2" class="anchored" data-anchor-id="die-debatte-um-ai-und-reasoning"><span class="header-section-number">1.2.2</span> Die Debatte um AI und Reasoning</h3>
+<p>In den sozialen Medien und der wissenschaftlichen Gemeinschaft entbrennt regelmäßig eine hitzige Diskussion darüber, ob AI-Systeme überhaupt in der Lage sind, logische Schlussfolgerungen zu ziehen. Einige Kritiker behaupten sogar, dass dies prinzipiell unmöglich sei. Die Argumente reichen von der Notwendigkeit des Verstehens für das Schließen bis hin zu fundamentalen Unterschieden zwischen menschlicher und maschineller Kognition.</p>
+</section>
+<section id="historische-perspektiven-auf-maschinelles-denken" class="level3" data-number="1.2.3">
+<h3 data-number="1.2.3" class="anchored" data-anchor-id="historische-perspektiven-auf-maschinelles-denken"><span class="header-section-number">1.2.3</span> Historische Perspektiven auf maschinelles Denken</h3>
+<p>Um diese Debatte in einen breiteren Kontext zu setzen, lohnt sich ein Blick in die Geschichte. Es gibt faszinierende Beispiele für mechanische Systeme, die komplexe Berechnungen und Vorhersagen treffen konnten, lange bevor der Begriff der Künstlichen Intelligenz geprägt wurde.</p>
+<section id="der-antikythera-mechanismus" class="level4" data-number="1.2.3.1">
+<h4 data-number="1.2.3.1" class="anchored" data-anchor-id="der-antikythera-mechanismus"><span class="header-section-number">1.2.3.1</span> Der Antikythera-Mechanismus</h4>
+<p>Ein besonders eindrucksvolles Beispiel ist der Antikythera-Mechanismus, ein hochkomplexes Räderwerk aus Bronze, das im 2. Jahrhundert vor Christus konstruiert wurde. Dieses erstaunliche Gerät war in der Lage, Sonnen- und Mondfinsternisse mit höchster Präzision vorherzusagen - eine Fähigkeit, die für politische und militärische Entscheidungen von enormer Bedeutung war.</p>
+</section>
+<section id="wissenschaftliche-kompetenz-im-altertum" class="level4" data-number="1.2.3.2">
+<h4 data-number="1.2.3.2" class="anchored" data-anchor-id="wissenschaftliche-kompetenz-im-altertum"><span class="header-section-number">1.2.3.2</span> Wissenschaftliche Kompetenz im Altertum</h4>
+<p>Die Existenz solcher Geräte wirft interessante Fragen über das Wesen des Schließens und der Erkenntnisgewinnung auf. In der Antike war die Fähigkeit, astronomische Ereignisse vorherzusagen, nicht an das individuelle Verständnis eines Menschen gebunden, sondern an die Expertise spezialisierter Zentren wie der Bibliotheken in Babylon. Diese Zentren bewahrten und pflegten das notwendige Wissen über Jahrhunderte hinweg, unabhängig von politischen Umwälzungen.</p>
+</section>
+<section id="reasoning-als-unabhängiges-konzept" class="level4" data-number="1.2.3.3">
+<h4 data-number="1.2.3.3" class="anchored" data-anchor-id="reasoning-als-unabhängiges-konzept"><span class="header-section-number">1.2.3.3</span> Reasoning als unabhängiges Konzept</h4>
+<p>Diese historischen Beispiele zeigen, dass das Konzept des “Reasoning” - des vernunftgeleiteten Schließens - nicht zwangsläufig an menschliche Einsicht gebunden sein muss. Vielmehr geht es um die Existenz und Anwendung logischer Zusammenhänge zwischen verschiedenen Sachverhalten und deren Konsequenzen. Der Antikythera-Mechanismus demonstriert eindrucksvoll, wie komplexe Berechnungen und Vorhersagen durch mechanische Systeme realisiert werden können, ohne dass ein tiefgreifendes theoretisches Verständnis bei jedem Anwender vorausgesetzt werden muss.</p>
+</section>
+</section>
+</section>
+<section id="die-zukunft-der-wissenschaftlichen-forschung-durch-ai" class="level2" data-number="1.3">
+<h2 data-number="1.3" class="anchored" data-anchor-id="die-zukunft-der-wissenschaftlichen-forschung-durch-ai"><span class="header-section-number">1.3</span> Die Zukunft der wissenschaftlichen Forschung durch AI</h2>
+<p>Die historischen Beispiele führen uns zu einer hochaktuellen Debatte: Wie lange wird es dauern, bis wir Maschinen entwickeln, die in der Lage sind, wissenschaftliche Forschung auf einem Niveau zu betreiben, das dem der besten menschlichen Spezialisten ebenbürtig oder gar überlegen ist? Diese Frage beschäftigt nicht nur die Fachwelt, sondern findet auch in renommierten Publikationen wie der Financial Times und dem Time Magazine Beachtung.</p>
+<p>Die Meinungen und Prognosen gehen weit auseinander. Einige Experten argumentieren, dass es prinzipiell unmöglich sei, während andere konkrete Zeiträume für diesen Durchbruch vorhersagen. Diese Diskussion erinnert stark an die Debatten, die schon vor Jahrtausenden über die Fähigkeiten mechanischer Systeme geführt wurden.## Die revolutionäre Entwicklung der AI</p>
+<p>In den letzten Jahren haben wir eine faszinierende Entwicklung im Bereich der Künstlichen Intelligenz, oder wie wir sie fortan nennen werden, AI, miterlebt. Wir befinden uns aktuell in einer äußerst spannenden Phase, in der das kreative Potenzial der AI immer deutlicher zutage tritt. Es ist davon auszugehen, dass wir bereits Ende nächsten Jahres einen bedeutenden Meilenstein erreichen werden.</p>
+<p>In dieser Vorlesung möchte ich Sie durch die faszinierenden Mechanismen führen, die wir entschlüsseln und maschinell umsetzen, um die Prozesse des Wissenserwerbs, der Wissenssuche und der Wissenskritik zu verstehen und nachzubilden. Wir werden uns damit beschäftigen, wie AI-Systeme die notwendigen Operationen durchführen, um Antworten zu generieren, die unseren Wissensansprüchen genügen.</p>
+<section id="computational-ai-und-epistemologie" class="level3" data-number="1.3.1">
+<h3 data-number="1.3.1" class="anchored" data-anchor-id="computational-ai-und-epistemologie"><span class="header-section-number">1.3.1</span> Computational AI und Epistemologie</h3>
+<p>Unser Ziel ist es, im Rahmen der Computational AI und Computational Epistemologie zu ergründen, welche funktionalen Komponenten bereitgestellt werden müssen, um diese komplexen Aufgaben zu bewältigen. Auch wenn wir möglicherweise nicht alle Antworten bis zum Ende dieser Vorlesung finden werden, bin ich überzeugt, dass wir bis Ende nächsten Jahres bereits erhebliche Fortschritte gemacht haben werden.</p>
+</section>
+<section id="ai-in-der-wissenschaft" class="level3" data-number="1.3.2">
+<h3 data-number="1.3.2" class="anchored" data-anchor-id="ai-in-der-wissenschaft"><span class="header-section-number">1.3.2</span> AI in der Wissenschaft</h3>
+<p>Lassen Sie mich eine gewagte Prognose wagen: Ich bin fest davon überzeugt, dass wir in wenigen Jahren, sicherlich vor 2030, Maschinen haben werden, die auf den speziellsten und kompliziertesten Feldern der Wissenschaft eigenständig kreative Leistungen erbringen werden. Ob sie dies alleine oder in Kooperation mit Menschen tun werden, ist dabei zweitrangig. Sie werden zweifellos wie hochqualifizierte Kollegen agieren.</p>
+</section>
+<section id="ai-und-nobelpreise" class="level3" data-number="1.3.3">
+<h3 data-number="1.3.3" class="anchored" data-anchor-id="ai-und-nobelpreise"><span class="header-section-number">1.3.3</span> AI und Nobelpreise</h3>
+<p>Ein bemerkenswerter Indikator für diese Entwicklung war die diesjährige Vergabe der Nobelpreise. Betrachten wir die verschiedenen Disziplinen, so fällt auf, dass fast jede den Nobelpreis an Arbeiten verliehen hat, die entweder mithilfe von AI erstellt wurden oder sich mit den Grundlagen von AI befassten. Dies gilt sogar für die Ökonomie, wo einer der Preisträger vom MIT für seine Forschung über die wirtschaftlichen Auswirkungen von AI ausgezeichnet wurde.</p>
+<p>Interessanterweise hatte das AI-Modell Claude nur eine Woche zuvor diesen Preisträger korrekt vorhergesagt - ein bemerkenswerter Treffer, der die Leistungsfähigkeit moderner AI-Systeme unterstreicht. Dies markiert einen bedeutenden Wendepunkt: Seit Herbert Simon in den 1970er Jahren ist dies das erste Mal im 21. Jahrhundert, dass Forscher im Zusammenhang mit AI-Forschung in ihren jeweiligen Gebieten den Nobelpreis erhalten haben.</p>
+</section>
+</section>
+<section id="die-grundlagen-moderner-ai-systeme" class="level2" data-number="1.4">
+<h2 data-number="1.4" class="anchored" data-anchor-id="die-grundlagen-moderner-ai-systeme"><span class="header-section-number">1.4</span> Die Grundlagen moderner AI-Systeme</h2>
+<section id="neuronale-netze-und-large-language-models" class="level3" data-number="1.4.1">
+<h3 data-number="1.4.1" class="anchored" data-anchor-id="neuronale-netze-und-large-language-models"><span class="header-section-number">1.4.1</span> Neuronale Netze und Large Language Models</h3>
+<p>Die Grundlagen für die heutigen AI-Systeme wurden bereits vor Jahrzehnten gelegt. Der diesjährige Physik-Nobelpreis würdigte die theoretische Formulierung neuronaler Netze, die als technische Imitate der Hirnfunktion fungieren. Obwohl diese frühen Modelle nur entfernt mit den heutigen Implementierungen zu tun haben, legten sie den evolutionären und technologischen Grundstein für die Fähigkeiten moderner Modelle.</p>
+<p>Die heutigen Large Language Models (LLMs) und Transformationsmodelle gehen weit über diese ursprünglichen Konzepte hinaus. Eine zentrale Frage ist, ob wir weiterhin massive Ressourcen in die Entwicklung und technische Umsetzung solcher Modelle investieren müssen, um bis 2030 wissenschaftlich kreative Kompetenzen und Intelligenz zu generieren. Meine Antwort darauf ist ein klares Nein, und ich werde im Verlauf dieser Vorlesung erläutern, warum.</p>
+</section>
+<section id="sprachkompetenz-vs.-sachkompetenz" class="level3" data-number="1.4.2">
+<h3 data-number="1.4.2" class="anchored" data-anchor-id="sprachkompetenz-vs.-sachkompetenz"><span class="header-section-number">1.4.2</span> Sprachkompetenz vs.&nbsp;Sachkompetenz</h3>
+<p>Die aktuellen AI-Modelle, die Sie vielleicht von ChatGPT oder ähnlichen Anwendungen kennen, sind im Grunde genommen Sprachmodelle. Sie verfügen über eine beeindruckende Sprachkompetenz, die sie durch die Verarbeitung enormer Mengen sprachlichen Wissens aus verschiedensten Bereichen erworben haben. Dies erweckt oft den Eindruck, dass sie auch über Sachkompetenz verfügen - doch das ist ein Trugschluss.</p>
+<p>Lassen Sie mich dies mit einem Vergleich verdeutlichen: Stellen Sie sich einen fortschrittlichen Taschenrechner vor, der ein Display hat, auf dem Berechnungen angezeigt werden. Je besser dieser Taschenrechner programmiert ist, desto überzeugender ist der Zusammenhang zwischen Eingabe, Rechenoperation und Ausgabe. Wenn Sie “3 + 5” eingeben und das Display “8” anzeigt, könnten Sie geneigt sein, die Maschine für intelligent zu halten. Doch ist sie wirklich intelligent, oder ist es vielmehr der Bau dieser Maschine, der intelligent ist?</p>
+</section>
+</section>
+<section id="die-evolution-unseres-sprachverständnisses" class="level2" data-number="1.5">
+<h2 data-number="1.5" class="anchored" data-anchor-id="die-evolution-unseres-sprachverständnisses"><span class="header-section-number">1.5</span> Die Evolution unseres Sprachverständnisses</h2>
+<section id="veränderung-der-sprachkonventionen" class="level3" data-number="1.5.1">
+<h3 data-number="1.5.1" class="anchored" data-anchor-id="veränderung-der-sprachkonventionen"><span class="header-section-number">1.5.1</span> Veränderung der Sprachkonventionen</h3>
+<p>Interessanterweise führt die Entwicklung von AI-Systemen dazu, dass sich unser Sprachverständnis und unsere Beschreibung dessen, was in diesen Systemen geschieht, allmählich verändert. Lassen Sie mich dies an einem Beispiel verdeutlichen:</p>
+<p>Vor 20 Jahren hätte die Aufforderung, die dritte Quadratwurzel von 1000 zu berechnen, wahrscheinlich zu zahlreichen Handmeldungen geführt. Heute würden die meisten von uns reflexartig zum Taschenrechner greifen. Wenn ich Sie nun fragen würde, was Ihr Rechner ausrechnet, würden Sie das vermutlich für einen völlig normalen Satz halten.</p>
+<p>Doch beachten Sie, wie sorglos wir mittlerweile mit dem Verb “ausrechnen” umgehen. Wir formulieren es so, als ob der Rechner derjenige wäre, der etwas ausrechnet. Vor zwei Jahrzehnten wäre das als Kategorienfehler betrachtet worden. Die natürliche Redeweise wäre gewesen: “Sie als Person rechnen etwas mit Hilfe des Geräts aus.”</p>
+</section>
+<section id="erweiterung-des-akteursbegriffs" class="level3" data-number="1.5.2">
+<h3 data-number="1.5.2" class="anchored" data-anchor-id="erweiterung-des-akteursbegriffs"><span class="header-section-number">1.5.2</span> Erweiterung des Akteursbegriffs</h3>
+<p>Heute hat sich die Zulässigkeit der Beschreibung des Akteurs erweitert. Wir haben kein Problem mehr damit, den Akteursbegriff von dem zwingend handelnden menschlichen Akteur auf Instrumente auszuweiten. Dies zeigt sich auch in anderen Bereichen: Während es früher undenkbar erschien, dass ein Computer “lesen” könnte, akzeptieren wir heute problemlos Formulierungen wie “Der Computer liest eine Diskette oder einen USB-Stick”.</p>
+<p>Diese Verschiebung in der Epistemologie der Verben kognitiver Vermögen ist bemerkenswert. Sie verdeutlicht, warum grundsätzliche Debatten darüber, ob Computer oder AI dies oder jenes können, oft fruchtlos sind. Am Ende läuft es darauf hinaus festzustellen, dass für den einen der Begriff des Lesens die Existenz einer vernunftgeleiteten Person voraussetzt, während der andere ihn völlig personenunabhängig verwendet.</p>
+</section>
+</section>
+<section id="die-semantische-revolution-in-der-ai" class="level2" data-number="1.6">
+<h2 data-number="1.6" class="anchored" data-anchor-id="die-semantische-revolution-in-der-ai"><span class="header-section-number">1.6</span> Die semantische Revolution in der AI</h2>
+<section id="von-der-wortübersetzung-zur-inhaltsübertragung" class="level3" data-number="1.6.1">
+<h3 data-number="1.6.1" class="anchored" data-anchor-id="von-der-wortübersetzung-zur-inhaltsübertragung"><span class="header-section-number">1.6.1</span> Von der Wortübersetzung zur Inhaltsübertragung</h3>
+<p>Ein entscheidender Durchbruch in der AI-Forschung erfolgte vor etwa zehn Jahren im Kontext der Google Translate Forschungsgruppe. Ihre Aufgabe bestand darin, aus bestehenden Texten in einer Sprache A Texte in einer beliebigen anderen Sprache zu generieren. In einem bahnbrechenden Paper wurde dieser Übersetzungsprozess auf ein fundamentales Prinzip reduziert: Die Modelle werden so lange trainiert, bis sie die Abfolge von Übersetzungswörtern, die aus dem Ursprungssatz entnommen wurden, korrekt und sinngemäß als Ausgabe erzeugen können.</p>
+<p>Der entscheidende Fortschritt gegenüber früheren, oft lächerlichen Wort-für-Wort-Übersetzungen besteht darin, dass die neuen Modelle in der Lage sind, die Komplexität des Kontexts zu erfassen. Dies führt dazu, dass die Ausgabesätze nicht nur grammatikalisch korrekt sind, sondern auch die richtigen Wortbedeutungen im jeweiligen Kontext wählen.</p>
+</section>
+<section id="semantische-inhalte-und-die-epistemologische-wende" class="level3" data-number="1.6.2">
+<h3 data-number="1.6.2" class="anchored" data-anchor-id="semantische-inhalte-und-die-epistemologische-wende"><span class="header-section-number">1.6.2</span> Semantische Inhalte und die epistemologische Wende</h3>
+<p>Das Training dieser Modelle wurde so konzipiert, dass sie inhaltlich invariant sein sollten - die Inhalte sollten durch die Übersetzung nicht verändert werden. Diese Anforderung an die Übersetzung markiert den Beginn der AI-Revolution. Es geht nun darum, Modelle zu trainieren, die semantische Inhalte identifizieren können. Sie können entscheiden, ob zwei Ausdrücke inhaltlich näher zueinander stehen als ein dritter.</p>
+<p>Diese semantische Revolution besteht darin, dass wir nun über Inhalte sprechen können und nicht mehr nur über Ausdrücke. Damit betreten wir zum ersten Mal das Gebiet der Epistemologie. Wir können nun Aussagen über Aussagen treffen. Die Epistemologie, die Logik und das Wissen haben weniger mit Sätzen zu tun als mit den Inhalten, die diese Sätze ausdrücken. Erst seit diesem großen Schritt in der Entwicklung von Übersetzungsprogrammen haben wir in der AI Zugang zu dieser Ebene der Inhalte erhalten.</p>
+</section>
+</section>
+<section id="die-zukunft-der-ai-von-der-sprache-zur-kognition" class="level2" data-number="1.7">
+<h2 data-number="1.7" class="anchored" data-anchor-id="die-zukunft-der-ai-von-der-sprache-zur-kognition"><span class="header-section-number">1.7</span> Die Zukunft der AI: Von der Sprache zur Kognition</h2>
+<section id="sprachverarbeitung-und-akustische-signale" class="level3" data-number="1.7.1">
+<h3 data-number="1.7.1" class="anchored" data-anchor-id="sprachverarbeitung-und-akustische-signale"><span class="header-section-number">1.7.1</span> Sprachverarbeitung und akustische Signale</h3>
+<p>Die aktuellen Sprachmodelle haben eine zusätzliche Kompetenz erworben: Sie können sprachliche Signale verarbeiten. Stellen Sie sich vor, wie mein gesprochener Vortrag in einem akustischen Spektrogramm aussieht - eine wellenartige Zusammenstellung, die Lautstärke, Tonhöhe und andere akustische Eigenschaften modelliert. Die AI-Systeme sind nun in der Lage, diese komplexen Tonsignale zu erfassen und zu interpretieren.</p>
+<p>Die Aufgabe besteht darin, die Zusammensetzung dieser akustischen Signale bestimmten Wörtern zuzuordnen - im Grunde eine Klassifikationsaufgabe. Vor zwanzig Jahren funktionierte dies noch recht unzuverlässig, aber in den letzten zehn Jahren haben wir enorme Fortschritte gemacht. Denken Sie nur an die Sprachfunktion Ihres Handys und wie gering die Fehlerquote heutzutage ist - und das ohne einen Großrechner im Hintergrund.</p>
+<p>Diese Entwicklungen zeigen, dass wir an der Schwelle zu einer neuen Ära der AI stehen. Wir bewegen uns von reinen Sprachmodellen hin zu Systemen, die in der Lage sind, komplexe kognitive Aufgaben zu bewältigen. Die Zukunft der AI verspricht, unsere Vorstellungen von maschineller Intelligenz grundlegend zu verändern und neue Möglichkeiten in Wissenschaft, Technologie und darüber hinaus zu eröffnen.## Die Revolution der Spracherkennung</p>
+<p>In den letzten Jahren haben wir eine bemerkenswerte Entwicklung im Bereich der Spracherkennung erlebt. Stellen Sie sich vor: Ihr kleines Handy, ausgestattet mit einem leistungsstarken Chip, ist heute in der Lage, aus Ihrem vielfältigen Wortschatz - inklusive Dialektfärbungen - das richtige Wort zu erkennen und es grammatikalisch korrekt in einen Satz einzufügen. Die Präzision dieser Technologie ist atemberaubend. Ohne zusätzliche Herausforderungen wie Umgebungsgeräusche liegt die Fehlerrate bei weniger als 2% - ein wahrhaft beeindruckendes Ergebnis.</p>
+</section>
+<section id="von-worten-zu-bedeutungen" class="level3" data-number="1.7.2">
+<h3 data-number="1.7.2" class="anchored" data-anchor-id="von-worten-zu-bedeutungen"><span class="header-section-number">1.7.2</span> Von Worten zu Bedeutungen</h3>
+<p>Doch die Entwicklung geht weit über die bloße Worterkennung hinaus. In den vergangenen zehn Jahren haben wir eine semantische Revolution miterlebt. Es geht nicht mehr nur darum, gesprochene Sätze korrekt zu transkribieren. Der eigentliche Durchbruch liegt in der Fähigkeit, die Bedeutung hinter den Worten zu erfassen. Moderne Systeme können nicht nur Sätze erkennen, sondern auch die darin enthaltenen Aussagen, Instruktionen oder Befehle verstehen und entsprechend darauf reagieren. Diese semantische Ebene eröffnet völlig neue Möglichkeiten der Mensch-Maschine-Interaktion.</p>
+</section>
+</section>
+<section id="echtzeit-übersetzung-und-ihre-implikationen" class="level2" data-number="1.8">
+<h2 data-number="1.8" class="anchored" data-anchor-id="echtzeit-übersetzung-und-ihre-implikationen"><span class="header-section-number">1.8</span> Echtzeit-Übersetzung und ihre Implikationen</h2>
+<section id="die-nahe-zukunft-der-sprachkommunikation" class="level3" data-number="1.8.1">
+<h3 data-number="1.8.1" class="anchored" data-anchor-id="die-nahe-zukunft-der-sprachkommunikation"><span class="header-section-number">1.8.1</span> Die nahe Zukunft der Sprachkommunikation</h3>
+<p>Lassen Sie mich ein faszinierendes Szenario skizzieren, das in naher Zukunft Realität werden könnte: Stellen Sie sich vor, Sie haben auf Ihrem Smartphone eine App installiert, die mit einem Ohrhörer verbunden ist. Mit dieser Technologie könnten Sie eine Konversation führen, bei der Ihr Gegenüber in einer beliebigen Sprache spricht, und Sie hören die Übersetzung in Echtzeit in Ihrer eigenen Sprache. Noch faszinierender: Wenn Sie in Ihrer Muttersprache antworten, hört Ihr Gesprächspartner Ihre Worte unmittelbar in seiner Sprache.</p>
+<p>Dies mag nach Science-Fiction klingen, doch tatsächlich existieren bereits alle notwendigen Komponenten. Es ist nur noch eine Frage der technischen Umsetzung und Integration.</p>
+</section>
+<section id="ein-gedankenexperiment-zur-sprachübersetzung" class="level3" data-number="1.8.2">
+<h3 data-number="1.8.2" class="anchored" data-anchor-id="ein-gedankenexperiment-zur-sprachübersetzung"><span class="header-section-number">1.8.2</span> Ein Gedankenexperiment zur Sprachübersetzung</h3>
+<p>Lassen Sie uns dieses Konzept in einem Gedankenexperiment weiter ausführen. Stellen Sie sich vor, ich würde diese Vorlesung in einer Sprache halten, die keiner von Ihnen versteht - einer fiktiven Sprache, die nur ich beherrsche. Sie alle tragen Kopfhörer und hören meine Worte in Echtzeit übersetzt, sogar mit meinem charakteristischen Sprechstil.</p>
+<p>Noch faszinierender: Die moderne Technologie ermöglicht es sogar, den Sprechstil anzupassen. Wenn Ihnen meine Art zu sprechen nicht zusagt und Sie beispielsweise die Ausdrucksweise von Jürgen Habermas bevorzugen, könnten Sie theoretisch die Übersetzung in seinem Stil hören. So würde Habermas’ Stimme meine Vorlesung vortragen, obwohl ich hier unten stehe.</p>
+<p>Dies mag zunächst absurd klingen, aber ich hoffe, dass wir noch in diesem Semester die Möglichkeit haben werden, ein solches Experiment durchzuführen. Ich arbeite ernsthaft daran, dies zu realisieren, und bis Februar sollte es machbar sein.</p>
+</section>
+</section>
+<section id="die-grenzen-der-sprache-und-des-verstehens" class="level2" data-number="1.9">
+<h2 data-number="1.9" class="anchored" data-anchor-id="die-grenzen-der-sprache-und-des-verstehens"><span class="header-section-number">1.9</span> Die Grenzen der Sprache und des Verstehens</h2>
+<section id="ausgestorbene-sprachen-und-künstliche-kommunikation" class="level3" data-number="1.9.1">
+<h3 data-number="1.9.1" class="anchored" data-anchor-id="ausgestorbene-sprachen-und-künstliche-kommunikation"><span class="header-section-number">1.9.1</span> Ausgestorbene Sprachen und künstliche Kommunikation</h3>
+<p>Nun möchte ich Sie zu einem weiteren Gedankenexperiment einladen. Nehmen wir an, wir verwenden nicht eine beliebige moderne Sprache, sondern eine ausgestorbene Sprache, die heute niemand mehr als Muttersprache spricht. Stellen Sie sich vor, ein Schauspieler oder Linguist trägt diese Vorlesung in einer solchen Sprache vor. Wie würden Sie diese Situation beurteilen?</p>
+<p>Gehen wir noch einen Schritt weiter: Der Vortragende versteht weder Philosophie noch den Inhalt meiner Vorlesung. Er hat lediglich ein Manuskript erhalten, das er in der ausgestorbenen Sprache vorliest. Das Übersetzungsprogramm überträgt seine Worte in Ihre gewählte Sprache, vielleicht sogar im Sprechstil eines Kollegen Ihrer Wahl. Sie hören den Vortrag und gehen nach Hause mit dem Gefühl, einer ganz normalen, wenn auch etwas ungewöhnlich inszenierten Vorlesung beigewohnt zu haben.</p>
+</section>
+<section id="die-grenze-zwischen-mensch-und-tier-in-der-kommunikation" class="level3" data-number="1.9.2">
+<h3 data-number="1.9.2" class="anchored" data-anchor-id="die-grenze-zwischen-mensch-und-tier-in-der-kommunikation"><span class="header-section-number">1.9.2</span> Die Grenze zwischen Mensch und Tier in der Kommunikation</h3>
+<p>Nun kommen wir zum letzten und vielleicht provokantesten Schritt unseres Gedankenexperiments. Stellen Sie sich vor, wir nehmen die akustischen Signale nicht von einem Menschen auf, sondern von einem Vogel - sagen wir, einer Nachtigall. Der Gesang des Vogels wird aufgenommen, verarbeitet und plötzlich hören Sie in Ihrem Ohrhörer die Worte “Ich möchte jetzt trinken” in der Stimme von Habermas.</p>
+<p>Wie bewerten Sie diese Situation? Handelt es sich um Sprache? Um einen echten Inhalt? Oder ist es lediglich eine trainierte Lauterzeugung, ähnlich einem Papagei? Ich vermute, Ihre erste Reaktion wäre Skepsis. Sie würden sagen, dass es sich nicht um echte Sprache handelt, sondern nur um Laute, die wie Sprache klingen.</p>
+<p>Doch was geschieht, wenn wir beginnen, eine Konversation zu führen? Ein menschlicher Zuhörer spricht in sein Mikrofon, und seine Worte werden in Nachtigallengesang umgesetzt. Plötzlich reagiert der Vogel darauf. Sie hören in Ihrem Kopfhörer: “Oh, hier gibt es kein Wasser. Schade.” Und der Vogel fliegt weg.</p>
+<p>Wie beurteilen Sie eine solche Interaktion? Es mag wie Science-Fiction klingen, aber solche Experimente werden bereits durchgeführt. Natürlich ist der Themenbereich bei Vögeln noch relativ eingeschränkt, hauptsächlich auf grundlegende Bedürfnisse wie Essen, Trinken und Gefahren beschränkt. Aber eine Art von Konversation findet statt.</p>
+<p>Es gibt sogar Berichte über ähnliche Experimente mit Hunden, die angeblich sehr viel differenziertere Ausdrucks- und Themenzusammenhänge erörtern können. Beachten Sie, wie ich hier bereits Begriffe wie “erörtern” verwende - Begriffe, die wir traditionell nur der menschlichen Kommunikation zuschreiben würden.</p>
+</section>
+</section>
+<section id="die-philosophischen-implikationen" class="level2" data-number="1.10">
+<h2 data-number="1.10" class="anchored" data-anchor-id="die-philosophischen-implikationen"><span class="header-section-number">1.10</span> Die philosophischen Implikationen</h2>
+<section id="die-natur-der-kommunikation" class="level3" data-number="1.10.1">
+<h3 data-number="1.10.1" class="anchored" data-anchor-id="die-natur-der-kommunikation"><span class="header-section-number">1.10.1</span> Die Natur der Kommunikation</h3>
+<p>Diese Szenarien werfen fundamentale Fragen auf: Was macht eine Konversation aus? Was bedeutet es, Gedanken auszutauschen? Wir sind es gewohnt zu denken, dass echte Kommunikation zwangsläufig menschliche Akteure erfordert. “Ich kann doch nicht mit meiner Wand reden”, würden wir sagen. Aber nun haben wir Arrangements, die diese Annahme in Frage stellen.</p>
+<p>In den kommenden Wochen werden wir wahrscheinlich mit Videos und Berichten über solche Phänomene konfrontiert werden. Wie sollen wir darauf reagieren? Es werden sicherlich hitzige Debatten entstehen. Manche werden Manipulation oder Täuschung vermuten. Aber diese Experimente sind real.</p>
+</section>
+<section id="die-verschiebung-unserer-wahrnehmung" class="level3" data-number="1.10.2">
+<h3 data-number="1.10.2" class="anchored" data-anchor-id="die-verschiebung-unserer-wahrnehmung"><span class="header-section-number">1.10.2</span> Die Verschiebung unserer Wahrnehmung</h3>
+<p>Bemerken Sie, wie ich in meiner Beschreibung dieser Szenarien allmählich dazu übergegangen bin, von “Konversation”, “Mitteilung” und “Gedankenaustausch” zu sprechen - und zwar im Kontext der Interaktion zwischen Vögeln und Menschen? Ich hoffe, Sie haben diesen sprachlichen Übergang nicht als besonders befremdlich oder absurd empfunden.</p>
+<p>Mein Ziel war es zu zeigen, wie bereit wir sind, aufgrund der Komplexität der beobachteten Prozesse, eine Situation als echte Kommunikation zu interpretieren. Wenn wir erkennen, dass Erwartungen ausgedrückt und erfüllt werden, dass die Regeln sprachlicher Konversation eingehalten werden, neigen wir dazu, die biologische Natur des Akteurs als zweitrangig zu betrachten.</p>
+</section>
+<section id="philosophische-fragen-zur-natur-des-verstehens" class="level3" data-number="1.10.3">
+<h3 data-number="1.10.3" class="anchored" data-anchor-id="philosophische-fragen-zur-natur-des-verstehens"><span class="header-section-number">1.10.3</span> Philosophische Fragen zur Natur des Verstehens</h3>
+<p>Diese Überlegungen führen uns zu grundlegenden philosophischen Fragen:</p>
+<ol type="1">
+<li>Wie können wir den Inhalt einer Kommunikation überprüfen?</li>
+<li>Was rechtfertigt unseren Übergang von der Beurteilung eines reinen Lautes ohne Sinn zu einer bedeutungsvollen Äußerung?</li>
+<li>Können wir wirklich zwischen der materiellen Konstitution einer Äußerung (ein Audiosignal, ein geschriebener Buchstabe) und einem begleitenden Gedanken unterscheiden?</li>
+<li>Ist das Vorhandensein eines “Gedankens” notwendig, um von echtem Inhalt und echter Konversation zu sprechen?</li>
+</ol>
+<p>Diese Fragen berühren den Kern der Sprachphilosophie und des Verstehens. Sie erinnern an Wittgensteins Überlegungen zur Natur der Sprache und des Verstehens.</p>
+</section>
+</section>
+<section id="empirische-perspektiven-auf-tierische-kommunikation" class="level2" data-number="1.11">
+<h2 data-number="1.11" class="anchored" data-anchor-id="empirische-perspektiven-auf-tierische-kommunikation"><span class="header-section-number">1.11</span> Empirische Perspektiven auf tierische Kommunikation</h2>
+<section id="reiz-reaktions-mechanismen-vs.-bedeutung" class="level3" data-number="1.11.1">
+<h3 data-number="1.11.1" class="anchored" data-anchor-id="reiz-reaktions-mechanismen-vs.-bedeutung"><span class="header-section-number">1.11.1</span> Reiz-Reaktions-Mechanismen vs.&nbsp;Bedeutung</h3>
+<p>Ein wichtiger Aspekt in dieser Diskussion ist die Frage, ob tierische Kommunikation lediglich auf Reiz-Reaktions-Mechanismen beruht oder ob es eine tiefere Ebene des Verstehens gibt. Tiere haben zweifellos biologisch implementierte Mechanismen, die es ihnen ermöglichen, auf Reize zu reagieren und entsprechende Signale auszusenden. Diese Prozesse sind physiologisch messbar und können oft ohne Rückgriff auf Konzepte wie “Bedeutung” oder andere geistige Kompetenzen erklärt werden.</p>
+<p>Doch reicht diese Erklärung aus? Können wir wirklich alle Aspekte tierischer Kommunikation auf rein physiologische Prozesse reduzieren? Oder gibt es Anzeichen für ein tieferes Verständnis, das über simple Reiz-Reaktions-Muster hinausgeht?</p>
+</section>
+<section id="die-rolle-der-technologie-in-der-interpretation-tierischer-kommunikation" class="level3" data-number="1.11.2">
+<h3 data-number="1.11.2" class="anchored" data-anchor-id="die-rolle-der-technologie-in-der-interpretation-tierischer-kommunikation"><span class="header-section-number">1.11.2</span> Die Rolle der Technologie in der Interpretation tierischer Kommunikation</h3>
+<p>Die Entwicklung von “Tier-Übersetzungs-Apps” fügt dieser Diskussion eine weitere Dimension hinzu. Diese Apps nehmen die Signale von Tieren auf - sei es das Schwanzwedeln eines Hundes oder der Gesang eines Vogels - und übersetzen sie in für Menschen verständliche Sätze. Obwohl dies technisch machbar ist, wirft es wichtige Fragen auf:</p>
+<ol type="1">
+<li>Wie genau können solche Übersetzungen sein?</li>
+<li>Interpretieren wir möglicherweise zu viel in die tierischen Signale hinein?</li>
+<li>Wo liegt die Grenze zwischen echter Kommunikation und unserer Projektion von Bedeutung?</li>
+</ol>
+<p>Diese Fragen führen uns zurück zu den grundlegenden philosophischen Problemen des Verstehens und der Bedeutung. Sie zwingen uns, unsere Vorstellungen von Sprache, Kommunikation und sogar Bewusstsein zu überdenken.## Einführung in die Mensch-Tier-Kommunikation</p>
+<p>In unserer heutigen Vorlesung befassen wir uns mit einem faszinierenden Thema: der Kommunikation zwischen Mensch und Tier. Wir werden uns insbesondere auf ein Beispiel konzentrieren, das die Komplexität und die Herausforderungen dieses Forschungsgebiets verdeutlicht.</p>
+</section>
+<section id="der-sprechende-papagei---ein-fallbeispiel" class="level3" data-number="1.11.3">
+<h3 data-number="1.11.3" class="anchored" data-anchor-id="der-sprechende-papagei---ein-fallbeispiel"><span class="header-section-number">1.11.3</span> Der sprechende Papagei - Ein Fallbeispiel</h3>
+<p>Stellen Sie sich vor, wir hätten ein technisches Modell entwickelt, das in der Lage ist, die Laute eines Papageien zu interpretieren. Dieses Modell, empirisch validiert und sorgfältig geprüft, hat eine klare Zuordnung getroffen: Wenn der Papagei einen bestimmten Laut von sich gibt - nennen wir ihn “Piep” mit drei “E” - dann bedeutet das “Wasser”.</p>
+<p>Doch was bedeutet diese Zuordnung wirklich? Können wir tatsächlich davon ausgehen, dass der Papagei bewusst kommuniziert? Oder handelt es sich lediglich um eine Imitation ohne tiefere Bedeutung?</p>
+</section>
+<section id="herausforderungen-der-interpretation" class="level3" data-number="1.11.4">
+<h3 data-number="1.11.4" class="anchored" data-anchor-id="herausforderungen-der-interpretation"><span class="header-section-number">1.11.4</span> Herausforderungen der Interpretation</h3>
+<p>Bei der Interpretation tierischer Kommunikation stoßen wir auf mehrere Herausforderungen:</p>
+<ol type="1">
+<li>Intentionalität: Wie können wir sicher sein, dass der Papagei tatsächlich die Absicht hat, uns etwas mitzuteilen?</li>
+<li>Kontextabhängigkeit: Inwieweit spielt der Kontext eine Rolle bei der Interpretation der Laute?</li>
+<li>Komplexität der Kommunikation: Wie komplex sind die Absichten und Bedürfnisse, die ein Tier ausdrücken kann?</li>
+<li>Übersetzungsproblematik: Ist es angemessen, tierische Laute in menschliche Sprache zu übersetzen?</li>
+</ol>
+</section>
+<section id="die-frage-der-bedeutung" class="level3" data-number="1.11.5">
+<h3 data-number="1.11.5" class="anchored" data-anchor-id="die-frage-der-bedeutung"><span class="header-section-number">1.11.5</span> Die Frage der Bedeutung</h3>
+<p>Ein wesentlicher Punkt in unserer Diskussion ist die Frage nach der Bedeutung. Wenn wir dem Papagei zugestehen, dass er “Wasser” kommunizieren kann, implizieren wir damit ein gewisses Maß an kognitivem Vermögen. Doch wie weit reicht dieses Vermögen? Kann ein Papagei wirklich ein Konzept wie “Durst” haben, oder projizieren wir hier menschliche Konzepte auf tierisches Verhalten?</p>
+</section>
+<section id="vergleich-zur-ki-debatte" class="level3" data-number="1.11.6">
+<h3 data-number="1.11.6" class="anchored" data-anchor-id="vergleich-zur-ki-debatte"><span class="header-section-number">1.11.6</span> Vergleich zur KI-Debatte</h3>
+<p>Interessanterweise ähnelt diese Diskussion in vielerlei Hinsicht der Debatte um künstliche Intelligenz. Während wir bei Tieren oft bereit sind, komplexe kognitive Fähigkeiten anzunehmen, sind wir bei Maschinen oft skeptischer. Dies wirft die Frage auf: Welche Kriterien legen wir an, um “echte” Kommunikation oder Intelligenz zu definieren?</p>
+</section>
+<section id="ethische-und-philosophische-implikationen" class="level3" data-number="1.11.7">
+<h3 data-number="1.11.7" class="anchored" data-anchor-id="ethische-und-philosophische-implikationen"><span class="header-section-number">1.11.7</span> Ethische und philosophische Implikationen</h3>
+<p>Die Frage, ob und wie wir mit Tieren kommunizieren können, hat weitreichende ethische und philosophische Implikationen:</p>
+<ul>
+<li>Wenn Tiere komplexe Gedanken und Gefühle ausdrücken können, wie verändert das unsere moralischen Verpflichtungen ihnen gegenüber?</li>
+<li>Welche Rolle spielt Sprache in unserem Verständnis von Bewusstsein und Intelligenz?</li>
+<li>Inwiefern unterscheidet sich tierische Kommunikation von menschlicher Sprache, und was sagt das über die Natur von Bedeutung und Verständnis aus?</li>
+</ul>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© CC-By OpenScienceTechnology GmbH</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>This page is built with <a href="https://quarto.org/">Quarto</a></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
